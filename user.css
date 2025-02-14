@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+
+    background-color: black;
+    border-radius: 10px;
+    font-family: 'poppins',sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 254);
+}
+.home{
+background: linear-gradient(rgba(240, 4, 4, 0.7),rgba(14, 13, 13, 0.7));
+background-position: center;
+background-size: cover;
+height: 90vh;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(12, 11, 11);
+    background-color: rgb(18, 17, 16);
+    height: 90px;
+}
+.logo img{
+    width: 150px;
+    margin-left: 30px;
+}
+.nav .logo {
+    width: 0px;
+    height: 5px;
+     margin-top: -30PX;
+     margin-right: 100px;
+ }
+ .nav li a{
+    list-style: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+ }
+ .nav li:hover a{
+    color: rgb(138, 14, 14);
+ }
+ .nav .list ul {
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 40px;
+     padding: 20px;
+     font-size: 20PX;
+     margin-right: -20%;
+     font-family:'poppins',sans-serif ;
+     
+ }
+ .search-box{
+    margin-top: 10%;
+    margin-left: 190%;
+    padding: 190%;
+    max-width: 340px;
+    height: 50%;
+    width: 140%;
+    display: flex;
+    align-items: center;
+    column-gap: 0.7 rem;
+    background-color: #1b1a1a;
+    padding: 8px 15px;
+    border: 1px solid rgb(200, 13, 13);
+    border-radius: 5%;
+ }
+ .search-box .bx{
+    font-size: 1.2rem;
+    color: rgb(182, 170, 170);
+ }
+ #search-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: transparent;
+    font-size: 12px;
+ }
+
+ .toggle{
+width: 40px;
+height: 20px;
+background-color: white;
+border-radius: 30px;
+margin-top: 25px;
+margin-left: -50%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+ }
+ .toggle-icon {
+    color: rgb(202, 202, 102);
+ }
+ .toggle-ball{
+    width: 20px;
+    height: 20px;
+    right: 1px;
+    margin-right: 21px;
+    background-color: black;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 50%;
+
+ }
+ ul{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      list-style: none;
+      font-size: 40px;
+  }
+  .sidebar{
+    width: 50px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    
+    display: flex;
+    flex-direction:column;
+    padding: top 60%;
+    align-items: center;
+
+  }
+  .sidebar i{
+    margin-top: 14vh;
+  }
+  
+  .left-menu-icon {
+    color:rgb(243, 238, 238);
+    margin-top: 30px;
+   margin-bottom: 80%;
+   font-size: 24px;
+  }
+
+  .logo img{
+    width: 150px;
+    margin-left: -70px;
+   
+   
+        
+    }   
+    .logo{
+    margin-bottom: 50%;
+
+}
+img{
+    width: 100px;
+    height: 100px;
+     font-size: px;
+     margin-bottom: -150%;
+    
+ }
+
+  .wrapper{
+    width: 400px;
+    margin-top: 4%;
+    background: transparent;
+    border: 2px solid  rgb(171, 119, 119);
+    backdrop-filter: blur(9px);
+    color: rgba(250, 249, 247, 0.879);
+    border-radius: 12px;
+    padding: 30px 40px;
+    margin-left: 40%;
+  }
+  .wrapper h1{
+    font-size: 36px;
+    text-align: center;
+  }
+  .wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+  }
+  .input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid  rgb(171, 119, 119);
+    border-radius: 40px;
+    font-size: 16px;
+    color:  rgba(243, 237, 238, 0.879);
+    padding: 20px 45px 20px 20px;
+  }
+  .input-box input::placeholder{
+    color: rgb(244, 242, 240);
+  }
+  .input-box i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    transform: translate(-50%);
+    font-size: 20px;
+  
+  }
+  .wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+  }
+  .remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+  
+  }
+  .remember-forgot a{
+    color:  rgba(244, 239, 236, 0.879);
+    text-decoration: none;
+  
+  }
+  .remember-forgot a:hover{
+    text-decoration: underline;
+  }
+  .wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background:  rgba(79, 26, 26, 0.879);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(255, 251, 251);
+    font-weight: 600;
+  }
+  .wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+  
+  }
+  .register-link p a{
+    color:  rgba(255, 255, 255, 0.879);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .register-link p a:hover{
+    text-decoration: underline;
+  }
