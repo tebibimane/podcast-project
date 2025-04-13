@@ -6,398 +6,1107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./categories.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="./home.js" defer ></script>
     <title>Categories</title>
 </head>
 <body>
-    <div class="home">
-        <div class="nav">
-            <div class="logo">
-                <img src="./assets3/logopodc-removebg-preview.png">
+  <div class="home">
+    <div class="nav">
+        <div class="logo">
+            <img src="./assets3/logopodc-removebg-preview.png">
+        </div>
+        <div class="list">
+            <div class="search-box">
+              <input type="search" name="" id="search-input"placeholder="search ...">
+              <i class='bx bx-search-alt-2'></i>
             </div>
-            <div class="list">
-                <div class="search-box">
-                  <input type="search" name="" id="search-input"placeholder="search ...">
-                  <i class='bx bx-search-alt-2'></i>
-                </div>
-            </div>
-            <div class="toggle">
-                <i class='bx bxs-moon toggle-icon' ></i>
-                <i class='bx bx-sun toggle-icon' ></i>
-                <div class="toggle-ball">
-                </div>
-            </div>
+        </div>
        
+   
         <aside class="sidebarr">
-            <!--sidebarr header-->
-            <header class="sidebarr-header">
-              <a href="#" class="header-logo">
-              <img src="./assets3/logopodc-removebg-preview.png">
-            </a>
-             <button class="sidebarr-toggler">
-              <i class='bx bx-chevron-right-circle'></i>
-              </button>
-            </header>
-            <nav class="sidebarr-nav">
-              <!--primary top nav-->
-              <ul class="nav-list primary-nav">
-                <!--home-->
-                <li class="nav-item">
-                  <a href="#" class="nav-link">
-                   <i class='bx bx-home'></i> home
-                  </a>
-                </li>
-                 <!--categories-->
-                 <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class='bx bx-category'></i>categories
-                  </a>
-                </li>
-                 <!--services-->
-                 <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class='bx bxs-calendar-alt'></i>Services
-                  </a>
-                </li>
-                 <!--user-->
-                <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class='bx bx-user' > </i>User
-                  </a>
-                </li>
-                 <!--saved-->
-                 <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class='bx bx-bookmark'></i>Saved
-                  </a>
-                </li>
-              </ul>
-      
-            
-               <!--secondary bottom nav-->
-               <ul class="nav-list secondary-nav">
-                 <!--home-->
-                 <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class='bx bx-help-circle' ></i>Help
-                  </a>
-                </li>
-                 <!--categories-->
-                 <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class='bx bx-log-out'> </i>Log out
-                  </a>
-                </li>
-               </ul>
-            </nav>
-          </aside>
+        <!--sidebarr header-->
+        <header class="sidebarr-header">
+          <a href="#" class="header-logo">
+          <img src="./assets3/logopodc-removebg-preview.png">
+        </a>
+         <button class="sidebarr-toggler">
+          <i class='bx bx-chevron-right-circle'></i>
+          </button>
+        </header>
+        <nav class="sidebarr-nav">
+          <!--primary top nav-->
+          <ul class="nav-list primary-nav">
+            <!--home-->
+            <li class="nav-item">
+              <a href="./home.html" class="nav-link">
+               <i class='bx bx-home'></i> 
+               <span class="nav-label">Home</span>
+              </a>
+            </li>
+             <!--categories-->
+             <li class="nav-item">
+              <a href="categories.html" class="nav-link">
+                <i class='bx bx-category'></i>
+                <span class="nav-label">Categories</span>
+              </a>
+            </li>
+             <!--services-->
+             <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class='bx bxs-calendar-alt'></i>
+                <span class="nav-label">Services</span>
+              </a>
+            </li>
+             <!--user-->
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class='bx bx-user' > </i>
+                <span class="nav-label">User</span>
+              </a>
+            </li>
+             <!--saved-->
+             <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class='bx bx-bookmark'></i>
+                <span class="nav-label">Saved</span>
+              </a>
+            </li>
+          </ul>
+  
         
-        </div>
-        <div class="container">
-            <div class="navbar">
-                <ul class="nav-links">
-                    <li class="nav-link2">
-                        <a href="santé.html">All</a>
-                    </li>
-                    <li class="nav-link1 services">
-                        <a href="#">Education
-                            <span class="material-icons dropdown-icon">
-                                <i class='bx bxs-chevron-down-circle'></i>
-                            </span>
-                        </a>
-                        <ul class="drop-down">
-                            <li class="univ"><a href="#" >Cu-illizi</li></a>
-                            <li class="univ"><a href="#" >Usthb</li></a>
-                            <li class="univ"><a href="#" >Ens</li></a>
-                            <li class="univ"><a href="#" >HCE</li></a>
-                            <li class="univ"><a href="#" >Cu-illizi</li></a>
-                            <li class="univ"><a href="#" >Cu-illizi</li></a>
-                        </ul>
-                    </li>
-                    <li class="nav-link1">
-                        <a href="santé.html">health</a>
-                    </li>
-                    <li class="nav-link1">
-                        <a href="#">Sport</a>
-                    </li>
-                    <li class="nav-link1">
-                        <a href="#">Technologie</a>
-                    </li>
-                    <li class="nav-link1">
-                        <a href="#">Lifestyle</a>
-                    </li>
-                    <li class="nav-link1">
-                        <a href="#">Art&culture</a>
-                    </li>
-                    <li class="nav-link1">
-                        <a href="#">Business</a>
-                    </li>
-                    
-                </ul>
-            </div></div> </div>
+           <!--secondary bottom nav-->
+           <ul class="nav-list secondary-nav">
+             <!--home-->
+             <li class="nav-item">
+              <a href="#" class="nav-link">
+                
+              </a>
+            </li>
+             <!--categories-->
+             <li class="nav-item">
+              <a href="#" class="nav-link">
+                
+              </a>
+            </li>
+           </ul>
+        </nav>
+      </aside>
+    
+    </div>
+    <div class="container">
+        <div class="navbar">
+            <ul class="nav-links">
+                <li class="nav-link2">
+                    <a href="./categories.html">All</a>
+                </li>
+               
+                <li class="nav-link1">
+                    <a href="santé.html">health</a>
+                </li>
+                <li class="nav-link1 services">
+                    <a href="./education.html">Education
+                        <span class="material-icons dropdown-icon">
+
+                        </span>
+                    </a>
+                
+                </li>
+                <li class="nav-link1">
+                    <a href="#">Sport</a>
+                </li>
+               
+                <li class="nav-link1">
+                    <a href="#">Life</a>
+                </li>
+                <li class="nav-link1">
+                    <a href="#">Religion&culture</a>
+                </li>
+                <li class="nav-link1">
+                    <a href="#">Business</a>
+                </li>
+                
+            </ul>
+        </div></div> </div>
        
-        <div class="podcasts">
-            <div class="arrivals">
-                <h1>Podcasts</h1>
-                <div class="arrivals_box">
-                    <div class="arrivals_card">
-                        <div class="arrivals_image">
-                            <div class="video"> 
-                                <a href="https://www.youtube.com/watch?v=uoSXJW__l3U" target="_blank"><img src="assets3/santé.jpg" alt=""></a> 
-                              </div>
-                            
-                        </div>
-                        <div class="arrival_tag">
-                            <h2> - PH Talk -</h2>
-                            <p>  Novembre bleu, scoop sur les maladies masculines 
-                            </p>
-                            <div class="arrivals_icon">
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star-half' ></i>
+        <div class="third1">
+          <div class="featured_books">
+              <br> <br>
+              <div class="h">
+                  <h1>Health </h1>
+                  <div class="h1">
+                    
+                    <a href="./santé.html" class="btn">See all <i class='bx bx-right-arrow-circle'></i></a>
+                </div>
+              </div>
+              
+              <div class="featured_book_box">
+                  
+                  <div class="featured_book_card">
+                      
+                      <div class="featured_book_img">
+                        <a href="https://www.youtube.com/watch?v=uoSXJW__l3U&list=PLnORcKsa7KTG0ckpx9rsGsy64DlXl9WwV&index=10">
+                          <img src="./assets3/santé (2).jpg"></a>
+                          
+                      </div>
+                      <div class="featured_book_tag">
+                          <div class="log-pod">
+                              <img src="./assets3/logo labo.png">
+                          </div><h5>PH-TALK</h5>
+                          <div class="h">
+                            <h3>-Yettouch Maria Rania-</h3></div>
+                          <p class="writer">Novembre bleu, scoop sur les maladies masculines. </p>
+                          <div class="categories"></div>
+                          <p class="book_price"><i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i></p>
+                          
+                          <div class="watch">
+                          <a href="https://www.youtube.com/watch?v=uoSXJW__l3U&list=PLnORcKsa7KTG0ckpx9rsGsy64DlXl9WwV&index=10" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                          <div class="icon">
+                              <a href="#">
+                          <i class='bx bx-bookmark'></i></div></a>
+                      </div>
+                  </div>
+                  <!--box2-->
+                  <div class="featured_book_card">
+                      <div class="featured_book_img">
+                        <a href="https://www.youtube.com/watch?v=ZlciYDjf3Ic&list=PLt3Srbt3FGd3eo90CgfjzkCMD98Ri_-AW&index=28">
+                          <img src="./assets3/madjliss (5).jpg"></a>
+                          
+                      </div>
+                      <div class="featured_book_tag">
+                          <div class="log-pod">
+                            <a href="./madjliss.html">
+                              <img src="./assets3/madjliss-logo.jpg"></a>
+                          </div><h5>El Madjliss </h5>
+                          <div class="h">
+                            <h3>-Mehna Rawan-</h3>
                             </div>
-                            <a href="div class="video"> 
-                                <a href="https://www.youtube.com/watch?v=uoSXJW__l3U" target="_blank" class="arrivals_btn">Watch Now </a> 
-                            </a>
-                        </div>
-                    </div>
+                          
+                          <p class="writer">اكتشف أسرار فقدان الوزن الصحي والتغذية المثالية مع اخصائية التغذية العلاجية </p>
+                          <div class="categories"></div>
+                          <p class="book_price"><i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i></p>
+                          
+                          <div class="watch">
+                          <a href="https://www.youtube.com/watch?v=ZlciYDjf3Ic&list=PLt3Srbt3FGd3eo90CgfjzkCMD98Ri_-AW&index=28" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                          <div class="icon">
+                              <a href="#">
+                          <i class='bx bx-bookmark'></i></div></a>
+                      </div>
+                  </div>
                     <!--box2-->
-                    <div class="arrivals_card">
-                        <div class="arrivals_image">
-                            <a href="https://www.youtube.com/watch?v=4cdO95TSnKQ"_blank"><img src="assets3/santé (3).jpg" alt=""></a> 
-                        </div>
-                        <div class="arrival_tag">
-                            <h2> - PH Talk -</h2>
-                            <p> La digitalisation de la santé - رقمنة مجال الصحة </p>
-                            <div class="arrivals_icon">
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star-half' ></i>
+                    <div class="featured_book_card">
+                      <div class="featured_book_img">
+                        <a href="https://www.youtube.com/watch?v=HJy9uWn8uWE&list=PLs75uZeQLVSFTiOmFMoBlal1B2EowpCIR&index=2">
+                          <img src="./assets3/dialogues (1).jpg"></a>
+                        
+                      </div>
+                      <div class="featured_book_tag">
+                          <div class="log-pod">
+                            <a href="./dialogue.html">
+                              <img src="./assets3/dialogue-logo.jpg"></a>
+                          </div><h5>Dialogues </h5>
+                          <div class="h">
+                            <h3>-Nadia Volf-</h3>
                             </div>
-                            <a href="div class="video"> 
-                                <a href="https://www.youtube.com/watch?v=4cdO95TSnKQ" target="_blank" class="arrivals_btn">Watch Now </a> 
-                            </a>
-                        </div>
-                    </div>
-                    <!--box3-->
-                    <div class="arrivals_card">
-                        <div class="arrivals_image">
-                            <a href="https://www.youtube.com/watch?v=K8eaSZ18WgE" target="_blank"><img src="assets3/santé (4).jpg" alt=""></a> 
-                        </div>
-                        <div class="arrival_tag">
-                            <h2> - PH Talk -</h2>
-                            <p>Les troubles du sommeil - اضطرابات النوم - 
-                            </p>
-                            <div class="arrivals_icon">
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star-half' ></i>
+                          <p class="writer"> Les secrets de la médecine chinoise pour être soi-même</p>
+                          <div class="categories"></div>
+                          <p class="book_price"><i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i></p>
+                          
+                          <div class="watch">
+                          <a href="https://www.youtube.com/watch?v=HJy9uWn8uWE&list=PLs75uZeQLVSFTiOmFMoBlal1B2EowpCIR&index=2" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                          <div class="icon">
+                              <a href="#">
+                          <i class='bx bx-bookmark'></i></div></a>
+                      </div>
+                  </div>
+                    <!--box2-->
+                    <div class="featured_book_card">
+                      <div class="featured_book_img">
+                        <a href="https://www.youtube.com/watch?v=SEm9jcQWSD8&list=PLnORcKsa7KTG0ckpx9rsGsy64DlXl9WwV&index=1">
+                          <img src="./assets3/santé (12).jpg"></a>
+                        
+                      </div>
+                      <div class="featured_book_tag">
+                          <div class="log-pod">
+                            <a href="./labo.html">
+                              <img src="./assets3/logo labo.png"></a>
+
+                          </div><h5>PH-Talk </h5>
+                          <div class="h">
+                            <h3>-Denbri Amira-</h3>
                             </div>
-                            <a href="div class="video"> 
-                                <a href="https://www.youtube.com/watch?v=K8eaSZ18WgE" target="_blank" class="arrivals_btn">Watch Now </a> 
-                        </div>
-                    </div>
-                    <!--box4-->
-                    <div class="arrivals_card">
-                        <div class="arrivals_image">
-                            <a href="https://www.youtube.com/watch?v=uHg4K5DLEwk" target="_blank"><img src="t=""></a> 
-                        </div>
-                        <div class="arrival_tag">
-                            <h2> - PH Talk -</h2>
-                            <p> </p>
-                            <div class="arrivals_icon">
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star-half' ></i>
+                          <p class="writer"> Qu'est-ce qu'une intoxication alimentaire? </p>
+                          <div class="categories"></div>
+                          <p class="book_price"><i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i></p>
+                          
+                          <div class="watch">
+                          <a href="https://www.youtube.com/watch?v=SEm9jcQWSD8&list=PLnORcKsa7KTG0ckpx9rsGsy64DlXl9WwV&index=1" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                          <div class="icon">
+                              <a href="#">
+                          <i class='bx bx-bookmark'></i></div></a>
+                      </div>
+                  </div>
+                    <!--box2-->
+                    <div class="featured_book_card">
+                      <div class="featured_book_img">
+                        <a href="https://www.youtube.com/watch?v=YS3r-_1z7bw">
+                          <img src="./assets3/elbilad.jpg"></a>
+                      
+                      </div>
+                      <div class="featured_book_tag">
+                          <div class="log-pod">
+                            <a href="./elbilad.html">
+                              <img src="./assets3/bilad-logo.jpg"></a>
+                          </div><h5>Allamtni el hayat </h5>
+                          <div class="h">
+                            <h3>-Hadj Ahmed kssir-</h3>
                             </div>
-                            <a href="#" class="arrivals_btn">Learn More</a>
+                          <p class="writer">  كمية معلومات رهيبة حول التغذية وجسم الإنسان  مع عالم التغذية</p>
+                          <div class="categories"></div>
+                          <p class="book_price"><i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i></p>
+                          
+                          <div class="watch">
+                          <a href="https://www.youtube.com/watch?v=YS3r-_1z7bw" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                          <div class="icon">
+                              <a href="#">
+                          <i class='bx bx-bookmark'></i></div></a>
+                      </div>
+                  </div>
+              </div>
+          </div></div></div><br> <br><br>
+                <!--education-->
+                <div class="third1">
+                  <div class="featured_books">
+                      
+                      <div class="h">
+                          <h1>Education </h1>
+                          <div class="h1">
+                    
+                            <a href="./education.html" class="btn">See all <i class='bx bx-right-arrow-circle'></i></a>
                         </div>
-                    </div>
-                    <!--box5-->
-                    <div class="arrivals_card">
-                        <div class="arrivals_image">
-                            <a href="https://www.youtube.com/watch?v=uHg4K5DLEwk" target="_blank"><img src="assets3/santé (5).jpg" alt=""></a> 
-                        </div>
-                        <div class="arrival_tag">
-                            <h2> - PH Talk -</h2>
-                            <p> les maladies féminines نبذة عن الأمراض النسائية</p>
-                            <div class="arrivals_icon">
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star-half' ></i>
-                            </div>
-                            <a href="div class="video"> 
-                                <a href="https://www.youtube.com/watch?v=uHg4K5DLEwk" target="_blank" class="arrivals_btn">Watch Now </a> 
-                        </div>
-                    </div>
-                    <div class="arrivals_card">
-                        <div class="arrivals_image">
-                            <a href="https://www.youtube.com/watch?v=O4BuYhGS8-4" target="_blank"><img src="assets3/podct (2).jpg" alt=""></a> 
-                        </div>
-                        <div class="arrival_tag">
-                            <p>PATHO~ Chemseddine Makdor ~ Major de promo ~  Archaeology, Algeria</p>
-                            <div class="arrivals_icon">
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star-half' ></i>
-                            </div>
-                            <a href="div class="video"> 
-                                <a href="https://www.youtube.com/watch?v=O4BuYhGS8-4" target="_blank" class="arrivals_btn">Watch Now </a> 
-                        </div>
-                    </div>
-                               
-                            <!--box7-->
-                            <div class="arrivals_card">
-                                <div class="arrivals_image">
-                                    <a href="https://www.youtube.com/watch?v=XOMe_RgbAy8" target="_blank"><img src="assets3/podct (3).jpg" alt=""></a> 
-                                </div>
-                                <div class="arrival_tag">
-                                    <p>PATHOS ~ Merzouk Djafar ~ENS Technologies Avancées ~ Algeria</p>
-                                    <div class="arrivals_icon">
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star-half' ></i>
+                      </div>
+                      
+                      <div class="featured_book_box">
+                          
+                          <div class="featured_book_card">
+                              
+                              <div class="featured_book_img">
+                                <a href="https://www.youtube.com/watch?v=rvMoX1KOwhY&t=2s">
+                                  <img src="./assets3/selma.jpg"></a>
+                                  
+                              </div>
+                              <div class="featured_book_tag">
+                                  <div class="log-pod">
+                                      <img src="./assets3/pathos.png">
+                                  </div><h5>PATHOS </h5>
+                                  <div class="h">
+                                    <h3>-Noor Stars-</h3>
                                     </div>
-                                    <a href="div class="video"> 
-                                        <a href="https://www.youtube.com/watch?v=XOMe_RgbAy8" target="_blank" class="arrivals_btn">Watch Now </a> 
-                                </div>
-                            </div>
-                            <!--box8-->
-                            <div class="arrivals_card">
-                                <div class="arrivals_image">
-                                    <a href="https://www.youtube.com/watch?v=GA2v4QJLAGA&t=1s" target="_blank"><img src="assets3/podct (7).jpg" alt=""></a> 
-                                </div>
-                                <div class="arrival_tag">
-                                    <p>PATHOS Elite ~ Narimane Shadi ~ Msila ~ Valedictorian ~ ENSM ~</p>
-                                    <div class="arrivals_icon">
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star-half' ></i>
+                                  <p class="writer">Selma Chellali ~ Major de promo ENP Alger </p>
+                                  <div class="categories"></div>
+                                  <p class="book_price"><i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i></p>
+                                  
+                                  <div class="watch">
+                                  <a href="https://www.youtube.com/watch?v=rvMoX1KOwhY&t=2s" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                  <div class="icon">
+                                      <a href="#">
+                                  <i class='bx bx-bookmark'></i></div></a>
+                              </div>
+                          </div>
+                          <!--box2-->
+                          <div class="featured_book_card">
+                              <div class="featured_book_img">
+                                <a href="./moussa.html">
+                                  <img src="./assets3/moussa-boubaker.jpg"></a>
+                                  
+                              </div>
+                              <div class="featured_book_tag">
+                                  <div class="log-pod">
+                                    <a href="./cuillizi.html">
+                                      <img src="./assets3/logo fac.jpeg"></a>
+                                  </div><h5>Innovatech </h5>
+                                  <div class="h">
+                                    <h3>-Boubaker moussa-</h3>
                                     </div>
-                                    <a href="div class="video"> 
-                                        <a href="https://www.youtube.com/watch?v=GA2v4QJLAGA&t=1s" target="_blank" class="arrivals_btn">Watch Now </a> 
-                                </div>
-                            </div>
-                            <!--box9-->
-                            <div class="arrivals_card">
-                                <div class="arrivals_image">
-                                    <a href="https://www.youtube.com/watch?v=-aE0IHUD4Vw" target="_blank"><img src="assets3/podct (4).jpg" alt=""></a> 
-                                </div>
-                                <div class="arrival_tag">
-                                    <p>PATHOS ~ CHEGROUCHE Abire ~ École Nationale Polytechnique (ENP)</p>
-                                    <div class="arrivals_icon">
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star-half' ></i>
+                                  <p class="writer">Biographie du Professeur Moussa Boubekeur, directeur du Centre Universitaire d’Illizi </p>
+                                  <div class="categories"></div>
+                                  <p class="book_price"><i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i></p>
+                                  
+                                  <div class="watch">
+                                  <a href="./moussa.html" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                  <div class="icon">
+                                      <a href="#">
+                                  <i class='bx bx-bookmark'></i></div></a>
+                              </div>
+                          </div>
+                            <!--box2-->
+                            <div class="featured_book_card">
+                              <div class="featured_book_img">
+                                <a href="./mesikh.html">
+                                  <img src="./assets3/bengerdi.jpg"></a>
+                                
+                              </div>
+                              <div class="featured_book_tag">
+                                  <div class="log-pod">
+                                    <a href="./cuillizi.html">
+                                      <img src="./assets3/logo fac.jpeg"></a>
+                                  </div><h5>Innovatech </h5>
+                                  <div class="h">
+                                    <h3>-Mesikh Chouaib-</h3>
                                     </div>
-                                    <a href="div class="video"> 
-                                        <a href="https://www.youtube.com/watch?v=-aE0IHUD4Vw" target="_blank" class="arrivals_btn">Watch Now </a> 
-                                </div>
-                            </div>
-                            <!--box9-->
-                            <div class="arrivals_card">
-                                <div class="arrivals_image">
-                                    <a href="https://www.youtube.com/watch?v=rvMoX1KOwhY" target="_blank"><img src="assets3/podct (5).jpg" alt=""></a> 
-                                </div>
-                                <div class="arrival_tag">
-                                    <p>PATHOS ~ Selma Chellali ~ Major de promo ENP Alger</p>
-                                    <div class="arrivals_icon">
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star-half' ></i>
+                                  <p class="writer"> Dr.Messaïkh Chouaib,présente son parcours académique, sa vision du domaine de l’informatique à Illizi."
+
+                                  </p>
+                                  <div class="categories"></div>
+                                  <p class="book_price"><i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i></p>
+                                  
+                                  <div class="watch">
+                                  <a href="./mesikh.html" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                  <div class="icon">
+                                      <a href="#">
+                                  <i class='bx bx-bookmark'></i></div></a>
+                              </div>
+                          </div>
+                            <!--box2-->
+                            <div class="featured_book_card">
+                              <div class="featured_book_img">
+                                <a href="https://www.youtube.com/watch?v=XArKBPizgvw">
+                                  <img src="./assets3/amine ramy.jpg"></a>
+                                
+                              </div>
+                              <div class="featured_book_tag">
+                                  <div class="log-pod">
+                                      <img src="./assets3/pathos.png">
+                                  </div><h5>PATHOS </h5>
+                                  <div class="h">
+                                    <h3>-Noor Stars-</h3>
                                     </div>
-                                    <a href="div class="video"> 
-                                        <a href="https://www.youtube.com/watch?v=rvMoX1KOwhY" target="_blank" class="arrivals_btn">Watch Now </a> 
-                                </div>
-                            </div>
-                             <!--box9-->
-                             <div class="arrivals_card">
-                                <div class="arrivals_image">
-                                    <a href="https://www.youtube.com/watch?v=rvMoX1KOwhY" target="_blank"><img src="assets3/podct (5).jpg" alt=""></a> 
-                                </div>
-                                <div class="arrival_tag">
-                                    <p>PATHOS ~ Selma Chellali ~ Major de promo ENP Alger</p>
-                                    <div class="arrivals_icon">
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star-half' ></i>
+                                  <p class="writer"> ~ Bennacer Amine Rami ~ Major de promo ENP Alger </p>
+                                  <div class="categories"></div>
+                                  <p class="book_price"><i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i></p>
+                                  
+                                  <div class="watch">
+                                  <a href="https://www.youtube.com/watch?v=XArKBPizgvw" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                  <div class="icon">
+                                      <a href="#">
+                                  <i class='bx bx-bookmark'></i></div></a>
+                              </div>
+                          </div>
+                            <!--box2-->
+                            <div class="featured_book_card">
+                              <div class="featured_book_img">
+                                <a href="./bengerdi.html">
+                                  <img src="./assets3/Mesikh.jpg"></a>
+                              
+                              </div>
+                              <div class="featured_book_tag">
+                                  <div class="log-pod">
+                                    <a href="./cuillizi.html">
+                                      <img src="./assets3/logo fac.jpeg"></a>
+                                  </div><h5>Innovatech </h5>
+                                  <div class="h">
+                                    <h3>-Bengerd Amine-</h3>
                                     </div>
-                                    <a href="div class="video"> 
-                                        <a href="https://www.youtube.com/watch?v=rvMoX1KOwhY" target="_blank" class="arrivals_btn">Watch Now </a> 
-                                </div>
-                            </div>
-                             <!--box9-->
-                             <div class="arrivals_card">
-                                <div class="arrivals_image">
-                                    <a href="https://www.youtube.com/watch?v=rvMoX1KOwhY" target="_blank"><img src="assets3/podct (5).jpg" alt=""></a> 
-                                </div>
-                                <div class="arrival_tag">
-                                    <p>PATHOS ~ Selma Chellali ~ Major de promo ENP Alger</p>
-                                    <div class="arrivals_icon">
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star-half' ></i>
+                                  <p class="writer">  Dr. BenGerdi Amine, son parcours académique et professionnel.
+
+                                    .</p>
+                                  <div class="categories"></div>
+                                  <p class="book_price"><i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i></p>
+                                  
+                                  <div class="watch">
+                                  <a href="https://www.youtube.com/watch?v=GA2v4QJLAGA&t=11s" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                  <div class="icon">
+                                      <a href="#">
+                                  <i class='bx bx-bookmark'></i></div></a>
+                              </div>
+                          </div>
+                      </div>
+                  </div></div></div><br> <br><br>
+                <!--sport-->
+                <div class="third1">
+                  <div class="featured_books">
+                      
+                      <div class="h">
+                          <h1>Sport </h1>
+                        
+                          <div class="h1">
+                    
+                            <a href="./sport.html" class="btn">See all <i class='bx bx-right-arrow-circle'></i></a>
+                        </div>
+                      </div>
+                      <div class="featured_book_box">
+                          
+                          <div class="featured_book_card">
+                              
+                              <div class="featured_book_img">
+                                <a href="https://www.youtube.com/watch?v=rvMoX1KOwhY&t=2s">
+                                  <img src="./assets3/selma.jpg"></a>
+                                  
+                              </div>
+                              <div class="featured_book_tag">
+                                  <div class="log-pod">
+                                      <img src="./assets3/pathos.png">
+                                  </div><h5>PATHOS </h5>
+                                  <div class="h">
+                                    <h3>-Noor Stars-</h3>
                                     </div>
-                                    <a href="div class="video"> 
-                                        <a href="https://www.youtube.com/watch?v=rvMoX1KOwhY" target="_blank" class="arrivals_btn">Watch Now </a> 
-                                </div>
-                            </div> 
+                                  <p class="writer">Selma Chellali ~ Major de promo ENP Alger </p>
+                                  <div class="categories"></div>
+                                  <p class="book_price"><i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i></p>
+                                  
+                                  <div class="watch">
+                                  <a href="https://www.youtube.com/watch?v=rvMoX1KOwhY&t=2s" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                  <div class="icon">
+                                      <a href="#">
+                                  <i class='bx bx-bookmark'></i></div></a>
+                              </div>
+                          </div>
+                          <!--box2-->
+                          <div class="featured_book_card">
+                              <div class="featured_book_img">
+                                <a href="https://www.youtube.com/watch?v=O1IDKJrVdSU">
+                                  <img src="./assets3/ayoub.jpg"></a>
+                                  
+                              </div>
+                              <div class="featured_book_tag">
+                                  <div class="log-pod">
+                                      <img src="./assets3/pathos.png">
+                                  </div><h5>PATHOS </h5>
+                                  <div class="h">
+                                    <h3>-Noor Stars-</h3>
+                                    </div>
+                                  <p class="writer">أيوب تيبازا ~ مرتبة الأولى لأربعة سنوات بالمدرسة الوطنية العليا للأشغال العمومية</p>
+                                  <div class="categories"></div>
+                                  <p class="book_price"><i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i></p>
+                                  
+                                  <div class="watch">
+                                  <a href="https://www.youtube.com/watch?v=O1IDKJrVdSU" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                  <div class="icon">
+                                      <a href="#">
+                                  <i class='bx bx-bookmark'></i></div></a>
+                              </div>
+                          </div>
+                            <!--box2-->
+                            <div class="featured_book_card">
+                              <div class="featured_book_img">
+                                <a href="https://www.youtube.com/watch?v=-aE0IHUD4Vw&t=571s">
+                                  <img src="./assets3/abir.jpg"></a>
+                                
+                              </div>
+                              <div class="featured_book_tag">
+                                  <div class="log-pod">
+                                      <img src="./assets3/pathos.png">
+                                  </div><h5>PATHOS </h5>
+                                  <div class="h">
+                                    <h3>-Noor Stars-</h3>
+                                    </div>
+                                  <p class="writer"> ~ CHEGROUCHE Abire ~ Valedictorian ~ École Nationale Polytechnique (ENP)</p>
+                                  <div class="categories"></div>
+                                  <p class="book_price"><i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i></p>
+                                  
+                                  <div class="watch">
+                                  <a href="https://www.youtube.com/watch?v=-aE0IHUD4Vw&t=571s" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                  <div class="icon">
+                                      <a href="#">
+                                  <i class='bx bx-bookmark'></i></div></a>
+                              </div>
+                          </div>
+                            <!--box2-->
+                            <div class="featured_book_card">
+                              <div class="featured_book_img">
+                                <a href="https://www.youtube.com/watch?v=XArKBPizgvw">
+                                  <img src="./assets3/amine ramy.jpg"></a>
+                                
+                              </div>
+                              <div class="featured_book_tag">
+                                  <div class="log-pod">
+                                      <img src="./assets3/pathos.png">
+                                  </div><h5>PATHOS </h5>
+                                  <div class="h">
+                                    <h3>-Noor Stars-</h3>
+                                    </div>
+                                  <p class="writer"> ~ Bennacer Amine Rami ~ Major de promo ENP Alger </p>
+                                  <div class="categories"></div>
+                                  <p class="book_price"><i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i></p>
+                                  
+                                  <div class="watch">
+                                  <a href="https://www.youtube.com/watch?v=XArKBPizgvw" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                  <div class="icon">
+                                      <a href="#">
+                                  <i class='bx bx-bookmark'></i></div></a>
+                              </div>
+                          </div>
+                            <!--box2-->
+                            <div class="featured_book_card">
+                              <div class="featured_book_img">
+                                <a href="https://www.youtube.com/watch?v=GA2v4QJLAGA&t=11s">
+                                  <img src="./assets3/narimane.jpg"></a>
+                              
+                              </div>
+                              <div class="featured_book_tag">
+                                  <div class="log-pod">
+                                      <img src="./assets3/pathos.png">
+                                  </div><h5>PATHOS </h5>
+                                  <div class="h">
+                                    <h3>-Noor Stars-</h3>
+                                    </div>
+                                  <p class="writer">~ Narimane Shadi ~ Msila ~ Valedictorian ~ ENSM ~ Algeria.</p>
+                                  <div class="categories"></div>
+                                  <p class="book_price"><i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i></p>
+                                  
+                                  <div class="watch">
+                                  <a href="https://www.youtube.com/watch?v=GA2v4QJLAGA&t=11s" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                  <div class="icon">
+                                      <a href="#">
+                                  <i class='bx bx-bookmark'></i></div></a>
+                              </div>
+                          </div>
+                      </div>
+                  </div></div></div><br> <br><br>
+                    <!--lifestyle-->
+                    <div class="third1">
+                      <div class="featured_books">
+                          
+                          <div class="h">
+                              <h1>Life </h1>
                             
-                </div>
-                <div class="contact">
-                    <h1>contact Us</h1>
-                    <div class="contact-info">
-                        <h2>Contact Us</h2>
-                        <p> do you have a question  </p>
-                            <i class="fas fa-map-marker-alt"></i>
-                            <p>university center of illizi</p>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-phone"></i>
-                            <p>029 44 56 20</p>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-envelope"></i>
-                            <p>podcast@gmail.com</p>
-                        </div>
-                    </div>
-                    <div class="contact-form">
-                        <h3>Send Message</h3>
-                        <form>
-                            <input type="text" placeholder="Full Name" required>
-                            <input type="email" placeholder="Email" required>
-                            <textarea placeholder="Type your Message..." required></textarea>
-                            <button type="submit">Send</button>
-                        </form>
-                    </div>
-                </div>
-            </body>
-            </html>
-            
-                </div>
-        </div>
+                              <div class="h1">
+                    
+                                <a href="./life.html" class="btn">See all <i class='bx bx-right-arrow-circle'></i></a>
+                            </div>
+                          </div>
+                          <div class="featured_book_box">
+                              
+                              <div class="featured_book_card">
+                                  
+                                  <div class="featured_book_img">
+                                    <a href="https://www.youtube.com/watch?v=HN16yco7GsQ&list=PLwN6wgufFRG1-MNQKtDKS41A4jF-kCkxa&index=7">
+                                      <img src="./assets3/Gossra (3).jpg"></a>
+                                      
+                                  </div>
+                                  <div class="featured_book_tag">
+                                      <div class="log-pod">
+                                          <a href="./Gossra.html"><img src="./assets3/Gossra-logo.png"></a>
+                                      </div><h5>Gosra mlqalb </h5>
+                                      <div class="h">
+                                        <h3>-Noor&M-</h3>
+                                        </div>
+                                      <p class="writer">Noor&M entre blessures et force . </p>
+                                      <div class="categories"></div>
+                                      <p class="book_price"><i class='bx bxs-star' ></i>
+                                        <i class='bx bxs-star' ></i>
+                                        <i class='bx bxs-star' ></i>
+                                        <i class='bx bxs-star' ></i>
+                                        <i class='bx bxs-star' ></i></p>
+                                      
+                                      <div class="watch">
+                                      <a href="https://www.youtube.com/watch?v=HN16yco7GsQ&list=PLwN6wgufFRG1-MNQKtDKS41A4jF-kCkxa&index=7" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                      <div class="icon">
+                                          <a href="#">
+                                      <i class='bx bx-bookmark'></i></div></a>
+                                  </div>
+                              </div>
+                              <!--box2-->
+                              <div class="featured_book_card">
+                                  <div class="featured_book_img">
+                                    <a href="https://www.youtube.com/watch?v=l27COp4BFUE&t=1s">
+                                      <img src="./assets3/abtalks (9).jpg"></a>
+                                      
+                                  </div>
+                                  <div class="featured_book_tag">
+                                      <div class="log-pod">
+                                          <a href="./abtalks.html"><img src="./assets3/abtalks-logo.png"></a>
+                                      </div><h5>Ab Talks </h5>
+                                      <div class="h">
+                                        <h3>-Zeina Reda-</h3>
+                                        </div>
+                                      <p class="writer">confie sur son enfance,  les défis de la maternité seule.</p>
+                                      <div class="categories"></div>
+                                      <p class="book_price"><i class='bx bxs-star' ></i>
+                                        <i class='bx bxs-star' ></i>
+                                        <i class='bx bxs-star' ></i>
+                                        <i class='bx bxs-star' ></i>
+                                        <i class='bx bxs-star' ></i></p>
+                                      
+                                      <div class="watch">
+                                      <a href="https://www.youtube.com/watch?v=l27COp4BFUE&t=1s" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                      <div class="icon">
+                                          <a href="#">
+                                      <i class='bx bx-bookmark'></i></div></a>
+                                  </div>
+                              </div>
+                                <!--box2-->
+                                <div class="featured_book_card">
+                                  <div class="featured_book_img">
+                                    <a href="https://www.youtube.com/watch?v=pJ0auP7dbcY&t=54s">
+                                      <img src="./assets3/yasser hazimi .jpg"></a>
+                                    
+                                  </div>
+                                  <div class="featured_book_tag">
+                                      <div class="log-pod">
+                                         <a href="./finjan.html"> <img src="./assets3/finjan.png"></a>
+                                      </div><h5>Finjan </h5>
+                                      <div class="h">
+                                        <h3>-Yasser Hazimi-</h3>
+                                        </div>
+                                      <p class="writer">. كيف أنجح في العلاقات </p>
+                                      <div class="categories"></div>
+                                      <p class="book_price"><i class='bx bxs-star' ></i>
+                                        <i class='bx bxs-star' ></i>
+                                        <i class='bx bxs-star' ></i>
+                                        <i class='bx bxs-star' ></i>
+                                        <i class='bx bxs-star' ></i></p>
+                                      
+                                      <div class="watch">
+                                      <a href="https://www.youtube.com/watch?v=pJ0auP7dbcY&t=54s" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                      <div class="icon">
+                                          <a href="#">
+                                      <i class='bx bx-bookmark'></i></div></a>
+                                  </div>
+                              </div>
+                                <!--box2-->
+                                <div class="featured_book_card">
+                                  <div class="featured_book_img">
+                                    <a href="https://www.youtube.com/watch?v=vRCagZokmvQ">
+                                      <img src="./assets3/hikmat (5).jpg"></a>
+                                    
+                                  </div>
+                                  <div class="featured_book_tag">
+                                      <div class="log-pod">
+                                         <a href="./hikmat.html"> <img src="./assets3/hikmat wahbi.png"></a>
+                                      </div><h5>W-studio </h5>
+                                      <div class="h">
+                                        <h3>-Noel Kharman -</h3>
+                                        </div>
+                                      <p class="writer"> Kharman blends Arabic and Western music to bridge cultures. </p>
+                                      <div class="categories"></div>
+                                      <p class="book_price"><i class='bx bxs-star' ></i>
+                                        <i class='bx bxs-star' ></i>
+                                        <i class='bx bxs-star' ></i>
+                                        <i class='bx bxs-star' ></i>
+                                        <i class='bx bxs-star' ></i></p>
+                                      
+                                      <div class="watch">
+                                      <a href="https://www.youtube.com/watch?v=vRCagZokmvQ" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                      <div class="icon">
+                                          <a href="#">
+                                      <i class='bx bx-bookmark'></i></div></a>
+                                  </div>
+                              </div>
+                                <!--box2-->
+                                <div class="featured_book_card">
+                                  <div class="featured_book_img">
+                                    <a href="https://www.youtube.com/watch?v=GIFasEMWC8A&t=67s">
+                                      <img src="./assets3/الكدب هنوف.jpg"></a>
+                                  
+                                  </div>
+                                  <div class="featured_book_tag">
+                                      <div class="log-pod">
+                                        <a href="./wathba.html"> <img src="./assets3/wathba.png"></a> 
+                                      </div><h5>Wathba </h5>
+                                      <div class="h">
+                                        <h3>-د.الهنوف-</h3>
+                                        </div>
+                                      <p class="writer">شخصيات سامة (كيف نتعامل معها؟)</p>
+                                      <div class="categories"></div>
+                                      <p class="book_price"><i class='bx bxs-star' ></i>
+                                        <i class='bx bxs-star' ></i>
+                                        <i class='bx bxs-star' ></i>
+                                        <i class='bx bxs-star' ></i>
+                                        <i class='bx bxs-star' ></i></p>
+                                      
+                                      <div class="watch">
+                                      <a href="https://www.youtube.com/watch?v=GIFasEMWC8A&t=67s" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                      <div class="icon">
+                                          <a href="#">
+                                      <i class='bx bx-bookmark'></i></div></a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div></div></div><br> <br><br>
+                        <!--art&culture-->
+                        <div class="third1">
+                          <div class="featured_books">
+                              
+                              <div class="h">
+                                  <h1>Religion&culture </h1>
+                                
+                                  <div class="h1">
+                    
+                                    <a href="./culture.html" class="btn">See all <i class='bx bx-right-arrow-circle'></i></a>
+                                </div>
+                              </div>
+                              <div class="featured_book_box">
+                                  
+                                  <div class="featured_book_card">
+                                      
+                                      <div class="featured_book_img">
+                                        <a href="https://www.youtube.com/watch?v=rvMoX1KOwhY&t=2s">
+                                          <img src="./assets3/selma.jpg"></a>
+                                          
+                                      </div>
+                                      <div class="featured_book_tag">
+                                          <div class="log-pod">
+                                              <img src="./assets3/pathos.png">
+                                          </div><h5>PATHOS </h5>
+                                          <div class="h">
+                                            <h3>-Noor Stars-</h3>
+                                            </div>
+                                          <p class="writer">Selma Chellali ~ Major de promo ENP Alger </p>
+                                          <div class="categories"></div>
+                                          <p class="book_price"><i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i></p>
+                                          
+                                          <div class="watch">
+                                          <a href="https://www.youtube.com/watch?v=rvMoX1KOwhY&t=2s" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                          <div class="icon">
+                                              <a href="#">
+                                          <i class='bx bx-bookmark'></i></div></a>
+                                      </div>
+                                  </div>
+                                  <!--box2-->
+                                  <div class="featured_book_card">
+                                      <div class="featured_book_img">
+                                        <a href="https://www.youtube.com/watch?v=O1IDKJrVdSU">
+                                          <img src="./assets3/ayoub.jpg"></a>
+                                          
+                                      </div>
+                                      <div class="featured_book_tag">
+                                          <div class="log-pod">
+                                              <img src="./assets3/pathos.png">
+                                          </div><h5>PATHOS </h5>
+                                          <div class="h">
+                                            <h3>-Noor Stars-</h3>
+                                            </div>
+                                          <p class="writer">أيوب تيبازا ~ مرتبة الأولى لأربعة سنوات بالمدرسة الوطنية العليا للأشغال العمومية</p>
+                                          <div class="categories"></div>
+                                          <p class="book_price"><i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i></p>
+                                          
+                                          <div class="watch">
+                                          <a href="https://www.youtube.com/watch?v=O1IDKJrVdSU" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                          <div class="icon">
+                                              <a href="#">
+                                          <i class='bx bx-bookmark'></i></div></a>
+                                      </div>
+                                  </div>
+                                    <!--box2-->
+                                    <div class="featured_book_card">
+                                      <div class="featured_book_img">
+                                        <a href="https://www.youtube.com/watch?v=-aE0IHUD4Vw&t=571s">
+                                          <img src="./assets3/abir.jpg"></a>
+                                        
+                                      </div>
+                                      <div class="featured_book_tag">
+                                          <div class="log-pod">
+                                              <img src="./assets3/pathos.png">
+                                          </div><h5>PATHOS </h5>
+                                          <div class="h">
+                                            <h3>-Noor Stars-</h3>
+                                            </div>
+                                          <p class="writer"> ~ CHEGROUCHE Abire ~ Valedictorian ~ École Nationale Polytechnique (ENP)</p>
+                                          <div class="categories"></div>
+                                          <p class="book_price"><i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i></p>
+                                          
+                                          <div class="watch">
+                                          <a href="https://www.youtube.com/watch?v=-aE0IHUD4Vw&t=571s" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                          <div class="icon">
+                                              <a href="#">
+                                          <i class='bx bx-bookmark'></i></div></a>
+                                      </div>
+                                  </div>
+                                    <!--box2-->
+                                    <div class="featured_book_card">
+                                      <div class="featured_book_img">
+                                        <a href="https://www.youtube.com/watch?v=XArKBPizgvw">
+                                          <img src="./assets3/amine ramy.jpg"></a>
+                                        
+                                      </div>
+                                      <div class="featured_book_tag">
+                                          <div class="log-pod">
+                                              <img src="./assets3/pathos.png">
+                                          </div><h5>PATHOS </h5>
+                                          <div class="h">
+                                            <h3>-Noor Stars-</h3>
+                                            </div>
+                                          <p class="writer"> ~ Bennacer Amine Rami ~ Major de promo ENP Alger </p>
+                                          <div class="categories"></div>
+                                          <p class="book_price"><i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i></p>
+                                          
+                                          <div class="watch">
+                                          <a href="https://www.youtube.com/watch?v=XArKBPizgvw" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                          <div class="icon">
+                                              <a href="#">
+                                          <i class='bx bx-bookmark'></i></div></a>
+                                      </div>
+                                  </div>
+                                    <!--box2-->
+                                    <div class="featured_book_card">
+                                      <div class="featured_book_img">
+                                        <a href="https://www.youtube.com/watch?v=GA2v4QJLAGA&t=11s">
+                                          <img src="./assets3/narimane.jpg"></a>
+                                      
+                                      </div>
+                                      <div class="featured_book_tag">
+                                          <div class="log-pod">
+                                              <img src="./assets3/pathos.png">
+                                          </div><h5>PATHOS </h5>
+                                          <div class="h">
+                                            <h3>-Noor Stars-</h3>
+                                            </div>
+                                          <p class="writer">~ Narimane Shadi ~ Msila ~ Valedictorian ~ ENSM ~ Algeria.</p>
+                                          <div class="categories"></div>
+                                          <p class="book_price"><i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i></p>
+                                          
+                                          <div class="watch">
+                                          <a href="https://www.youtube.com/watch?v=GA2v4QJLAGA&t=11s" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                          <div class="icon">
+                                              <a href="#">
+                                          <i class='bx bx-bookmark'></i></div></a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div></div></div><br> <br><br>
+                            <!--business-->
+                           
+                                                
+                                                <div class="third1">
+                                                  <div class="featured_books">
+                                                      
+                                                      <div class="h">
+                                                          <h1>Business </h1>
+                                                          <div class="h1">
+                    
+                                                            <a href="./business.html" class="btn">See all <i class='bx bx-right-arrow-circle'></i></a>
+                                                        </div>
+                                                      </div>
+                                                      <div class="featured_book_box">
+                                                          
+                                                          <div class="featured_book_card">
+                                                              
+                                                              <div class="featured_book_img">
+                                                                <a href="https://www.youtube.com/watch?v=1kR1V4wcN6A&list=PLxb4UuOqlRSylTahyEDk0byn-HSuACIvR&index=25">
+                                                                  <img src="./assets3/maystro (2).jpg"></a>
+                                                                  
+                                                              </div>
+                                                              <div class="featured_book_tag">
+                                                                  <div class="log-pod">
+                                                                     <a href="./maystro.html"> <img src="./assets3/maystro-logo.jpg"></a>
+                                                                  </div><h5>Maysstro </h5>
+                                                                  <div class="h">
+                                                                    <h3>-Ali el moqrani-</h3>
+                                                                    </div>
+                                                                  <p class="writer">.الذكاء الإصطناعي في التجارة الإلكترونية في الجزائر </p>
+                                                                  <div class="categories"></div>
+                                                                  <p class="book_price"><i class='bx bxs-star' ></i>
+                                                                    <i class='bx bxs-star' ></i>
+                                                                    <i class='bx bxs-star' ></i>
+                                                                    <i class='bx bxs-star' ></i>
+                                                                    <i class='bx bxs-star' ></i></p>
+                                                                  
+                                                                  <div class="watch">
+                                                                  <a href="https://www.youtube.com/watch?v=1kR1V4wcN6A&list=PLxb4UuOqlRSylTahyEDk0byn-HSuACIvR&index=25" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                                                  <div class="icon">
+                                                                      <a href="#">
+                                                                  <i class='bx bx-bookmark'></i></div></a>
+                                                              </div>
+                                                          </div>
+                                                          <!--box2-->
+                                                          <div class="featured_book_card">
+                                                              <div class="featured_book_img">
+                                                                <a href="https://www.youtube.com/watch?v=8pzPZfoxN6Q&t=1455s">
+                                                                  <img src="./assets3/ثقافة مالية.jpg"></a>
+                                                                  
+                                                              </div>
+                                                              <div class="featured_book_tag">
+                                                                  <div class="log-pod">
+                                                                     <a href="./brainer.html"> <img src="./assets3/Brainerx.png"></a>
+                                                                  </div><h5>BrainerX </h5>
+                                                                  <div class="h">
+                                                                    <h3>-Mezian Dahou-</h3>
+                                                                    </div>
+                                                                  <p class="writer">الثقافة المالية</p>
+                                                                  <div class="categories"></div>
+                                                                  <p class="book_price"><i class='bx bxs-star' ></i>
+                                                                    <i class='bx bxs-star' ></i>
+                                                                    <i class='bx bxs-star' ></i>
+                                                                    <i class='bx bxs-star' ></i>
+                                                                    <i class='bx bxs-star' ></i></p>
+                                                                  
+                                                                  <div class="watch">
+                                                                  <a href="https://www.youtube.com/watch?v=8pzPZfoxN6Q&t=1455s" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                                                  <div class="icon">
+                                                                      <a href="#">
+                                                                  <i class='bx bx-bookmark'></i></div></a>
+                                                              </div>
+                                                          </div>
+                                                            <!--box2-->
+                                                            <div class="featured_book_card">
+                                                              <div class="featured_book_img">
+                                                                <a href="https://www.youtube.com/watch?v=gOILeLIEjw0&list=PLxb4UuOqlRSylTahyEDk0byn-HSuACIvR&index=26">
+                                                                  <img src="./assets3/maystro (1).jpg"></a>
+                                                                
+                                                              </div>
+                                                              <div class="featured_book_tag">
+                                                                  <div class="log-pod">
+                                                                     <a href="./maystro.html" ><img src="./assets3/maystro-logo.jpg"></a>
+                                                                  </div><h5>Maystro </h5>
+                                                                  <div class="h">
+                                                                    <h3>-Mehdi Ouled Babouhoune-</h3>
+                                                                    </div>
+                                                                  <p class="writer"> .أسرار سوق العقارات وخفياه في الجزائر</p>
+                                                                  <div class="categories"></div>
+                                                                  <p class="book_price"><i class='bx bxs-star' ></i>
+                                                                    <i class='bx bxs-star' ></i>
+                                                                    <i class='bx bxs-star' ></i>
+                                                                    <i class='bx bxs-star' ></i>
+                                                                    <i class='bx bxs-star' ></i></p>
+                                                                  
+                                                                  <div class="watch">
+                                                                  <a href="https://www.youtube.com/watch?v=gOILeLIEjw0&list=PLxb4UuOqlRSylTahyEDk0byn-HSuACIvR&index=26" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                                                  <div class="icon">
+                                                                      <a href="#">
+                                                                  <i class='bx bx-bookmark'></i></div></a>
+                                                              </div>
+                                                          </div>
+                                                            <!--box2-->
+                                                            <div class="featured_book_card">
+                                                              <div class="featured_book_img">
+                                                                <a href="https://www.youtube.com/watch?v=1T68O4Jzfv4">
+                                                                  <img src="./assets3/youness (1).jpg"></a>
+                                                                
+                                                              </div>
+                                                              <div class="featured_book_tag">
+                                                                  <div class="log-pod">
+                                                                     <a href="./younes.html"> <img src="./assets3/fluently.png"></a>
+                                                                  </div><h5>Fluently </h5>
+                                                                  <div class="h">
+                                                                    <h3>- Idris Smati -</h3>
+                                                                    </div>
+                                                                  <p class="writer"> حبست القراية من أجل العمل في قطر </p>
+                                                                  <div class="categories"></div>
+                                                                  <p class="book_price"><i class='bx bxs-star' ></i>
+                                                                    <i class='bx bxs-star' ></i>
+                                                                    <i class='bx bxs-star' ></i>
+                                                                    <i class='bx bxs-star' ></i>
+                                                                    <i class='bx bxs-star' ></i></p>
+                                                                  
+                                                                  <div class="watch">
+                                                                  <a href="https://www.youtube.com/watch?v=1T68O4Jzfv4" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                                                  <div class="icon">
+                                                                      <a href="#">
+                                                                  <i class='bx bx-bookmark'></i></div></a>
+                                                              </div>
+                                                          </div>
+                                                            <!--box2-->
+                                                            <div class="featured_book_card">
+                                                              <div class="featured_book_img">
+                                                                <a href="https://www.youtube.com/watch?v=UmWU83svG_M&t=1s">
+                                                                  <img src="./assets3/brainer (2).jpg"></a>
+                                                              
+                                                              </div>
+                                                              <div class="featured_book_tag">
+                                                                  <div class="log-pod">
+                                                                      <a href="./brainer.html"><img src="./assets3/Brainerx.png"></a>
+                                                                  </div><h5>BrainerX </h5>
+                                                                  <div class="h">
+                                                                    <h3>-Amine la cantine-</h3>
+                                                                    </div>
+                                                                  <p class="writer">.فتح مطاعم في الجزائر</p>
+                                                                  <div class="categories"></div>
+                                                                  <p class="book_price"><i class='bx bxs-star' ></i>
+                                                                    <i class='bx bxs-star' ></i>
+                                                                    <i class='bx bxs-star' ></i>
+                                                                    <i class='bx bxs-star' ></i>
+                                                                    <i class='bx bxs-star' ></i></p>
+                                                                  
+                                                                  <div class="watch">
+                                                                  <a href="https://www.youtube.com/watch?v=UmWU83svG_M&t=1s" class="f_btn"><i class='bx bxl-youtube'></i>watch Now</a></div>
+                                                                  <div class="icon">
+                                                                      <a href="#">
+                                                                  <i class='bx bx-bookmark'></i></div></a>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                  </div></div></div><br> <br><br>
 </body>
 </html>
+            
+        
