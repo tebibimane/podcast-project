@@ -1,0 +1,310 @@
+.center {
+    padding-top: 84px;
+    gap:24px;
+}
+
+.play-container{
+    height: 100%;
+    width: 98%;
+    margin-top: -1%;
+}
+.play-img{
+    width: 88%;
+    height: 65%;
+    object-fit: cover;
+    margin-left: 13%;
+    object-position: center;
+    background: linear-gradient(
+        8deg,
+        rgba(0, 0, 0, 0.992) 14% ,
+        rgba(17, 16, 16, 0.022)44%
+    );
+    border-radius: 2%;
+}
+.play-text{
+    position: absolute;
+    color: #c9b7b7;
+    width: 86.7%;
+    height: 76%;
+    display: flex;
+    margin-left: 12.5%;
+    margin-top: 90%;
+    bottom:-3%;
+    border-radius: 2%;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 14px;
+    background: linear-gradient(rgba(31, 26, 26, 0.4),rgba(26, 25, 25, 0.974)
+    );
+    overflow: hidden;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    color: yellow;
+    margin-top: 4Px;
+    column-gap: 2px;
+}
+.tags{
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    margin: 0.5rem 0;
+}
+.tags span{
+    color: #ece4e4;
+    border: 1px solid rgba(252, 250, 250, 0.346);
+    padding: 5px;
+    border-radius: 10px;
+}
+.watch i {
+  margin-left: 85%;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.play-text h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #f4f1f1;
+}
+.h1{
+    height: 40vh;
+}
+.h1 h1{
+    color: #ece4e4;
+
+    margin-left: 15%;
+    margin-top:4%;
+}
+.see_more_btn{
+    padding: 0.6rem 1rem;
+    background-color:  #7e2121;
+    color: white;
+    font-weight: 400;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 00.5rem;
+    max-width: 160px;
+    margin-left: 88%;
+    margin-top: -3%;
+}
+.see_more_btn:hover{
+    padding: 0.6rem 1rem;
+    box-shadow: 1px 1px 14px rgb(200, 13, 13);
+    color: white;
+    font-weight: 400;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 00.5rem;
+    max-width: 160px;
+    margin-left: 88%;
+    margin-top: -3%;
+}
+.articles {
+    display: flex;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(4, 250px);
+    flex-wrap: wrap;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 9%;
+    margin-top: 0%;
+
+  }
+
+.item img {
+object-fit: cover;
+height: 200px;
+width: 170px;
+position: absolute;
+margin-top: -70%;
+
+left: 60px;
+
+
+}
+.item {
+position: relative;
+height: 230px;
+width: 180px;
+border-radius: 20px;
+}
+.overlay {
+position: absolute;
+border-radius: 20px;
+bottom: 156px;
+left: 0;
+background-color: rgba(101, 95, 95, 0.5);
+height: 200px;
+width: 925px;
+margin-left: 128%;
+}
+.overlay .icon i{
+color: #7e2121;
+font-size: 50px;
+margin-left: -18%;
+}
+.overlay .icon i:hover{
+color: #7e2121;
+font-size: 50px;
+margin-left: -18%;
+
+}
+.item img:hover{
+filter: opacity(50%);
+}
+.item:hover .overlay{
+cursor: pointer;
+display: grid;
+
+
+
+background-color: rgba(101, 95, 95, 0.5);
+}
+.item p a{
+color: #f9fafa;
+background-color: brown;
+border-radius: 10px;
+padding: 10px;
+font-family: poppins , sans-serif;
+margin-top: -20%;
+font-size: 150%;
+position: absolute;
+display: flex;
+}
+.item .text{
+margin-top: 20%;
+margin-left: 150%;
+}
+
+.text h3{
+position: absolute;
+color: #fffcfc;
+margin-left: 20%;
+margin-top: -27%;
+font-size: 30px;
+
+
+}
+.text p{
+position: absolute;
+color: #fffcfc;
+margin-left: 20%;
+margin-top: -22%;
+font-weight: 100;
+
+
+}
+.text .time {
+position: absolute;
+color: #f4e806;
+margin-left: 82%;
+margin-top: -15%;
+
+}
+.text .watch a{
+position: absolute;
+color: #f5f5f2;
+border: 1px solid rgb(138, 14, 14);
+margin-left: -180%;
+margin-top: -40%;
+padding: 6px 20px;
+font-size: 15px;
+}
+.text .watch a:hover{
+box-shadow: 1px 1px 20px rgb(106, 35, 35);
+}
+.overlay p {
+
+background-color: brown;
+border-radius: 20px;
+padding: 5px;
+font-size: 30px;
+position: absolute;
+font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+bottom: -10%;
+left: 90px;
+}
+
+
+.popular-acc{
+    width: 80%;
+    height: 40vh;
+    box-shadow: 1px 1px 8px rgba(139, 33, 33, 0.245);
+
+    margin-left: 14%;
+
+  }
+.popular-acc h1{
+color: rgb(245, 243, 243);
+margin-top: -1%;
+  margin-left: 2%;
+  font-size: 32Px;
+
+}
+
+.popular-acc .h4{
+justify-content: space-between;
+color: #f9f9f9;
+}
+.popular-acc p{
+color: #ddd;
+margin-left:  80%;
+width: 100%;
+margin-top: 120%;
+
+}
+.popular-acc p:hover{
+text-decoration: underline;
+}
+
+.popular-acc .btn_s {
+margin-left: 89%;
+margin-bottom: 20px;
+cursor: pointer;
+transition: .3s linear;
+}
+.popular-acc .h4 .btn_s2{
+margin-right: 89%;
+margin-bottom: -60px;
+cursor: pointer;
+transition: .3s linear;
+}
+.popular-acc .item{
+width: 100%;
+height: 140px;
+margin-top: 19px;
+display: flex;
+overflow: auto;
+margin-left: -5%;
+scroll-behavior: smooth;
+}
+.popular-acc .item::-webkit-scrollbar{
+display: none;
+}
+.popular-acc .item li{
+list-style-type: none;
+position: relative;
+min-width: 100px;
+height: 100px;
+margin-bottom: 0%;
+
+margin-left: 19px;
+cursor: pointer;
+}
+.popular-acc .item li img{
+width: 100%;
+height: 100%;
+border-radius: 50%;
+margin-top: 10%;
+box-shadow: 1px 1px 9px rgb(251, 249, 249);
+
+}

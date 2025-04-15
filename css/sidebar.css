@@ -1,0 +1,131 @@
+.sidebar {
+  position: sticky;
+  top: 0;
+  width: 160px;
+  background-color: #000000;
+  transition: all 0.4s ease;
+}
+
+.sidebar.collapse {
+  width: 85px;
+}
+
+.sidebar_container {
+  position: fixed;
+}
+
+.sidebar-header {
+  display: flex;
+  width:160px;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  margin-top: 59px;
+  transition: all 0.3s linear;
+}
+
+.sidebar-header.collapse {
+  width: 85px;
+  transition: all 0.3s linear;
+}
+
+.sidebar-header .sidebar-toggle {
+  padding: 6px;
+  transform: rotate(180deg);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  background: rgb(106, 35, 35);
+  color: #f9fafa;
+  transition: all 0.4s ease;
+}
+
+.sidebar.collapse .sidebar-toggle {
+  transform: rotate(0deg);
+}
+
+.sidebar-nav .nav-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 4px;
+  transition: 0.4s ease;
+  gap:8px;
+}
+
+.sidebar.collapse .sidebar-nav .nav-list {
+  padding: 4px 14px;
+}
+
+.sidebar.collapse .sidebar-nav .primary-nav {
+  /*transform: translateX(20px);*/
+}
+
+.sidebar-header .sidebar-toggle i {
+  font-size: 20px;
+}
+
+.sidebar.collapse .nav-item .nav-link {
+  font-size: 28px;
+}
+
+.sidebar-nav .nav-item .nav-link {
+  color: #fff;
+  display: flex;
+  white-space: nowrap;
+  padding: 12px;
+  gap:16px;
+  border-radius: 5px;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.4s ease;
+  font-size: 16px;
+}
+
+
+.sidebar-nav .nav-item > .nav-link.active,
+.sidebar-nav .nav-item:hover > .nav-link {
+  /*color: #c9b7b7;*/
+  background: #7e2121;
+}
+
+.sidebar-nav .nav-link .nav-label {
+  transition: opacity 0.3s ease;
+}
+
+.sidebar.collapse .nav-link .nav-label {
+  display: none;
+  pointer-events: none;
+}
+
+.sidebar.collapse .sidebar-nav .nav-item .nav-link {
+  justify-content: center;
+}
+
+.sidebar-nav .nav-item .nav-link i {
+  font-size: 20px;
+}
+
+.sidebar.collapse .sidebar-nav .nav-item .nav-link i {
+  font-size: 28px;
+}
+
+.sidebar-nav .secondary-nav {
+  /*bottom: 20px;*/
+  width: 100%;
+  background: white;
+}
+
+
+@media (max-width: 575px) {
+  .
+  .sidebar {
+    position: sticky;
+    bottom: 0;
+    width: 160px;
+    background-color: #000000;
+    transition: all 0.4s ease;
+  }
+}
