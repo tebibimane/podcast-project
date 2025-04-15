@@ -1,0 +1,28 @@
+.categories_list{
+    padding:12px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #7e2121;
+    border-radius: 30px;
+}
+.categories_list ul {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.categories_list ul li{
+    list-style: none;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    font-weight: 300;
+    font-size: 19px;
+    cursor: pointer;
+    margin-left: 9px;
+    border-radius: 20px;
+}
+.categories_list ul li:hover{
+    background-color: #faf3f34f;
+}
+.categories_list ul li.active{
+    background-color: #7e2121;
+}

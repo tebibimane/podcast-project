@@ -1,0 +1,247 @@
+.section {
+  background-color: rgb(2, 0, 0);
+  width: 100%;
+}
+.featured_books {
+  width: 100%;
+  padding: 3% 5%;
+}
+.featured_books .h h1 {
+  color: rgb(245, 243, 243);
+  font-size: 30px;
+}
+
+.podcasts_container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  gap: 16px;
+  padding: 32px 16px;
+  overflow-x: scroll;
+}
+
+.featured_book_card {
+  min-width: 300px;
+  width: 300px;
+  text-align: center;
+  border-radius: 8px;
+  display: flex;
+  padding-bottom: 16px;
+  flex-direction: column;
+  gap: 12px;
+  border: 1px solid rgb(96, 30, 30);
+}
+.featured_book_card:hover {
+  box-shadow: 1px 1px 15px rgb(96, 30, 30);
+  transform: scale(1.01);
+  transition: 0.1s linear;
+}
+
+.featured_book_img img {
+  width: 298px;
+  height: 298px;
+  border-radius: 8px 8px 0 0;
+  object-fit: cover;
+}
+
+.featured_book_tag {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.featured_book_tag .log-pod {
+  gap: 10px;
+  background-color: rgb(96, 30, 30);
+  position: relative;
+  padding: 8px 0;
+  /* border-radius: 20px; */
+}
+.featured_book_tag .podcast_programme_logo {
+  position: absolute;
+  left: 8px;
+  top: 2px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #bb6a6a41;
+}
+.featured_book_tag .podcast_programme_title {
+  font-size: 16px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.featured_book_tag .writer {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  font-weight: 200;
+  color: rgb(240, 215, 215);
+}
+.featured_book_tag .role {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: rgb(240, 215, 215);
+}
+.featured_book_tag .title {
+  width: 100%;
+  padding: 0 12px
+}
+.featured_book_tag .title p {
+  direction: rtl;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+.podcast_rating {
+  font-size: 18px;
+  color: rgb(233, 237, 13);
+}
+
+.podcast_card_actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 0 24px;
+}
+
+/*Watch button*/
+.watch_link {
+  width:100%;
+}
+
+.watch_button {
+  width:100%;
+  padding: 6px 20px;
+  border-radius: 4px;
+  border: 1px solid rgb(152, 4, 29);
+  color: rgb(166, 33, 33);
+  text-decoration: none;
+}
+.watch_button:hover{
+  background-color: rgb(152, 4, 29);
+  cursor: pointer;
+  color: black;
+}
+
+/* Favourite icon */
+.favourite_icon{
+  border: 1px solid rgb(152, 4, 29);
+  padding: 8px 10px;
+  border-radius: 4px;
+
+}
+.favourite_icon a {
+  display: flex;
+  align-items: center;
+  color: rgb(166, 33, 33);
+  font-size: 21px;
+}
+.favourite_icon:hover {
+  background-color: rgb(152, 4, 29);
+  cursor: pointer;
+}
+.favourite_icon:hover a{
+  color: black;
+}
+
+
+.profiles_card_container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:12px;
+  padding: 16px 0;
+}
+.profile_card_container a {
+  list-style-type: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:12px;
+  gap:24px;
+  border-radius: 8px;
+}
+.profile_card_container a:hover {
+  background-color: rgba(245, 243, 243, 0.2);
+}
+.profile_card_container a img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 9px rgb(251, 249, 249);
+}
+.profile_card_container p {
+  text-align: center;
+}
+
+.see_more_btn{
+  padding: 8px 16px;
+  color: white;
+  background-color: #6e1e1e;
+  font-weight: 400;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 16px;
+}
+.see_more_btn p{
+  font-size: 16px;
+}
+.see_more_btn:hover p{
+  text-decoration: underline;
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .featured_book_card {
+    min-width: 200px;
+    width: 200px;
+  }
+  .featured_book_img img {
+    width: 198px;
+    height: 198px;
+  }
+  .podcast_card_actions {
+    flex-direction: column;
+    width: 100%;
+    align-items: unset;
+  }
+  .favourite_icon a {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .featured_book_card {
+    min-width: 200px;
+    width: 200px;
+  }
+  .featured_book_img img {
+    width: 198px;
+    height: 198px;
+  }
+  .podcast_card_actions {
+    flex-direction: column;
+    width: 100%;
+    align-items: unset;
+  }
+  .favourite_icon a {
+    justify-content: center;
+  }
+}

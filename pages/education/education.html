@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="education.css">
+    <link rel="stylesheet" href="../../css/topbar.css" />
+    <link rel="stylesheet" href="../../css/navbar.css" />
+    <link rel="stylesheet" href="../../css/header.css" />
+    <link rel="stylesheet" href="../../css/sidebar.css" />
+    <link rel="stylesheet" href="../../css/card.css" />
+    <link rel="stylesheet" href="../../css/common.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="../../js/common.js" defer ></script>
+    <script src="education.js" defer ></script>
+    <title>Education</title>
+</head>
+<body>
+  <div class="home">
+    <div class="nav">
+      <div class="logo">
+        <img src="../../assets/logopodc-removebg-preview.png" alt="../assets3/logopodc-removebg-preview.png"/>
+      </div>
+      <div class="list">
+        <div class="search-box">
+          <input label="Search..." autocomplete="off" type="text" name="" id="search-input" placeholder="search ..." />
+          <i class="bx bx-search-alt-2"></i>
+          <div class="search_suggestion">
+            <ul class="search_suggestion_list">
+              <li class="search_suggestion_item">item 1</li>
+              <li class="search_suggestion_item">item 2</li>
+              <li class="search_suggestion_item">item 3</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main">
+    <aside class="sidebar">
+      <!--sidebar header-->
+      <div class="sidebar_container">
+        <header class="sidebar-header">
+          <div class="sidebar-toggle">
+            <i class="bx bx-chevron-right-circle"></i>
+          </div>
+        </header>
+        <nav class="sidebar-nav">
+          <!--primary top nav-->
+          <ul class="nav-list primary-nav">
+            <!--home-->
+            <li class="nav-item">
+              <a href="../home/home.html" class="nav-link">
+                <i class="bx bx-home"></i>
+                <span class="nav-label">Home</span>
+              </a>
+            </li>
+            <!--categories-->
+            <li class="nav-item">
+              <a href="../categories/categories.html" class="nav-link active">
+                <i class="bx bx-category"></i>
+                <span class="nav-label">Categories</span>
+              </a>
+            </li>
+            <!--services-->
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="bx bxs-calendar-alt"></i>
+                <span class="nav-label">Services</span>
+              </a>
+            </li>
+            <!--user-->
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="bx bx-user"></i>
+                <span class="nav-label">User</span>
+              </a>
+            </li>
+            <!--saved-->
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="bx bx-bookmark"></i>
+                <span class="nav-label">Saved</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+    <div class="center">
+      <div class="container">
+        <div class="categories_list">
+          <ul>
+            <li class="nav-link"><a href="../categories/categories.html">All</a></li>
+            <li class="nav-link"><a href="../health/health.html">health</a></li>
+            <li class="nav-link active">
+              <a href="./education.html">Education
+                <span class="material-icons dropdown-icon"></span>
+              </a>
+            </li>
+            <li class="nav-link"><a href="#">Sport</a></li>
+            <li class="nav-link"><a href="#">Life</a></li>
+            <li class="nav-link"><a href="#">Religion&culture</a></li>
+            <li class="nav-link"><a href="#">Business</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section_title">
+          <i class='bx bx-buildings' ></i> Universities
+        </div>
+        <div class="profiles_card_container universities_container"></div>
+      </div>
+      <!--heading-->
+      <div class="section">
+        <div class="section_title">
+           <i class='bx bxs-microphone-alt'></i> All podcasts
+        </div>
+        <div class="featured_books education">
+          <div class="podcasts_container sections_container"></div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
+

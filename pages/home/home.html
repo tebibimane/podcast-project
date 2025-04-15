@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="../../css/navbar.css" />
+    <link rel="stylesheet" href="../../css/header.css" />
+    <link rel="stylesheet" href="../../css/sidebar.css" />
+    <link rel="stylesheet" href="../../css/card.css" />
+    <link rel="stylesheet" href="../../css/common.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <script src="home.js" defer></script>
+    <script src="../../js/common.js" defer></script>
+    <title>Podcast</title>
+  </head>
+  <body>
+    <!--home-->
+    <div class="home">
+      <div class="nav">
+        <div class="logo">
+          <img src="../../assets/logopodc-removebg-preview.png" alt="./assets3/logopodc-removebg-preview.png"/>
+        </div>
+        <div class="list">
+          <div class="search-box">
+            <input label="Search..." autocomplete="off" type="text" name="" id="search-input" placeholder="search ..." />
+            <i class="bx bx-search-alt-2"></i>
+            <div class="search_suggestion">
+              <ul class="search_suggestion_list">
+                <li class="search_suggestion_item">item 1</li>
+                <li class="search_suggestion_item">item 2</li>
+                <li class="search_suggestion_item">item 3</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <aside class="sidebar">
+          <!--sidebar header-->
+          <div class="sidebar_container">
+
+
+          <header class="sidebar-header">
+            <div class="sidebar-toggle">
+              <i class="bx bx-chevron-right-circle"></i>
+            </div>
+          </header>
+          <nav class="sidebar-nav">
+            <!--primary top nav-->
+            <ul class="nav-list primary-nav">
+              <!--home-->
+              <li class="nav-item">
+                <a href="/home.html" class="nav-link active">
+                  <i class="bx bx-home"></i>
+                  <span class="nav-label">Home</span>
+                </a>
+              </li>
+              <!--categories-->
+              <li class="nav-item">
+                <a href="../categories/categories.html" class="nav-link">
+                  <i class="bx bx-category"></i>
+                  <span class="nav-label">Categories</span>
+                </a>
+              </li>
+              <!--services-->
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="bx bxs-calendar-alt"></i>
+                  <span class="nav-label">Services</span>
+                </a>
+              </li>
+              <!--user-->
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="bx bx-user"></i>
+                  <span class="nav-label">User</span>
+                </a>
+              </li>
+              <!--saved-->
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="bx bx-bookmark"></i>
+                  <span class="nav-label">Saved</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          </div>
+        </aside>
+        <div class="center">
+            <div class="right">
+              <h1>
+                Every day, we<br />discuss the most<br />interesting things !
+              </h1>
+              <button class="btn1">
+                <a href="../learn/learn.html">Learn More</a>
+              </button>
+            </div>
+            <!--second page-->
+            <div class="section">
+              <div class="section_title">
+                <h1><i class='bx bxs-microphone-alt'></i> New Podcast</h1>
+              </div>
+              <div class="featured_books">
+                <div class="podcasts_container new_podcasts_container"></div>
+              </div>
+            </div>
+            <!--popular account-->
+            <section class="section" id="categories">
+                <div class="section_title">
+                  <h1>Popular Account</h1>
+                </div>
+                <div class="popular_accounts_container">
+                  <div class="articles"></div>
+                  <div class="see_more_container">
+                    <a href="../accounts/account.html" class="see_more_btn">
+                      <p>See all</p>
+                      <i class="bx bx-right-arrow-circle"></i>
+                    </a>
+                  </div>
+                </div>
+
+            </section>
+            <!--handicap-->
+            <section class="section" id="categories1">
+                <div class="section_title"><h1>What make Our Website unique ?</h1></div>
+                <div class="handicap">
+                  <div class="handicap_container">
+                      <p class="paragraph">
+                        At [Your Podcast Name], we believe that knowledge and meaningful conversations
+                        should be accessible to everyone. That’s why our platform is dedicated to
+                        making podcast content inclusive for the deaf and mute community. With the
+                        help of expert sign language interpreters, we provide accessible episodes,
+                        visual storytelling, and interactive discussions to ensure no one is left out.
+                        Our goal is to bridge the communication gap, foster learning, and create a
+                        space where everyone can engage, connect, and grow—because true inclusivity
+                        means giving every voice the chance to be heard.
+                      </p>
+                      <div class="handicap_right video">
+                        <a href="https://www.youtube.com/watch?v=lj7V-z2SfKA" target="">
+                          <img src="../../assets/handicap.jpg" alt="" />
+                        </a>
+                      </div>
+                  </div>
+                </div>
+            </section>
+            <!--Most popular-->
+            <section class="section" id="categories2">
+              <div class="section_title">
+                <h1><i class='bx bxs-microphone-alt'></i> Popular Podcast</h1>
+              </div>
+              <div class="featured_books">
+                <div class="podcasts_container popular_podcasts_container"></div>
+              </div>
+            </section>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
