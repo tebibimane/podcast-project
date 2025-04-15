@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
       link: 'https://www.youtube.com/watch?v=x6kYn-A5OTY&t=986s'
     },{
       id: 34,
-      title: ' Belkis shares her story, the challenges she has faced, and her journey to becoming the top student .',
+      title: 'Belkis shares her story, the challenges she has faced, and her journey to becoming the top student .',
       link: 'https://www.youtube.com/watch?v=pPrLMbZ8X80&t=2s'
     },{
       id: 35,
@@ -177,44 +177,44 @@ document.addEventListener('DOMContentLoaded', () => {
       link: 'https://www.youtube.com/watch?v=O1IDKJrVdSU&t=1s'
     },{
       id: 36,
-      title: ' Noor&M entre blessures et force .',
-      link: 'https://www.youtube.com/watch?v=HN16yco7GsQ&list=PLwN6wgufFRG1-MNQKtDKS41A4jF-kCkxa&index=7'
+      title: 'Narimane reflects on the challenges she faced,  and what makes ENSM a remarkable institution for shaping Algeria’s future leaders.',
+      link: 'https://www.youtube.com/watch?v=GA2v4QJLAGA&t=11s'
     },{
-      id: 22,
-      title: 'الطلاق ليست النهاية تغيرت حياتي.',
-      link: 'https://www.youtube.com/watch?v=yWoRZww4IzI&list=PLwN6wgufFRG1-MNQKtDKS41A4jF-kCkxa&index=8'
+      id: 37,
+      title: 'Selma shares her unique approach to studying, time management, and staying motivated.',
+      link: 'https://www.youtube.com/watch?v=rvMoX1KOwhY&t=2s'
     },{
-      id: 23,
-      title: 'تفتح قلبها و تحكي قصتها و صدمات الماضي.',
-      link: 'https://www.youtube.com/watch?v=CwgEdkpZgTA&list=PLwN6wgufFRG1-MNQKtDKS41A4jF-kCkxa&index=9'
+      id: 38,
+      title: 'Sarah opens up about the role her family played in her journey .',
+      link: ' https://www.youtube.com/watch?v=mSKqxXaSHxY&t=1s'
     },{
-      id: 24,
-      title:` يحكي على طلاق الاولياء وكيف تجاوز الصدمة  تجربة مع الحب و انكسار قلب`,
-      link: 'https://www.youtube.com/watch?v=NuhLtMlLx_U&list=PLwN6wgufFRG1-MNQKtDKS41A4jF-kCkxa&index=11'
+      id: 39,
+      title: `Mounaïm shares  how veterinary medicine goes far beyond just treating animals.'`,
+      link: 'https://www.youtube.com/watch?v=sFlpm1KUkw4'
     },{
-      id: 25,
-      title: `il a partagé ses épreuves qui l'ont rendu plus fort et plus sage.`,
-      link: 'https://www.youtube.com/watch?v=bI7DfYkRZJY&list=PLwN6wgufFRG1-MNQKtDKS41A4jF-kCkxa&index=12'
+      id: 40,
+      title: 'Zineb shares how she switched from medicine to mathematics.',
+      link: 'https://www.youtube.com/watch?v=4VthxAUGuQ8'
     },{
-      id: 26,
-      title: `Imene Noël a raconté ses défis, qui l'ont forgée et rendue plus sage.`,
-      link: 'https://www.youtube.com/watch?v=UM-nZnaFD1I&list=PLwN6wgufFRG1-MNQKtDKS41A4jF-kCkxa&index=13'
+      id: 41,
+      title: 'Raihane shares her story, her journey to becoming the top student.',
+      link: 'https://www.youtube.com/watch?v=gpTxbsgAZyE&t=2522s'
     },{
-      id: 27,
-      title: 'لعامل النفسي مهم و مريت بإكتآب و إحتراق.',
-      link: 'https://www.youtube.com/watch?v=d8fkh53Bp8w&list=PLwN6wgufFRG1-MNQKtDKS41A4jF-kCkxa&index=6'
+      id: 42,
+      title: 'Merzouk shaires his achievements, his leadership role in Algenius.',
+      link: 'https://www.youtube.com/watch?v=XOMe_RgbAy8'
     },{
-      id: 28,
-      title: `Il a partagé avec sincérité les obstacles qu'il a  renforcé.`,
-      link: 'https://www.youtube.com/watch?v=9I44YilAG1U&list=PLwN6wgufFRG1-MNQKtDKS41A4jF-kCkxa&index=10 '
+      id: 43,
+      title: 'Rofaida opens up about the challenges she faced, the sacrifices made along the way.',
+      link: 'https://www.youtube.com/watch?v=uZwr9Fr1u90 '
     },{
-      id: 29,
-      title: `Son parcours .`,
-      link: 'https://www.youtube.com/watch?v=-aj0TvZOz3Y'
+      id: 44,
+      title: 'Sirtoual shares her  story,  her journey to becoming the top student.',
+      link: 'https://www.youtube.com/watch?v=uMCm1vXA41Q&t=1s'
     },{
-      id: 30,
-      title: `Elle a partagé en profondeur les défis  qui l'ont rendue plus forte .`,
-      link: 'https://www.youtube.com/watch?v=jZNAgU47dZk'
+      id: 45,
+      title: 'Amine shares his unique approach to studying,  providing valuable advice for students and professionals alike.',
+      link: 'https://www.youtube.com/watch?v=XArKBPizgvw&t=69s'
     }
   ]
 
