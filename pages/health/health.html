@@ -1,30 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="health.css">
-    <link rel="stylesheet" href="../../css/topbar.css" />
-    <link rel="stylesheet" href="../../css/navbar.css" />
-    <link rel="stylesheet" href="../../css/header.css" />
-    <link rel="stylesheet" href="../../css/sidebar.css" />
-    <link rel="stylesheet" href="../../css/card.css" />
-    <link rel="stylesheet" href="../../css/common.css" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="health.js" defer ></script>
-    <script src="../../js/common.js" defer ></script>
+    <link rel="stylesheet" href="../../css/topbar.css">
+    <link rel="stylesheet" href="../../css/navbar.css">
+    <link rel="stylesheet" href="../../css/header.css">
+    <link rel="stylesheet" href="../../css/sidebar.css">
+    <link rel="stylesheet" href="../../css/card.css">
+    <link rel="stylesheet" href="../../css/common.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <script src="../../js/common.js" defer=""></script>
     <title>Santé</title>
 </head>
 <body>
 <div class="home">
     <div class="nav">
         <div class="logo">
-            <img src="../../assets/logopodc-removebg-preview.png" alt="../assets3/logopodc-removebg-preview.png"/>
+            <img src="../../assets/logopodc-removebg-preview.png" alt="../assets3/logopodc-removebg-preview.png">
         </div>
         <div class="list">
             <div class="search-box">
-                <input label="Search..." autocomplete="off" type="text" name="" id="search-input" placeholder="search ..." />
+                <input label="Search..." autocomplete="off" type="text" name="" id="search-input" placeholder="search ...">
                 <i class="bx bx-search-alt-2"></i>
                 <div class="search_suggestion">
                     <ul class="search_suggestion_list">
@@ -38,10 +35,10 @@
     </div>
 </div>
 <div class="main">
-    <aside class="sidebar">
+    <aside class="sidebar collapse">
         <!--sidebar header-->
         <div class="sidebar_container">
-            <header class="sidebar-header">
+            <header class="sidebar-header collapse">
                 <div class="sidebar-toggle">
                     <i class="bx bx-chevron-right-circle"></i>
                 </div>
@@ -88,7 +85,7 @@
             </nav>
         </div>
     </aside>
-    <div class="center">
+    <div class="center collapse">
         <div class="container">
             <div class="categories_list">
                 <ul>
@@ -101,28 +98,544 @@
                     </li>
                     <li class="nav-link"><a href="#">Sport</a></li>
                     <li class="nav-link"><a href="#">Life</a></li>
-                    <li class="nav-link"><a href="#">Religion&culture</a></li>
+                    <li class="nav-link"><a href="#">Religion&amp;culture</a></li>
                     <li class="nav-link"><a href="#">Business</a></li>
                 </ul>
             </div>
         </div>
         <div class="section">
             <div class="section_title">
-                <i class='bx bx-health' ></i> Health
+                <i class="bx bx-health"></i> Health
             </div>
-            <div class="profiles_card_container accounts_container"></div>
+            <div class="profiles_card_container accounts_container"><div class="profile_card_container account_container">
+                <a href="./labo.html">
+                    <img src="../../assets/empty-image.png" alt="PH-Talk" onerror="this.src='../../assets/empty-image.png'">
+                    <p>PH-Talk</p>
+                </a>
+            </div><div class="profile_card_container account_container">
+                <a href="./madjlis.html">
+                    <img src="../../assets/empty-image.png" alt="El Majlis" onerror="this.src='../../assets/empty-image.png'">
+                    <p>El Majlis</p>
+                </a>
+            </div><div class="profile_card_container account_container">
+                <a href="./dialogue.html">
+                    <img src="../../assets/empty-image.png" alt="Dialogue" onerror="this.src='../../assets/empty-image.png'">
+                    <p>Dialogue</p>
+                </a>
+            </div><div class="profile_card_container account_container">
+                <a href="./bilad.html">
+                    <img src="../../assets/empty-image.png" alt="El bilad" onerror="this.src='../../assets/empty-image.png'">
+                    <p>El bilad</p>
+                </a>
+            </div></div>
         </div>
         <!--heading-->
         <div class="section">
             <div class="section_title">
-                <i class='bx bxs-microphone-alt'></i> All podcasts
+                <i class="bx bxs-microphone-alt"></i> All podcasts
             </div>
             <div class="featured_books education">
-                <div class="podcasts_container sections_container"></div>
+                <div class="podcasts_container sections_container"><div class="featured_book_card">
+                    <div class="featured_book_img">
+                        <a href="https://www.youtube.com/watch?v=uoSXJW__l3U&amp;list=PLnORcKsa7KTG0ckpx9rsGsy64DlXl9WwV&amp;index=10" target="_blank">
+                            <img src="../../assets/empty-image.png" alt="scoop sur les maladies masculines ." onerror="this.src='../../assets/empty-image.png'">
+                        </a>
+                    </div>
+                    <div class="featured_book_tag">
+                        <div class="log-pod">
+                            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/logo labo.png" onerror="this.src='../../assets/empty-image.png'">
+                            <h5 class="podcast_programme_title">- Ph-Talk -</h5>
+                        </div>
+                        <div>
+                            <h3 class="writer">- Yettouch Maria Rania -</h3>
+                            <h3 class="role">-  -</h3>
+                        </div>
+                        <div class="title">
+                            <p title="scoop sur les maladies masculines .">scoop sur les maladies masculines .</p>
+                        </div>
+                        <!--<div class="categories"></div>-->
+                        <p class="podcast_rating">
+                            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                        </p>
+                        <div class="podcast_card_actions">
+                            <a href="https://www.youtube.com/watch?v=uoSXJW__l3U&amp;list=PLnORcKsa7KTG0ckpx9rsGsy64DlXl9WwV&amp;index=10" target="_blank" class="watch_link" title="Watch podcast">
+                                <div class="watch_button"> watch Now</div>
+                            </a>
+                            <div class="favourite_icon">
+                                <a href="#" title="Save podcast">
+                                    <i class="bx bx-bookmark"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="featured_book_card">
+                    <div class="featured_book_img">
+                        <a href="https://www.youtube.com/watch?v=PApK1731PiY&amp;list=PLt3Srbt3FGd3eo90CgfjzkCMD98Ri_-AW&amp;index=15" target="_blank">
+                            <img src="../../assets/empty-image.png" alt="Unraveling the Mystery:The Pap Smear." onerror="this.src='../../assets/empty-image.png'">
+                        </a>
+                    </div>
+                    <div class="featured_book_tag">
+                        <div class="log-pod">
+                            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/madjliss-logo.jpg" onerror="this.src='../../assets/empty-image.png'">
+                            <h5 class="podcast_programme_title">- Madjlis -</h5>
+                        </div>
+                        <div>
+                            <h3 class="writer">- Siham Bouazza -</h3>
+                            <h3 class="role">- Consultant Obstetrics &amp; Gynaecology -</h3>
+                        </div>
+                        <div class="title">
+                            <p title="Unraveling the Mystery:The Pap Smear.">Unraveling the Mystery:The Pap Smear.</p>
+                        </div>
+                        <!--<div class="categories"></div>-->
+                        <p class="podcast_rating">
+                            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                        </p>
+                        <div class="podcast_card_actions">
+                            <a href="https://www.youtube.com/watch?v=PApK1731PiY&amp;list=PLt3Srbt3FGd3eo90CgfjzkCMD98Ri_-AW&amp;index=15" target="_blank" class="watch_link" title="Watch podcast">
+                                <div class="watch_button"> watch Now</div>
+                            </a>
+                            <div class="favourite_icon">
+                                <a href="#" title="Save podcast">
+                                    <i class="bx bx-bookmark"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="featured_book_card">
+                    <div class="featured_book_img">
+                        <a href="https://www.youtube.com/watch?v=-6xv-pFe-sY" target="_blank">
+                            <img src="../../assets/empty-image.png" alt="Glucose : attention mensonge." onerror="this.src='../../assets/empty-image.png'">
+                        </a>
+                    </div>
+                    <div class="featured_book_tag">
+                        <div class="log-pod">
+                            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/dialogue-logo.jpg" onerror="this.src='../../assets/empty-image.png'">
+                            <h5 class="podcast_programme_title">- Dialogue -</h5>
+                        </div>
+                        <div>
+                            <h3 class="writer">- Jessie Inchauspé -</h3>
+                            <h3 class="role">- Biochimiste -</h3>
+                        </div>
+                        <div class="title">
+                            <p title="Glucose : attention mensonge.">Glucose : attention mensonge.</p>
+                        </div>
+                        <!--<div class="categories"></div>-->
+                        <p class="podcast_rating">
+                            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                        </p>
+                        <div class="podcast_card_actions">
+                            <a href="https://www.youtube.com/watch?v=-6xv-pFe-sY" target="_blank" class="watch_link" title="Watch podcast">
+                                <div class="watch_button"> watch Now</div>
+                            </a>
+                            <div class="favourite_icon">
+                                <a href="#" title="Save podcast">
+                                    <i class="bx bx-bookmark"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="featured_book_card">
+                    <div class="featured_book_img">
+                        <a href="https://www.youtube.com/watch?v=4cdO95TSnKQ&amp;list=PLnORcKsa7KTG0ckpx9rsGsy64DlXl9WwV&amp;index=8" target="_blank">
+                            <img src="../../assets/empty-image.png" alt="La digitalisation de la santé ." onerror="this.src='../../assets/empty-image.png'">
+                        </a>
+                    </div>
+                    <div class="featured_book_tag">
+                        <div class="log-pod">
+                            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/logo labo.png" onerror="this.src='../../assets/empty-image.png'">
+                            <h5 class="podcast_programme_title">- Ph-Talk -</h5>
+                        </div>
+                        <div>
+                            <h3 class="writer">- Chabani Rihab -</h3>
+                            <h3 class="role">-  -</h3>
+                        </div>
+                        <div class="title">
+                            <p title="La digitalisation de la santé .">La digitalisation de la santé .</p>
+                        </div>
+                        <!--<div class="categories"></div>-->
+                        <p class="podcast_rating">
+                            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                        </p>
+                        <div class="podcast_card_actions">
+                            <a href="https://www.youtube.com/watch?v=4cdO95TSnKQ&amp;list=PLnORcKsa7KTG0ckpx9rsGsy64DlXl9WwV&amp;index=8" target="_blank" class="watch_link" title="Watch podcast">
+                                <div class="watch_button"> watch Now</div>
+                            </a>
+                            <div class="favourite_icon">
+                                <a href="#" title="Save podcast">
+                                    <i class="bx bx-bookmark"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="featured_book_card">
+                    <div class="featured_book_img">
+                        <a href="https://www.youtube.com/watch?v=cetlk9eeXMY&amp;list=PLs75uZeQLVSF_5S6zw4bEu4LWD5imj0jN&amp;index=8" target="_blank">
+                            <img src="../../assets/empty-image.png" alt="L'extraordinaire pouvoir du jeûne ." onerror="this.src='../../assets/empty-image.png'">
+                        </a>
+                    </div>
+                    <div class="featured_book_tag">
+                        <div class="log-pod">
+                            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/dialogue-logo.jpg" onerror="this.src='../../assets/empty-image.png'">
+                            <h5 class="podcast_programme_title">- Dialogue -</h5>
+                        </div>
+                        <div>
+                            <h3 class="writer">- Frédéric Saldmann -</h3>
+                            <h3 class="role">- Cardiologue -</h3>
+                        </div>
+                        <div class="title">
+                            <p title="L'extraordinaire pouvoir du jeûne .">L'extraordinaire pouvoir du jeûne .</p>
+                        </div>
+                        <!--<div class="categories"></div>-->
+                        <p class="podcast_rating">
+                            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                        </p>
+                        <div class="podcast_card_actions">
+                            <a href="https://www.youtube.com/watch?v=cetlk9eeXMY&amp;list=PLs75uZeQLVSF_5S6zw4bEu4LWD5imj0jN&amp;index=8" target="_blank" class="watch_link" title="Watch podcast">
+                                <div class="watch_button"> watch Now</div>
+                            </a>
+                            <div class="favourite_icon">
+                                <a href="#" title="Save podcast">
+                                    <i class="bx bx-bookmark"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="featured_book_card">
+                    <div class="featured_book_img">
+                        <a href="https://www.youtube.com/watch?v=99BaknLHbEc&amp;list=PLt3Srbt3FGd3eo90CgfjzkCMD98Ri_-AW&amp;index=14" target="_blank">
+                            <img src="../../assets/empty-image.png" alt="A New Era in Digestive Health." onerror="this.src='../../assets/empty-image.png'">
+                        </a>
+                    </div>
+                    <div class="featured_book_tag">
+                        <div class="log-pod">
+                            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/madjliss-logo.jpg" onerror="this.src='../../assets/empty-image.png'">
+                            <h5 class="podcast_programme_title">- Madjlis -</h5>
+                        </div>
+                        <div>
+                            <h3 class="writer">- Dr. Zakariyya Al Mrayat -</h3>
+                            <h3 class="role">- Gastroenterologist -</h3>
+                        </div>
+                        <div class="title">
+                            <p title="A New Era in Digestive Health.">A New Era in Digestive Health.</p>
+                        </div>
+                        <!--<div class="categories"></div>-->
+                        <p class="podcast_rating">
+                            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                        </p>
+                        <div class="podcast_card_actions">
+                            <a href="https://www.youtube.com/watch?v=99BaknLHbEc&amp;list=PLt3Srbt3FGd3eo90CgfjzkCMD98Ri_-AW&amp;index=14" target="_blank" class="watch_link" title="Watch podcast">
+                                <div class="watch_button"> watch Now</div>
+                            </a>
+                            <div class="favourite_icon">
+                                <a href="#" title="Save podcast">
+                                    <i class="bx bx-bookmark"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="featured_book_card">
+                    <div class="featured_book_img">
+                        <a href="https://www.youtube.com/watch?v=f6fK8JuecM0" target="_blank">
+                            <img src="../../assets/empty-image.png" alt="كشف تفاصيل مثيرة عن تجربته لمدة 30 سنة في تشريح الجثث والطب الشرعي." onerror="this.src='../../assets/empty-image.png'">
+                        </a>
+                    </div>
+                    <div class="featured_book_tag">
+                        <div class="log-pod">
+                            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/bilad-logo.jpg" onerror="this.src='../../assets/empty-image.png'">
+                            <h5 class="podcast_programme_title">- Alamtani-el hyat -</h5>
+                        </div>
+                        <div>
+                            <h3 class="writer">- Belhadj Rachid -</h3>
+                            <h3 class="role">- Professeur -</h3>
+                        </div>
+                        <div class="title">
+                            <p title="كشف تفاصيل مثيرة عن تجربته لمدة 30 سنة في تشريح الجثث والطب الشرعي.">كشف تفاصيل مثيرة عن تجربته لمدة 30 سنة في تشريح الجثث والطب الشرعي.</p>
+                        </div>
+                        <!--<div class="categories"></div>-->
+                        <p class="podcast_rating">
+                            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                        </p>
+                        <div class="podcast_card_actions">
+                            <a href="https://www.youtube.com/watch?v=f6fK8JuecM0" target="_blank" class="watch_link" title="Watch podcast">
+                                <div class="watch_button"> watch Now</div>
+                            </a>
+                            <div class="favourite_icon">
+                                <a href="#" title="Save podcast">
+                                    <i class="bx bx-bookmark"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="featured_book_card">
+                    <div class="featured_book_img">
+                        <a href="https://www.youtube.com/watch?v=sd79OPmJFus&amp;list=PLs75uZeQLVSF_5S6zw4bEu4LWD5imj0jN&amp;index=12" target="_blank">
+                            <img src="../../assets/empty-image.png" alt="Les 8 piliers pour rester jeune ." onerror="this.src='../../assets/empty-image.png'">
+                        </a>
+                    </div>
+                    <div class="featured_book_tag">
+                        <div class="log-pod">
+                            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/dialogue-logo.jpg" onerror="this.src='../../assets/empty-image.png'">
+                            <h5 class="podcast_programme_title">- Dialogue -</h5>
+                        </div>
+                        <div>
+                            <h3 class="writer">- Grégoire Gilbault -</h3>
+                            <h3 class="role">- kinésithérapeute -</h3>
+                        </div>
+                        <div class="title">
+                            <p title="Les 8 piliers pour rester jeune .">Les 8 piliers pour rester jeune .</p>
+                        </div>
+                        <!--<div class="categories"></div>-->
+                        <p class="podcast_rating">
+                            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                        </p>
+                        <div class="podcast_card_actions">
+                            <a href="https://www.youtube.com/watch?v=sd79OPmJFus&amp;list=PLs75uZeQLVSF_5S6zw4bEu4LWD5imj0jN&amp;index=12" target="_blank" class="watch_link" title="Watch podcast">
+                                <div class="watch_button"> watch Now</div>
+                            </a>
+                            <div class="favourite_icon">
+                                <a href="#" title="Save podcast">
+                                    <i class="bx bx-bookmark"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="featured_book_card">
+                    <div class="featured_book_img">
+                        <a href="https://www.youtube.com/watch?v=K8eaSZ18WgE&amp;list=PLnORcKsa7KTG0ckpx9rsGsy64DlXl9WwV&amp;index=12" target="_blank">
+                            <img src="../../assets/empty-image.png" alt="Les troubles du sommeil." onerror="this.src='../../assets/empty-image.png'">
+                        </a>
+                    </div>
+                    <div class="featured_book_tag">
+                        <div class="log-pod">
+                            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/logo labo.png" onerror="this.src='../../assets/empty-image.png'">
+                            <h5 class="podcast_programme_title">- Ph-Talk -</h5>
+                        </div>
+                        <div>
+                            <h3 class="writer">- Asma Lina Fernan -</h3>
+                            <h3 class="role">-  -</h3>
+                        </div>
+                        <div class="title">
+                            <p title="Les troubles du sommeil.">Les troubles du sommeil.</p>
+                        </div>
+                        <!--<div class="categories"></div>-->
+                        <p class="podcast_rating">
+                            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                        </p>
+                        <div class="podcast_card_actions">
+                            <a href="https://www.youtube.com/watch?v=K8eaSZ18WgE&amp;list=PLnORcKsa7KTG0ckpx9rsGsy64DlXl9WwV&amp;index=12" target="_blank" class="watch_link" title="Watch podcast">
+                                <div class="watch_button"> watch Now</div>
+                            </a>
+                            <div class="favourite_icon">
+                                <a href="#" title="Save podcast">
+                                    <i class="bx bx-bookmark"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="featured_book_card">
+                    <div class="featured_book_img">
+                        <a href="https://www.youtube.com/watch?v=ZlciYDjf3Ic&amp;list=PLt3Srbt3FGd3eo90CgfjzkCMD98Ri_-AW&amp;index=28" target="_blank">
+                            <img src="../../assets/empty-image.png" alt="اكتشف أسرار فقدان الوزن الصحي والتغذية المثالية" onerror="this.src='../../assets/empty-image.png'">
+                        </a>
+                    </div>
+                    <div class="featured_book_tag">
+                        <div class="log-pod">
+                            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/madjliss-logo.jpg" onerror="this.src='../../assets/empty-image.png'">
+                            <h5 class="podcast_programme_title">- Madjlis -</h5>
+                        </div>
+                        <div>
+                            <h3 class="writer">- Rawan Mehna -</h3>
+                            <h3 class="role">- أخصائية التغذية العلاجية -</h3>
+                        </div>
+                        <div class="title">
+                            <p title="اكتشف أسرار فقدان الوزن الصحي والتغذية المثالية">اكتشف أسرار فقدان الوزن الصحي والتغذية المثالية</p>
+                        </div>
+                        <!--<div class="categories"></div>-->
+                        <p class="podcast_rating">
+                            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                        </p>
+                        <div class="podcast_card_actions">
+                            <a href="https://www.youtube.com/watch?v=ZlciYDjf3Ic&amp;list=PLt3Srbt3FGd3eo90CgfjzkCMD98Ri_-AW&amp;index=28" target="_blank" class="watch_link" title="Watch podcast">
+                                <div class="watch_button"> watch Now</div>
+                            </a>
+                            <div class="favourite_icon">
+                                <a href="#" title="Save podcast">
+                                    <i class="bx bx-bookmark"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="featured_book_card">
+                    <div class="featured_book_img">
+                        <a href="https://www.youtube.com/watch?v=QIAqyMBSIzs&amp;list=PLs75uZeQLVSF_5S6zw4bEu4LWD5imj0jN&amp;index=20" target="_blank">
+                            <img src="../../assets/empty-image.png" alt="Le secret pour être en bonne santé ." onerror="this.src='../../assets/empty-image.png'">
+                        </a>
+                    </div>
+                    <div class="featured_book_tag">
+                        <div class="log-pod">
+                            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/madjliss-logo.jpg" onerror="this.src='../../assets/empty-image.png'">
+                            <h5 class="podcast_programme_title">- Madjlis -</h5>
+                        </div>
+                        <div>
+                            <h3 class="writer">- Michel Cymes -</h3>
+                            <h3 class="role">- Chirugien. -</h3>
+                        </div>
+                        <div class="title">
+                            <p title="Le secret pour être en bonne santé .">Le secret pour être en bonne santé .</p>
+                        </div>
+                        <!--<div class="categories"></div>-->
+                        <p class="podcast_rating">
+                            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                        </p>
+                        <div class="podcast_card_actions">
+                            <a href="https://www.youtube.com/watch?v=QIAqyMBSIzs&amp;list=PLs75uZeQLVSF_5S6zw4bEu4LWD5imj0jN&amp;index=20" target="_blank" class="watch_link" title="Watch podcast">
+                                <div class="watch_button"> watch Now</div>
+                            </a>
+                            <div class="favourite_icon">
+                                <a href="#" title="Save podcast">
+                                    <i class="bx bx-bookmark"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="featured_book_card">
+                    <div class="featured_book_img">
+                        <a href="https://www.youtube.com/watch?v=NYbg7HW5mDo&amp;t=4586s" target="_blank">
+                            <img src="../../assets/empty-image.png" alt="أسرار وخبايا عالم الأمراض العقلية." onerror="this.src='../../assets/empty-image.png'">
+                        </a>
+                    </div>
+                    <div class="featured_book_tag">
+                        <div class="log-pod">
+                            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="assets/bilad-logo.jpg" onerror="this.src='../../assets/empty-image.png'">
+                            <h5 class="podcast_programme_title">- Alamtani-el hyat -</h5>
+                        </div>
+                        <div>
+                            <h3 class="writer">- Nedjari Mohamed -</h3>
+                            <h3 class="role">- Professeur en psychiatrie -</h3>
+                        </div>
+                        <div class="title">
+                            <p title="أسرار وخبايا عالم الأمراض العقلية.">أسرار وخبايا عالم الأمراض العقلية.</p>
+                        </div>
+                        <!--<div class="categories"></div>-->
+                        <p class="podcast_rating">
+                            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                        </p>
+                        <div class="podcast_card_actions">
+                            <a href="https://www.youtube.com/watch?v=NYbg7HW5mDo&amp;t=4586s" target="_blank" class="watch_link" title="Watch podcast">
+                                <div class="watch_button"> watch Now</div>
+                            </a>
+                            <div class="favourite_icon">
+                                <a href="#" title="Save podcast">
+                                    <i class="bx bx-bookmark"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="featured_book_card">
+                    <div class="featured_book_img">
+                        <a href="https://www.youtube.com/watch?v=QAjIfcuLnvE" target="_blank">
+                            <img src="../../assets/empty-image.png" alt="Comment enfin aider vos enfants." onerror="this.src='../../assets/empty-image.png'">
+                        </a>
+                    </div>
+                    <div class="featured_book_tag">
+                        <div class="log-pod">
+                            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="assets/dialogue-logo.jpg" onerror="this.src='../../assets/empty-image.png'">
+                            <h5 class="podcast_programme_title">- Dialogue -</h5>
+                        </div>
+                        <div>
+                            <h3 class="writer">- Capucine Vercellotti &amp; Isabelle Filliozat -</h3>
+                            <h3 class="role">-  -</h3>
+                        </div>
+                        <div class="title">
+                            <p title="Comment enfin aider vos enfants.">Comment enfin aider vos enfants.</p>
+                        </div>
+                        <!--<div class="categories"></div>-->
+                        <p class="podcast_rating">
+                            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                        </p>
+                        <div class="podcast_card_actions">
+                            <a href="https://www.youtube.com/watch?v=QAjIfcuLnvE" target="_blank" class="watch_link" title="Watch podcast">
+                                <div class="watch_button"> watch Now</div>
+                            </a>
+                            <div class="favourite_icon">
+                                <a href="#" title="Save podcast">
+                                    <i class="bx bx-bookmark"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="featured_book_card">
+                    <div class="featured_book_img">
+                        <a href="https://www.youtube.com/watch?v=hO3pk8y9-kY" target="_blank">
+                            <img src="../../assets/empty-image.png" alt="Mémoire et concentration." onerror="this.src='../../assets/empty-image.png'">
+                        </a>
+                    </div>
+                    <div class="featured_book_tag">
+                        <div class="log-pod">
+                            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="assets/logo labo.png" onerror="this.src='../../assets/empty-image.png'">
+                            <h5 class="podcast_programme_title">- Ph-Talk -</h5>
+                        </div>
+                        <div>
+                            <h3 class="writer">- Bouazza nawal Boutheina -</h3>
+                            <h3 class="role">-  -</h3>
+                        </div>
+                        <div class="title">
+                            <p title="Mémoire et concentration.">Mémoire et concentration.</p>
+                        </div>
+                        <!--<div class="categories"></div>-->
+                        <p class="podcast_rating">
+                            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                        </p>
+                        <div class="podcast_card_actions">
+                            <a href="https://www.youtube.com/watch?v=hO3pk8y9-kY" target="_blank" class="watch_link" title="Watch podcast">
+                                <div class="watch_button"> watch Now</div>
+                            </a>
+                            <div class="favourite_icon">
+                                <a href="#" title="Save podcast">
+                                    <i class="bx bx-bookmark"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="featured_book_card">
+                    <div class="featured_book_img">
+                        <a href="https://www.youtube.com/watch?v=xOjsfjOQ_1A&amp;t=2428s" target="_blank">
+                            <img src="../../assets/empty-image.png" alt="حقائق مثيرة يكشف عنها الدكتور." onerror="this.src='../../assets/empty-image.png'">
+                        </a>
+                    </div>
+                    <div class="featured_book_tag">
+                        <div class="log-pod">
+                            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="assets/bilad-logo.jpg" onerror="this.src='../../assets/empty-image.png'">
+                            <h5 class="podcast_programme_title">- Alamtani-el hyat -</h5>
+                        </div>
+                        <div>
+                            <h3 class="writer">- Tyaeb abad -</h3>
+                            <h3 class="role">- Docteur -</h3>
+                        </div>
+                        <div class="title">
+                            <p title="حقائق مثيرة يكشف عنها الدكتور.">حقائق مثيرة يكشف عنها الدكتور.</p>
+                        </div>
+                        <!--<div class="categories"></div>-->
+                        <p class="podcast_rating">
+                            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                        </p>
+                        <div class="podcast_card_actions">
+                            <a href="https://www.youtube.com/watch?v=xOjsfjOQ_1A&amp;t=2428s" target="_blank" class="watch_link" title="Watch podcast">
+                                <div class="watch_button"> watch Now</div>
+                            </a>
+                            <div class="favourite_icon">
+                                <a href="#" title="Save podcast">
+                                    <i class="bx bx-bookmark"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div></div>
             </div>
 
         </div>
     </div>
 </div>
-</body>
-</html>
+
+
+</body></html>

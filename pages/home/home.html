@@ -1,162 +1,558 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="home.css" />
-    <link rel="stylesheet" href="../../css/navbar.css" />
-    <link rel="stylesheet" href="../../css/header.css" />
-    <link rel="stylesheet" href="../../css/sidebar.css" />
-    <link rel="stylesheet" href="../../css/card.css" />
-    <link rel="stylesheet" href="../../css/common.css" />
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-    <script src="home.js" defer></script>
-    <script src="../../js/common.js" defer></script>
-    <title>Podcast</title>
-  </head>
-  <body>
-    <!--home-->
-    <div class="home">
-      <div class="nav">
-        <div class="logo">
-          <img src="../../assets/logopodc-removebg-preview.png" alt="./assets3/logopodc-removebg-preview.png"/>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="../../css/navbar.css">
+  <link rel="stylesheet" href="../../css/header.css">
+  <link rel="stylesheet" href="../../css/sidebar.css">
+  <link rel="stylesheet" href="../../css/card.css">
+  <link rel="stylesheet" href="../../css/common.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <script src="../../js/common.js" defer=""></script>
+  <title>Podcast</title>
+</head>
+<body>
+<!--home-->
+<div class="home">
+  <div class="nav">
+    <div class="logo">
+      <img src="../../assets/logopodc-removebg-preview.png" alt="./assets3/logopodc-removebg-preview.png">
+    </div>
+    <div class="list">
+      <div class="search-box">
+        <input label="Search..." autocomplete="off" type="text" name="" id="search-input" placeholder="search ...">
+        <i class="bx bx-search-alt-2"></i>
+        <div class="search_suggestion">
+          <ul class="search_suggestion_list">
+            <li class="search_suggestion_item">item 1</li>
+            <li class="search_suggestion_item">item 2</li>
+            <li class="search_suggestion_item">item 3</li>
+          </ul>
         </div>
-        <div class="list">
-          <div class="search-box">
-            <input label="Search..." autocomplete="off" type="text" name="" id="search-input" placeholder="search ..." />
-            <i class="bx bx-search-alt-2"></i>
-            <div class="search_suggestion">
-              <ul class="search_suggestion_list">
-                <li class="search_suggestion_item">item 1</li>
-                <li class="search_suggestion_item">item 2</li>
-                <li class="search_suggestion_item">item 3</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="main">
-        <aside class="sidebar">
-          <!--sidebar header-->
-          <div class="sidebar_container">
-
-
-          <header class="sidebar-header">
-            <div class="sidebar-toggle">
-              <i class="bx bx-chevron-right-circle"></i>
-            </div>
-          </header>
-          <nav class="sidebar-nav">
-            <!--primary top nav-->
-            <ul class="nav-list primary-nav">
-              <!--home-->
-              <li class="nav-item">
-                <a href="/home.html" class="nav-link active">
-                  <i class="bx bx-home"></i>
-                  <span class="nav-label">Home</span>
-                </a>
-              </li>
-              <!--categories-->
-              <li class="nav-item">
-                <a href="../categories/categories.html" class="nav-link">
-                  <i class="bx bx-category"></i>
-                  <span class="nav-label">Categories</span>
-                </a>
-              </li>
-              <!--services-->
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="bx bxs-calendar-alt"></i>
-                  <span class="nav-label">Services</span>
-                </a>
-              </li>
-              <!--user-->
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="bx bx-user"></i>
-                  <span class="nav-label">User</span>
-                </a>
-              </li>
-              <!--saved-->
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="bx bx-bookmark"></i>
-                  <span class="nav-label">Saved</span>
-                </a>
-              </li>
-            </ul>
-          </nav>
-          </div>
-        </aside>
-        <div class="center">
-            <div class="right">
-              <h1>
-                Every day, we<br />discuss the most<br />interesting things !
-              </h1>
-              <button class="btn1">
-                <a href="../learn/learn.html">Learn More</a>
-              </button>
-            </div>
-            <!--second page-->
-            <div class="section">
-              <div class="section_title">
-                <h1><i class='bx bxs-microphone-alt'></i> New Podcast</h1>
-              </div>
-              <div class="featured_books">
-                <div class="podcasts_container new_podcasts_container"></div>
-              </div>
-            </div>
-            <!--popular account-->
-            <section class="section" id="categories">
-                <div class="section_title">
-                  <h1>Popular Account</h1>
-                </div>
-                <div class="popular_accounts_container">
-                  <div class="articles"></div>
-                  <div class="see_more_container">
-                    <a href="../accounts/account.html" class="see_more_btn">
-                      <p>See all</p>
-                      <i class="bx bx-right-arrow-circle"></i>
-                    </a>
-                  </div>
-                </div>
-
-            </section>
-            <!--handicap-->
-            <section class="section" id="categories1">
-                <div class="section_title"><h1>What make Our Website unique ?</h1></div>
-                <div class="handicap">
-                  <div class="handicap_container">
-                      <p class="paragraph">
-                        At [Your Podcast Name], we believe that knowledge and meaningful conversations
-                        should be accessible to everyone. That’s why our platform is dedicated to
-                        making podcast content inclusive for the deaf and mute community. With the
-                        help of expert sign language interpreters, we provide accessible episodes,
-                        visual storytelling, and interactive discussions to ensure no one is left out.
-                        Our goal is to bridge the communication gap, foster learning, and create a
-                        space where everyone can engage, connect, and grow—because true inclusivity
-                        means giving every voice the chance to be heard.
-                      </p>
-                      <div class="handicap_right video">
-                        <a href="https://www.youtube.com/watch?v=lj7V-z2SfKA" target="">
-                          <img src="../../assets/handicap.jpg" alt="" />
-                        </a>
-                      </div>
-                  </div>
-                </div>
-            </section>
-            <!--Most popular-->
-            <section class="section" id="categories2">
-              <div class="section_title">
-                <h1><i class='bx bxs-microphone-alt'></i> Popular Podcast</h1>
-              </div>
-              <div class="featured_books">
-                <div class="podcasts_container popular_podcasts_container"></div>
-              </div>
-            </section>
-          </div>
       </div>
     </div>
-  </body>
-</html>
+  </div>
+  <div class="main">
+    <aside class="sidebar collapse">
+      <!--sidebar header-->
+      <div class="sidebar_container">
+
+
+        <header class="sidebar-header collapse">
+          <div class="sidebar-toggle">
+            <i class="bx bx-chevron-right-circle"></i>
+          </div>
+        </header>
+        <nav class="sidebar-nav">
+          <!--primary top nav-->
+          <ul class="nav-list primary-nav">
+            <!--home-->
+            <li class="nav-item">
+              <a href="/home.html" class="nav-link active">
+                <i class="bx bx-home"></i>
+                <span class="nav-label">Home</span>
+              </a>
+            </li>
+            <!--categories-->
+            <li class="nav-item">
+              <a href="../categories/categories.html" class="nav-link">
+                <i class="bx bx-category"></i>
+                <span class="nav-label">Categories</span>
+              </a>
+            </li>
+            <!--services-->
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="bx bxs-calendar-alt"></i>
+                <span class="nav-label">Services</span>
+              </a>
+            </li>
+            <!--user-->
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="bx bx-user"></i>
+                <span class="nav-label">User</span>
+              </a>
+            </li>
+            <!--saved-->
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="bx bx-bookmark"></i>
+                <span class="nav-label">Saved</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+    <div class="center collapse">
+      <div class="right">
+        <h1>
+          Every day, we<br>discuss the most<br>interesting things !
+        </h1>
+        <button class="btn1">
+          <a href="../learn/learn.html">Learn More</a>
+        </button>
+      </div>
+      <!--second page-->
+      <div class="section">
+        <div class="section_title">
+          <h1><i class="bx bxs-microphone-alt"></i> New Podcast</h1>
+        </div>
+        <div class="featured_books">
+          <div class="podcasts_container new_podcasts_container"><div class="featured_book_card">
+            <div class="featured_book_img">
+              <a href="https://www.youtube.com/watch?v=Ab2jBAA1FQ8" target="_blank">
+                <img src="../../assets/empty-image.png" alt="سرطان الثدي لن يعيقني على عيش حياتي" onerror="this.src='../../assets/empty-image.png'">
+              </a>
+            </div>
+            <div class="featured_book_tag">
+              <div class="log-pod">
+                <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/Gossa-mlqalb.png" onerror="this.src='../../assets/empty-image.png'">
+                <h5 class="podcast_programme_title">- Gossra mlqalb -</h5>
+              </div>
+
+              <h3 class="writer">- Maisvault -</h3>
+
+              <div class="title">
+                <p title="سرطان الثدي لن يعيقني على عيش حياتي">سرطان الثدي لن يعيقني على عيش حياتي</p>
+              </div>
+              <!--            <div class="categories"></div>-->
+              <p class="podcast_rating">
+                <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+              </p>
+              <div class="podcast_card_actions">
+                <a href="https://www.youtube.com/watch?v=Ab2jBAA1FQ8" target="_blank" class="watch_link" title="Watch podcast">
+                  <div class="watch_button"> watch Now</div>
+                </a>
+
+              </div>
+            </div>
+          </div><div class="featured_book_card">
+            <div class="featured_book_img">
+              <a href="https://www.youtube.com/watch?v=UmWU83svG_M" target="_blank">
+                <img src="../../assets/empty-image.png" alt="فتح مطاعم في الجزائر" onerror="this.src='../../assets/empty-image.png'">
+              </a>
+            </div>
+            <div class="featured_book_tag">
+              <div class="log-pod">
+                <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/Brainerx.png" onerror="this.src='../../assets/empty-image.png'">
+                <h5 class="podcast_programme_title">- BrainerX -</h5>
+              </div>
+
+              <h3 class="writer">- Amine la Cantine -</h3>
+
+              <div class="title">
+                <p title="فتح مطاعم في الجزائر">فتح مطاعم في الجزائر</p>
+              </div>
+              <!--            <div class="categories"></div>-->
+              <p class="podcast_rating">
+                <i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+              </p>
+              <div class="podcast_card_actions">
+                <a href="https://www.youtube.com/watch?v=UmWU83svG_M" target="_blank" class="watch_link" title="Watch podcast">
+                  <div class="watch_button"> watch Now</div>
+                </a>
+
+              </div>
+            </div>
+          </div><div class="featured_book_card">
+            <div class="featured_book_img">
+              <a href="https://www.youtube.com/watch?v=O1IDKJrVdSU&amp;t=1s" target="_blank">
+                <img src="../../assets/empty-image.png" alt="مرتبة الأولى لأربعة سنوات بالمدرسة الوطنية للأشغال العمومية" onerror="this.src='../../assets/empty-image.png'">
+              </a>
+            </div>
+            <div class="featured_book_tag">
+              <div class="log-pod">
+                <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/Pathos.png" onerror="this.src='../../assets/empty-image.png'">
+                <h5 class="podcast_programme_title">- Pathos -</h5>
+              </div>
+
+              <h3 class="writer">- أيوب تيبازا -</h3>
+
+              <div class="title">
+                <p title="مرتبة الأولى لأربعة سنوات بالمدرسة الوطنية للأشغال العمومية">مرتبة الأولى لأربعة سنوات بالمدرسة الوطنية للأشغال العمومية</p>
+              </div>
+              <!--            <div class="categories"></div>-->
+              <p class="podcast_rating">
+                <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+              </p>
+              <div class="podcast_card_actions">
+                <a href="https://www.youtube.com/watch?v=O1IDKJrVdSU&amp;t=1s" target="_blank" class="watch_link" title="Watch podcast">
+                  <div class="watch_button"> watch Now</div>
+                </a>
+
+              </div>
+            </div>
+          </div><div class="featured_book_card">
+            <div class="featured_book_img">
+              <a href="https://www.youtube.com/watch?v=sWCo9TqFuZA&amp;t=2s" target="_blank">
+                <img src="../../assets/empty-image.png" alt="ا-كيف تحافظ المرأة المسلمة على هويتها؟" onerror="this.src='../../assets/empty-image.png'">
+              </a>
+            </div>
+            <div class="featured_book_tag">
+              <div class="log-pod">
+                <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/athir.png" onerror="this.src='../../assets/empty-image.png'">
+                <h5 class="podcast_programme_title">- Atheer -</h5>
+              </div>
+
+              <h3 class="writer">- الدكتورة هيفاء -</h3>
+
+              <div class="title">
+                <p title="ا-كيف تحافظ المرأة المسلمة على هويتها؟">ا-كيف تحافظ المرأة المسلمة على هويتها؟</p>
+              </div>
+              <!--            <div class="categories"></div>-->
+              <p class="podcast_rating">
+                <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+              </p>
+              <div class="podcast_card_actions">
+                <a href="https://www.youtube.com/watch?v=sWCo9TqFuZA&amp;t=2s" target="_blank" class="watch_link" title="Watch podcast">
+                  <div class="watch_button"> watch Now</div>
+                </a>
+
+              </div>
+            </div>
+          </div><div class="featured_book_card">
+            <div class="featured_book_img">
+              <a href="https://www.youtube.com/watch?v=sWCo9TqFuZA&amp;t=2s" target="_blank">
+                <img src="../../assets/empty-image.png" alt="ا-كيف تحافظ المرأة المسلمة على هويتها؟" onerror="this.src='../../assets/empty-image.png'">
+              </a>
+            </div>
+            <div class="featured_book_tag">
+              <div class="log-pod">
+                <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/athir.png" onerror="this.src='../../assets/empty-image.png'">
+                <h5 class="podcast_programme_title">- Atheer -</h5>
+              </div>
+
+              <h3 class="writer">- الدكتورة هيفاء -</h3>
+
+              <div class="title">
+                <p title="ا-كيف تحافظ المرأة المسلمة على هويتها؟">ا-كيف تحافظ المرأة المسلمة على هويتها؟</p>
+              </div>
+              <!--            <div class="categories"></div>-->
+              <p class="podcast_rating">
+                <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+              </p>
+              <div class="podcast_card_actions">
+                <a href="https://www.youtube.com/watch?v=sWCo9TqFuZA&amp;t=2s" target="_blank" class="watch_link" title="Watch podcast">
+                  <div class="watch_button"> watch Now</div>
+                </a>
+
+              </div>
+            </div>
+          </div><div class="featured_book_card">
+            <div class="featured_book_img">
+              <a href="https://www.youtube.com/watch?v=sWCo9TqFuZA&amp;t=2s" target="_blank">
+                <img src="../../assets/empty-image.png" alt="ا-كيف تحافظ المرأة المسلمة على هويتها؟" onerror="this.src='../../assets/empty-image.png'">
+              </a>
+            </div>
+            <div class="featured_book_tag">
+              <div class="log-pod">
+                <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/athir.png" onerror="this.src='../../assets/empty-image.png'">
+                <h5 class="podcast_programme_title">- Atheer -</h5>
+              </div>
+
+              <h3 class="writer">- الدكتورة هيفاء -</h3>
+
+              <div class="title">
+                <p title="ا-كيف تحافظ المرأة المسلمة على هويتها؟">ا-كيف تحافظ المرأة المسلمة على هويتها؟</p>
+              </div>
+              <!--            <div class="categories"></div>-->
+              <p class="podcast_rating">
+                <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+              </p>
+              <div class="podcast_card_actions">
+                <a href="https://www.youtube.com/watch?v=sWCo9TqFuZA&amp;t=2s" target="_blank" class="watch_link" title="Watch podcast">
+                  <div class="watch_button"> watch Now</div>
+                </a>
+
+              </div>
+            </div>
+          </div><div class="featured_book_card">
+            <div class="featured_book_img">
+              <a href="https://www.youtube.com/watch?v=sWCo9TqFuZA&amp;t=2s" target="_blank">
+                <img src="../../assets/empty-image.png" alt="ا-كيف تحافظ المرأة المسلمة على هويتها؟" onerror="this.src='../../assets/empty-image.png'">
+              </a>
+            </div>
+            <div class="featured_book_tag">
+              <div class="log-pod">
+                <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/athir.png" onerror="this.src='../../assets/empty-image.png'">
+                <h5 class="podcast_programme_title">- Atheer -</h5>
+              </div>
+
+              <h3 class="writer">- الدكتورة هيفاء -</h3>
+
+              <div class="title">
+                <p title="ا-كيف تحافظ المرأة المسلمة على هويتها؟">ا-كيف تحافظ المرأة المسلمة على هويتها؟</p>
+              </div>
+              <!--            <div class="categories"></div>-->
+              <p class="podcast_rating">
+                <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+              </p>
+              <div class="podcast_card_actions">
+                <a href="https://www.youtube.com/watch?v=sWCo9TqFuZA&amp;t=2s" target="_blank" class="watch_link" title="Watch podcast">
+                  <div class="watch_button"> watch Now</div>
+                </a>
+
+              </div>
+            </div>
+          </div></div>
+        </div>
+      </div>
+      <!--popular account-->
+      <section class="section" id="categories">
+        <div class="section_title">
+          <h1>Popular Account</h1>
+        </div>
+        <div class="popular_accounts_container">
+          <div class="articles"><div class="item">
+            <a href="../liqaa.html"><img src="../../assets/empty-image.png" alt="" onerror="this.src='../../assets/empty-image.png'"></a>
+            <div class="text">
+              <p>
+                <a href="../liqaa.html"><b>LIQAA</b></a>
+              </p>
+            </div>
+          </div><div class="item">
+            <a href="../brainerx.html"><img src="../../assets/empty-image.png" alt="" onerror="this.src='../../assets/empty-image.png'"></a>
+            <div class="text">
+              <p>
+                <a href="../brainerx.html"><b>Brainerx</b></a>
+              </p>
+            </div>
+          </div><div class="item">
+            <a href="../finjan.html"><img src="../../assets/empty-image.png" alt="" onerror="this.src='../../assets/empty-image.png'"></a>
+            <div class="text">
+              <p>
+                <a href="../finjan.html"><b>FINJAN</b></a>
+              </p>
+            </div>
+          </div><div class="item">
+            <a href="../pathos.html"><img src="../../assets/empty-image.png" alt="" onerror="this.src='../../assets/empty-image.png'"></a>
+            <div class="text">
+              <p>
+                <a href="../pathos.html"><b>PATHOS</b></a>
+              </p>
+            </div>
+          </div><div class="item">
+            <a href="../wathbaa.html"><img src="../../assets/empty-image.png" alt="" onerror="this.src='../../assets/empty-image.png'"></a>
+            <div class="text">
+              <p>
+                <a href="../wathbaa.html"><b>WATHBA</b></a>
+              </p>
+            </div>
+          </div><div class="item">
+            <a href="../eyatalks.html"><img src="../../assets/empty-image.png" alt="" onerror="this.src='../../assets/empty-image.png'"></a>
+            <div class="text">
+              <p>
+                <a href="../eyatalks.html"><b>EYATALKS</b></a>
+              </p>
+            </div>
+          </div></div>
+          <div class="see_more_container">
+            <a href="../accounts/account.html" class="see_more_btn">
+              <p>See all</p>
+              <i class="bx bx-right-arrow-circle"></i>
+            </a>
+          </div>
+        </div>
+
+      </section>
+      <!--handicap-->
+      <section class="section" id="categories1">
+        <div class="section_title"><h1>What make Our Website unique ?</h1></div>
+        <div class="handicap">
+          <div class="handicap_container">
+            <p class="paragraph">
+              At [Your Podcast Name], we believe that knowledge and meaningful conversations
+              should be accessible to everyone. That’s why our platform is dedicated to
+              making podcast content inclusive for the deaf and mute community. With the
+              help of expert sign language interpreters, we provide accessible episodes,
+              visual storytelling, and interactive discussions to ensure no one is left out.
+              Our goal is to bridge the communication gap, foster learning, and create a
+              space where everyone can engage, connect, and grow—because true inclusivity
+              means giving every voice the chance to be heard.
+            </p>
+            <div class="handicap_right video">
+              <a href="https://www.youtube.com/watch?v=lj7V-z2SfKA" target="">
+                <img src="../../assets/handicap.jpg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Most popular-->
+      <section class="section" id="categories2">
+        <div class="section_title">
+          <h1><i class="bx bxs-microphone-alt"></i> Popular Podcast</h1>
+        </div>
+        <div class="featured_books">
+          <div class="podcasts_container popular_podcasts_container"><div class="featured_book_card">
+            <div class="featured_book_img">
+              <a href="https://www.youtube.com/watch?v=K8eaSZ18WgE&amp;t=1s" target="_blank">
+                <img src="../../assets/empty-image.png" alt="- ASMA LINA FERNAN - اضطرابات النوم" onerror="this.src='../../assets/empty-image.png'">
+              </a>
+            </div>
+            <div class="featured_book_tag">
+              <div class="log-pod">
+                <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/logo labo.png" onerror="this.src='../../assets/empty-image.png'">
+                <h5 class="podcast_programme_title">- -PH TALK- -</h5>
+              </div>
+
+
+
+              <div class="title">
+                <p title="- ASMA LINA FERNAN - اضطرابات النوم">- ASMA LINA FERNAN - اضطرابات النوم</p>
+              </div>
+              <!--            <div class="categories"></div>-->
+              <p class="podcast_rating">
+                <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+              </p>
+              <div class="podcast_card_actions">
+                <a href="https://www.youtube.com/watch?v=K8eaSZ18WgE&amp;t=1s" target="_blank" class="watch_link" title="Watch podcast">
+                  <div class="watch_button"> watch Now</div>
+                </a>
+                <div class="favourite_icon">
+                  <a href="#" title="Save podcast">
+                    <i class="bx bx-bookmark"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div><div class="featured_book_card">
+            <div class="featured_book_img">
+              <a href="https://www.youtube.com/watch?v=GIFasEMWC8A&amp;t=67s" target="_blank">
+                <img src="../../assets/empty-image.png" alt="- شخصيات سامة (كيف نتعامل معها؟) -بودكاست الهنوف" onerror="this.src='../../assets/empty-image.png'">
+              </a>
+            </div>
+            <div class="featured_book_tag">
+              <div class="log-pod">
+                <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/wathba.png" onerror="this.src='../../assets/empty-image.png'">
+                <h5 class="podcast_programme_title">- Wathba -</h5>
+              </div>
+
+
+
+              <div class="title">
+                <p title="- شخصيات سامة (كيف نتعامل معها؟) -بودكاست الهنوف">- شخصيات سامة (كيف نتعامل معها؟) -بودكاست الهنوف</p>
+              </div>
+              <!--            <div class="categories"></div>-->
+              <p class="podcast_rating">
+                <i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+              </p>
+              <div class="podcast_card_actions">
+                <a href="https://www.youtube.com/watch?v=GIFasEMWC8A&amp;t=67s" target="_blank" class="watch_link" title="Watch podcast">
+                  <div class="watch_button"> watch Now</div>
+                </a>
+                <div class="favourite_icon">
+                  <a href="#" title="Save podcast">
+                    <i class="bx bx-bookmark"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div><div class="featured_book_card">
+            <div class="featured_book_img">
+              <a href="https://www.youtube.com/watch?v=pJ0auP7dbcY&amp;t=54s" target="_blank">
+                <img src="../../assets/empty-image.png" alt="-كيف تنجح العلاقات- ياسر الحزيمي" onerror="this.src='../../assets/empty-image.png'">
+              </a>
+            </div>
+            <div class="featured_book_tag">
+              <div class="log-pod">
+                <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/finjan.png" onerror="this.src='../../assets/empty-image.png'">
+                <h5 class="podcast_programme_title">- Finjan -</h5>
+              </div>
+
+
+
+              <div class="title">
+                <p title="-كيف تنجح العلاقات- ياسر الحزيمي">-كيف تنجح العلاقات- ياسر الحزيمي</p>
+              </div>
+              <!--            <div class="categories"></div>-->
+              <p class="podcast_rating">
+                <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+              </p>
+              <div class="podcast_card_actions">
+                <a href="https://www.youtube.com/watch?v=pJ0auP7dbcY&amp;t=54s" target="_blank" class="watch_link" title="Watch podcast">
+                  <div class="watch_button"> watch Now</div>
+                </a>
+                <div class="favourite_icon">
+                  <a href="#" title="Save podcast">
+                    <i class="bx bx-bookmark"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div><div class="featured_book_card">
+            <div class="featured_book_img">
+              <a href="https://www.youtube.com/watch?v=8pzPZfoxN6Q&amp;t=1455s" target="_blank">
+                <img src="../../assets/empty-image.png" alt="- Mezian Dahou - الثقافة المالية" onerror="this.src='../../assets/empty-image.png'">
+              </a>
+            </div>
+            <div class="featured_book_tag">
+              <div class="log-pod">
+                <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/Brainerx.png" onerror="this.src='../../assets/empty-image.png'">
+                <h5 class="podcast_programme_title">- Brainerx -</h5>
+              </div>
+
+
+
+              <div class="title">
+                <p title="- Mezian Dahou - الثقافة المالية">- Mezian Dahou - الثقافة المالية</p>
+              </div>
+              <!--            <div class="categories"></div>-->
+              <p class="podcast_rating">
+                <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+              </p>
+              <div class="podcast_card_actions">
+                <a href="https://www.youtube.com/watch?v=8pzPZfoxN6Q&amp;t=1455s" target="_blank" class="watch_link" title="Watch podcast">
+                  <div class="watch_button"> watch Now</div>
+                </a>
+                <div class="favourite_icon">
+                  <a href="#" title="Save podcast">
+                    <i class="bx bx-bookmark"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div><div class="featured_book_card">
+            <div class="featured_book_img">
+              <a href="https://www.youtube.com/watch?v=Ab2jBAA1FQ8" target="_blank">
+                <img src="../../assets/empty-image.png" alt="- Chegrouche Abire -Valedictorian ~ École Nationale Polytechnique" onerror="this.src='../../assets/empty-image.png'">
+              </a>
+            </div>
+            <div class="featured_book_tag">
+              <div class="log-pod">
+                <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/Gossa-mlqalb.png" onerror="this.src='../../assets/empty-image.png'">
+                <h5 class="podcast_programme_title">- Pathos -</h5>
+              </div>
+
+
+
+              <div class="title">
+                <p title="- Chegrouche Abire -Valedictorian ~ École Nationale Polytechnique">- Chegrouche Abire -Valedictorian ~ École Nationale Polytechnique</p>
+              </div>
+              <!--            <div class="categories"></div>-->
+              <p class="podcast_rating">
+                <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+              </p>
+              <div class="podcast_card_actions">
+                <a href="https://www.youtube.com/watch?v=Ab2jBAA1FQ8" target="_blank" class="watch_link" title="Watch podcast">
+                  <div class="watch_button"> watch Now</div>
+                </a>
+                <div class="favourite_icon">
+                  <a href="#" title="Save podcast">
+                    <i class="bx bx-bookmark"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div></div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
+
+</body></html>

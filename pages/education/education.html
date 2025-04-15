@@ -1,130 +1,695 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="education.css">
-    <link rel="stylesheet" href="../../css/topbar.css" />
-    <link rel="stylesheet" href="../../css/navbar.css" />
-    <link rel="stylesheet" href="../../css/header.css" />
-    <link rel="stylesheet" href="../../css/sidebar.css" />
-    <link rel="stylesheet" href="../../css/card.css" />
-    <link rel="stylesheet" href="../../css/common.css" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="../../js/common.js" defer ></script>
-    <script src="education.js" defer ></script>
-    <title>Education</title>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="education.css">
+  <link rel="stylesheet" href="../../css/topbar.css">
+  <link rel="stylesheet" href="../../css/navbar.css">
+  <link rel="stylesheet" href="../../css/header.css">
+  <link rel="stylesheet" href="../../css/sidebar.css">
+  <link rel="stylesheet" href="../../css/card.css">
+  <link rel="stylesheet" href="../../css/common.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <script src="../../js/common.js" defer=""></script>
+  <title>Education</title>
 </head>
 <body>
-  <div class="home">
-    <div class="nav">
-      <div class="logo">
-        <img src="../../assets/logopodc-removebg-preview.png" alt="../assets3/logopodc-removebg-preview.png"/>
-      </div>
-      <div class="list">
-        <div class="search-box">
-          <input label="Search..." autocomplete="off" type="text" name="" id="search-input" placeholder="search ..." />
-          <i class="bx bx-search-alt-2"></i>
-          <div class="search_suggestion">
-            <ul class="search_suggestion_list">
-              <li class="search_suggestion_item">item 1</li>
-              <li class="search_suggestion_item">item 2</li>
-              <li class="search_suggestion_item">item 3</li>
-            </ul>
-          </div>
+<div class="home">
+  <div class="nav">
+    <div class="logo">
+      <img src="../../assets/logopodc-removebg-preview.png" alt="../assets3/logopodc-removebg-preview.png">
+    </div>
+    <div class="list">
+      <div class="search-box">
+        <input label="Search..." autocomplete="off" type="text" name="" id="search-input" placeholder="search ...">
+        <i class="bx bx-search-alt-2"></i>
+        <div class="search_suggestion">
+          <ul class="search_suggestion_list">
+            <li class="search_suggestion_item">item 1</li>
+            <li class="search_suggestion_item">item 2</li>
+            <li class="search_suggestion_item">item 3</li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
-  <div class="main">
-    <aside class="sidebar">
-      <!--sidebar header-->
-      <div class="sidebar_container">
-        <header class="sidebar-header">
-          <div class="sidebar-toggle">
-            <i class="bx bx-chevron-right-circle"></i>
+</div>
+<div class="main">
+  <aside class="sidebar collapse">
+    <!--sidebar header-->
+    <div class="sidebar_container">
+      <header class="sidebar-header collapse">
+        <div class="sidebar-toggle">
+          <i class="bx bx-chevron-right-circle"></i>
+        </div>
+      </header>
+      <nav class="sidebar-nav">
+        <!--primary top nav-->
+        <ul class="nav-list primary-nav">
+          <!--home-->
+          <li class="nav-item">
+            <a href="../home/home.html" class="nav-link">
+              <i class="bx bx-home"></i>
+              <span class="nav-label">Home</span>
+            </a>
+          </li>
+          <!--categories-->
+          <li class="nav-item">
+            <a href="../categories/categories.html" class="nav-link active">
+              <i class="bx bx-category"></i>
+              <span class="nav-label">Categories</span>
+            </a>
+          </li>
+          <!--services-->
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="bx bxs-calendar-alt"></i>
+              <span class="nav-label">Services</span>
+            </a>
+          </li>
+          <!--user-->
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="bx bx-user"></i>
+              <span class="nav-label">User</span>
+            </a>
+          </li>
+          <!--saved-->
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="bx bx-bookmark"></i>
+              <span class="nav-label">Saved</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+  <div class="center collapse">
+    <div class="container">
+      <div class="categories_list">
+        <ul>
+          <li class="nav-link"><a href="../categories/categories.html">All</a></li>
+          <li class="nav-link"><a href="../health/health.html">health</a></li>
+          <li class="nav-link active">
+            <a href="./education.html">Education
+              <span class="material-icons dropdown-icon"></span>
+            </a>
+          </li>
+          <li class="nav-link"><a href="#">Sport</a></li>
+          <li class="nav-link"><a href="#">Life</a></li>
+          <li class="nav-link"><a href="#">Religion&amp;culture</a></li>
+          <li class="nav-link"><a href="#">Business</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section_title">
+        <i class="bx bx-buildings"></i> Universities
+      </div>
+      <div class="profiles_card_container universities_container"><div class="profile_card_container university_container">
+        <a href="../profiles/alg.html">
+          <img src="../../assets/empty-image.png" alt="ALG-UNV" onerror="this.src='../../assets/empty-image.png'">
+          <p>ALG-UNV</p>
+        </a>
+      </div><div class="profile_card_container university_container">
+        <a href="../profiles/ensb.html">
+          <img src="../../assets/empty-image.png" alt="ENSB" onerror="this.src='../../assets/empty-image.png'">
+          <p>ENSB</p>
+        </a>
+      </div><div class="profile_card_container university_container">
+        <a href="../../profiles/usthb.html">
+          <img src="../../assets/empty-image.png" alt="USTHB" onerror="this.src='../../assets/empty-image.png'">
+          <p>USTHB</p>
+        </a>
+      </div><div class="profile_card_container university_container">
+        <a href="../../profiles/alg3.html">
+          <img src="../../assets/empty-image.png" alt="ALG UNV3" onerror="this.src='../../assets/empty-image.png'">
+          <p>ALG UNV3</p>
+        </a>
+      </div><div class="profile_card_container university_container">
+        <a href="../../profiles/pathos.html">
+          <img src="../../assets/pathos.png" alt="Pathos" onerror="this.src='../../assets/empty-image.png'">
+          <p>Pathos</p>
+        </a>
+      </div><div class="profile_card_container university_container">
+        <a href="../../profiles/alg.html">
+          <img src="../../assets/empty-image.png" alt="ALG UNV" onerror="this.src='../../assets/empty-image.png'">
+          <p>ALG UNV</p>
+        </a>
+      </div><div class="profile_card_container university_container">
+        <a href="../../profiles/alg2.html">
+          <img src="../../assets/empty-image.png" alt="AlG UNV2" onerror="this.src='../../assets/empty-image.png'">
+          <p>AlG UNV2</p>
+        </a>
+      </div><div class="profile_card_container university_container">
+        <a href="../profiles/cuillizi.html">
+          <img src="../../assets/empty-image.png" alt="cu-illizi" onerror="this.src='../../assets/empty-image.png'">
+          <p>cu-illizi</p>
+        </a>
+      </div></div>
+    </div>
+    <!--heading-->
+    <div class="section">
+      <div class="section_title">
+        <i class="bx bxs-microphone-alt"></i> All podcasts
+      </div>
+      <div class="featured_books education">
+        <div class="podcasts_container sections_container"><div class="featured_book_card">
+          <div class="featured_book_img">
+            <a href="../../profiles/bnmchich.html" target="_blank">
+              <img src="../../assets/Benmchich.jpg" alt="computer science Dr who earned his PhD in Malaysia, sharing his academic journey." onerror="this.src='../../assets/empty-image.png'">
+            </a>
           </div>
-        </header>
-        <nav class="sidebar-nav">
-          <!--primary top nav-->
-          <ul class="nav-list primary-nav">
-            <!--home-->
-            <li class="nav-item">
-              <a href="../home/home.html" class="nav-link">
-                <i class="bx bx-home"></i>
-                <span class="nav-label">Home</span>
+          <div class="featured_book_tag">
+            <div class="log-pod">
+              <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="../../assets/logo fac.jpeg" onerror="this.src='../../assets/empty-image.png'">
+              <h5 class="podcast_programme_title">- Innovatech -</h5>
+            </div>
+            <div>
+              <h3 class="writer">- Benmchich Abdelrahim -</h3>
+              <h3 class="role">- Dr in -cuillizi- -</h3>
+            </div>
+            <div class="title">
+              <p title="computer science Dr who earned his PhD in Malaysia, sharing his academic journey.">computer science Dr who earned his PhD in Malaysia, sharing his academic journey.</p>
+            </div>
+            <!--<div class="categories"></div>-->
+            <p class="podcast_rating">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </p>
+            <div class="podcast_card_actions">
+              <a href="../../profiles/bnmchich.html" target="_blank" class="watch_link" title="Watch podcast">
+                <div class="watch_button"> watch Now</div>
               </a>
-            </li>
-            <!--categories-->
-            <li class="nav-item">
-              <a href="../categories/categories.html" class="nav-link active">
-                <i class="bx bx-category"></i>
-                <span class="nav-label">Categories</span>
+              <div class="favourite_icon">
+                <a href="#" title="Save podcast">
+                  <i class="bx bx-bookmark"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div><div class="featured_book_card">
+          <div class="featured_book_img">
+            <a href="https://www.youtube.com/watch?v=lj7V-z2SfKA&amp;t=166s" target="_blank">
+              <img src="../../assets/empty-image.png" alt="Meriem shares her journey, her experiences as a top student, and her vision for the future ." onerror="this.src='../../assets/empty-image.png'">
+            </a>
+          </div>
+          <div class="featured_book_tag">
+            <div class="log-pod">
+              <img class="podcast_programme_logo" src="../../assets/pathos.png" alt="../../assets/pathos.png" onerror="this.src='../../assets/empty-image.png'">
+              <h5 class="podcast_programme_title">- Pathos -</h5>
+            </div>
+            <div>
+              <h3 class="writer">- Meriem Ihcen Douifi -</h3>
+              <h3 class="role">- valedictorian -</h3>
+            </div>
+            <div class="title">
+              <p title="Meriem shares her journey, her experiences as a top student, and her vision for the future .">Meriem shares her journey, her experiences as a top student, and her vision for the future .</p>
+            </div>
+            <!--<div class="categories"></div>-->
+            <p class="podcast_rating">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </p>
+            <div class="podcast_card_actions">
+              <a href="https://www.youtube.com/watch?v=lj7V-z2SfKA&amp;t=166s" target="_blank" class="watch_link" title="Watch podcast">
+                <div class="watch_button"> watch Now</div>
               </a>
-            </li>
-            <!--services-->
-            <li class="nav-item">
-              <a href="#" class="nav-link">
-                <i class="bx bxs-calendar-alt"></i>
-                <span class="nav-label">Services</span>
+              <div class="favourite_icon">
+                <a href="#" title="Save podcast">
+                  <i class="bx bx-bookmark"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div><div class="featured_book_card">
+          <div class="featured_book_img">
+            <a href="../../profiles/bengerdi.html" target="_blank">
+              <img src="../../assets/Mesikh.jpg" alt="Dr. BenGerdi Amine, sharing his academic and professional journey." onerror="this.src='../../assets/empty-image.png'">
+            </a>
+          </div>
+          <div class="featured_book_tag">
+            <div class="log-pod">
+              <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="../../assets/logo fac.jpeg" onerror="this.src='../../assets/empty-image.png'">
+              <h5 class="podcast_programme_title">- Innovatech -</h5>
+            </div>
+            <div>
+              <h3 class="writer">- Bengerdi Mohamed Amine -</h3>
+              <h3 class="role">- Dr in law -cuillizi- -</h3>
+            </div>
+            <div class="title">
+              <p title="Dr. BenGerdi Amine, sharing his academic and professional journey.">Dr. BenGerdi Amine, sharing his academic and professional journey.</p>
+            </div>
+            <!--<div class="categories"></div>-->
+            <p class="podcast_rating">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </p>
+            <div class="podcast_card_actions">
+              <a href="../../profiles/bengerdi.html" target="_blank" class="watch_link" title="Watch podcast">
+                <div class="watch_button"> watch Now</div>
               </a>
-            </li>
-            <!--user-->
-            <li class="nav-item">
-              <a href="#" class="nav-link">
-                <i class="bx bx-user"></i>
-                <span class="nav-label">User</span>
+              <div class="favourite_icon">
+                <a href="#" title="Save podcast">
+                  <i class="bx bx-bookmark"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div><div class="featured_book_card">
+          <div class="featured_book_img">
+            <a href="https://www.youtube.com/watch?v=pPrLMbZ8X80&amp;t=2s" target="_blank">
+              <img src="../../assets/empty-image.png" alt="Touahria shares her story, the challenges she has faced, and her journey to becoming the top student" onerror="this.src='../../assets/empty-image.png'">
+            </a>
+          </div>
+          <div class="featured_book_tag">
+            <div class="log-pod">
+              <img class="podcast_programme_logo" src="../../assets/pathos.png" alt="../../assets/pathos.png" onerror="this.src='../../assets/empty-image.png'">
+              <h5 class="podcast_programme_title">- Pathos -</h5>
+            </div>
+            <div>
+              <h3 class="writer">- Touahria Belkisse -</h3>
+              <h3 class="role">- Valedictorian -</h3>
+            </div>
+            <div class="title">
+              <p title="Touahria shares her story, the challenges she has faced, and her journey to becoming the top student">Touahria shares her story, the challenges she has faced, and her journey to becoming the top student</p>
+            </div>
+            <!--<div class="categories"></div>-->
+            <p class="podcast_rating">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </p>
+            <div class="podcast_card_actions">
+              <a href="https://www.youtube.com/watch?v=pPrLMbZ8X80&amp;t=2s" target="_blank" class="watch_link" title="Watch podcast">
+                <div class="watch_button"> watch Now</div>
               </a>
-            </li>
-            <!--saved-->
-            <li class="nav-item">
-              <a href="#" class="nav-link">
-                <i class="bx bx-bookmark"></i>
-                <span class="nav-label">Saved</span>
+              <div class="favourite_icon">
+                <a href="#" title="Save podcast">
+                  <i class="bx bx-bookmark"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div><div class="featured_book_card">
+          <div class="featured_book_img">
+            <a href="../../profiles/khtir.html" target="_blank">
+              <img src="../../assets/empty-image.png" alt="discuss his journey,  He shares insights on innovation,  leadership." onerror="this.src='../../assets/empty-image.png'">
+            </a>
+          </div>
+          <div class="featured_book_tag">
+            <div class="log-pod">
+              <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="../../assets/logo fac.jpeg" onerror="this.src='../../assets/empty-image.png'">
+              <h5 class="podcast_programme_title">- Innovatech -</h5>
+            </div>
+            <div>
+              <h3 class="writer">- Khthir Chin -</h3>
+              <h3 class="role">- Dr in economic -cuillizi- -</h3>
+            </div>
+            <div class="title">
+              <p title="discuss his journey,  He shares insights on innovation,  leadership.">discuss his journey,  He shares insights on innovation,  leadership.</p>
+            </div>
+            <!--<div class="categories"></div>-->
+            <p class="podcast_rating">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </p>
+            <div class="podcast_card_actions">
+              <a href="../../profiles/khtir.html" target="_blank" class="watch_link" title="Watch podcast">
+                <div class="watch_button"> watch Now</div>
               </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </aside>
-    <div class="center">
-      <div class="container">
-        <div class="categories_list">
-          <ul>
-            <li class="nav-link"><a href="../categories/categories.html">All</a></li>
-            <li class="nav-link"><a href="../health/health.html">health</a></li>
-            <li class="nav-link active">
-              <a href="./education.html">Education
-                <span class="material-icons dropdown-icon"></span>
+              <div class="favourite_icon">
+                <a href="#" title="Save podcast">
+                  <i class="bx bx-bookmark"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div><div class="featured_book_card">
+          <div class="featured_book_img">
+            <a href="../../profiles/moussa.html" target="_blank">
+              <img src="../../assets/moussa-boubaker.jpg" alt="Discussi his academic journey, leadership challenges, and vision for the university." onerror="this.src='../../assets/empty-image.png'">
+            </a>
+          </div>
+          <div class="featured_book_tag">
+            <div class="log-pod">
+              <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="../../assets/logo fac.jpeg" onerror="this.src='../../assets/empty-image.png'">
+              <h5 class="podcast_programme_title">- Innovattech -</h5>
+            </div>
+            <div>
+              <h3 class="writer">- Boubaker Moussa -</h3>
+              <h3 class="role">- chancellor of CU Illizi -</h3>
+            </div>
+            <div class="title">
+              <p title="Discussi his academic journey, leadership challenges, and vision for the university.">Discussi his academic journey, leadership challenges, and vision for the university.</p>
+            </div>
+            <!--<div class="categories"></div>-->
+            <p class="podcast_rating">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </p>
+            <div class="podcast_card_actions">
+              <a href="../../profiles/moussa.html" target="_blank" class="watch_link" title="Watch podcast">
+                <div class="watch_button"> watch Now</div>
               </a>
-            </li>
-            <li class="nav-link"><a href="#">Sport</a></li>
-            <li class="nav-link"><a href="#">Life</a></li>
-            <li class="nav-link"><a href="#">Religion&culture</a></li>
-            <li class="nav-link"><a href="#">Business</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="section">
-        <div class="section_title">
-          <i class='bx bx-buildings' ></i> Universities
-        </div>
-        <div class="profiles_card_container universities_container"></div>
-      </div>
-      <!--heading-->
-      <div class="section">
-        <div class="section_title">
-           <i class='bx bxs-microphone-alt'></i> All podcasts
-        </div>
-        <div class="featured_books education">
-          <div class="podcasts_container sections_container"></div>
-        </div>
-
+              <div class="favourite_icon">
+                <a href="#" title="Save podcast">
+                  <i class="bx bx-bookmark"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div><div class="featured_book_card">
+          <div class="featured_book_img">
+            <a href="https://www.youtube.com/watch?v=rvMoX1KOwhY&amp;t=2s" target="_blank">
+              <img src="../../assets/bengerdi.jpg" alt="Dr. Messaïkh Chouaib, shares his academic journey and vision for computer science in Illizi." onerror="this.src='../../assets/empty-image.png'">
+            </a>
+          </div>
+          <div class="featured_book_tag">
+            <div class="log-pod">
+              <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="../../assets/logo fac.jpeg" onerror="this.src='../../assets/empty-image.png'">
+              <h5 class="podcast_programme_title">- Innovatech -</h5>
+            </div>
+            <div>
+              <h3 class="writer">- Mesikh Chouaib -</h3>
+              <h3 class="role">- Dr of cs -cuillizi- -</h3>
+            </div>
+            <div class="title">
+              <p title="Dr. Messaïkh Chouaib, shares his academic journey and vision for computer science in Illizi.">Dr. Messaïkh Chouaib, shares his academic journey and vision for computer science in Illizi.</p>
+            </div>
+            <!--<div class="categories"></div>-->
+            <p class="podcast_rating">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </p>
+            <div class="podcast_card_actions">
+              <a href="https://www.youtube.com/watch?v=rvMoX1KOwhY&amp;t=2s" target="_blank" class="watch_link" title="Watch podcast">
+                <div class="watch_button"> watch Now</div>
+              </a>
+              <div class="favourite_icon">
+                <a href="#" title="Save podcast">
+                  <i class="bx bx-bookmark"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div><div class="featured_book_card">
+          <div class="featured_book_img">
+            <a href="https://www.youtube.com/watch?v=mSKqxXaSHxY&amp;t=1s" target="_blank">
+              <img src="../../assets/empty-image.png" alt="Sarah opens up about the role her family played in her journey." onerror="this.src='../../assets/empty-image.png'">
+            </a>
+          </div>
+          <div class="featured_book_tag">
+            <div class="log-pod">
+              <img class="podcast_programme_logo" src="../../assets/pathos.png" alt="../../assets/pathos.png" onerror="this.src='../../assets/empty-image.png'">
+              <h5 class="podcast_programme_title">- Pathos -</h5>
+            </div>
+            <div>
+              <h3 class="writer">- Sarah Kkretche -</h3>
+              <h3 class="role">- Valedictorian ~ University of Mouloud Mammeri Tizi-Ouzou -</h3>
+            </div>
+            <div class="title">
+              <p title="Sarah opens up about the role her family played in her journey.">Sarah opens up about the role her family played in her journey.</p>
+            </div>
+            <!--<div class="categories"></div>-->
+            <p class="podcast_rating">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </p>
+            <div class="podcast_card_actions">
+              <a href="https://www.youtube.com/watch?v=mSKqxXaSHxY&amp;t=1s" target="_blank" class="watch_link" title="Watch podcast">
+                <div class="watch_button"> watch Now</div>
+              </a>
+              <div class="favourite_icon">
+                <a href="#" title="Save podcast">
+                  <i class="bx bx-bookmark"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div><div class="featured_book_card">
+          <div class="featured_book_img">
+            <a href="https://www.youtube.com/watch?v=sFlpm1KUkw4" target="_blank">
+              <img src="../../assets/empty-image.png" alt="Mounaïm shares how veterinary medicine goes far beyond just treating animals." onerror="this.src='../../assets/empty-image.png'">
+            </a>
+          </div>
+          <div class="featured_book_tag">
+            <div class="log-pod">
+              <img class="podcast_programme_logo" src="../../assets/pathos.png" alt="../../assets/pathos.png" onerror="this.src='../../assets/empty-image.png'">
+              <h5 class="podcast_programme_title">- Pathos -</h5>
+            </div>
+            <div>
+              <h3 class="writer">- Monaim Ramdani -</h3>
+              <h3 class="role">- Valedictorian ~ Veterinary Medicine -</h3>
+            </div>
+            <div class="title">
+              <p title="Mounaïm shares how veterinary medicine goes far beyond just treating animals.">Mounaïm shares how veterinary medicine goes far beyond just treating animals.</p>
+            </div>
+            <!--<div class="categories"></div>-->
+            <p class="podcast_rating">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </p>
+            <div class="podcast_card_actions">
+              <a href="https://www.youtube.com/watch?v=sFlpm1KUkw4" target="_blank" class="watch_link" title="Watch podcast">
+                <div class="watch_button"> watch Now</div>
+              </a>
+              <div class="favourite_icon">
+                <a href="#" title="Save podcast">
+                  <i class="bx bx-bookmark"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div><div class="featured_book_card">
+          <div class="featured_book_img">
+            <a href="https://www.youtube.com/watch?v=4VthxAUGuQ8" target="_blank">
+              <img src="../../assets/empty-image.png" alt="Zineb shares how she switched from medicine to mathematics." onerror="this.src='../../assets/empty-image.png'">
+            </a>
+          </div>
+          <div class="featured_book_tag">
+            <div class="log-pod">
+              <img class="podcast_programme_logo" src="../../assets/pathos.png" alt="../../assets/pathos.png" onerror="this.src='../../assets/empty-image.png'">
+              <h5 class="podcast_programme_title">- Pathos -</h5>
+            </div>
+            <div>
+              <h3 class="writer">- Zineb Zellak -</h3>
+              <h3 class="role">- Valedictorian ~ Mathematics ~ Algeria &amp; Turkey -</h3>
+            </div>
+            <div class="title">
+              <p title="Zineb shares how she switched from medicine to mathematics.">Zineb shares how she switched from medicine to mathematics.</p>
+            </div>
+            <!--<div class="categories"></div>-->
+            <p class="podcast_rating">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </p>
+            <div class="podcast_card_actions">
+              <a href="https://www.youtube.com/watch?v=4VthxAUGuQ8" target="_blank" class="watch_link" title="Watch podcast">
+                <div class="watch_button"> watch Now</div>
+              </a>
+              <div class="favourite_icon">
+                <a href="#" title="Save podcast">
+                  <i class="bx bx-bookmark"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div><div class="featured_book_card">
+          <div class="featured_book_img">
+            <a href="https://www.youtube.com/watch?v=gpTxbsgAZyE&amp;t=2522s" target="_blank">
+              <img src="../../assets/empty-image.png" alt="Raihane shares her story, her journey to becoming the top student." onerror="this.src='../../assets/empty-image.png'">
+            </a>
+          </div>
+          <div class="featured_book_tag">
+            <div class="log-pod">
+              <img class="podcast_programme_logo" src="../../assets/pathos.png" alt="../../assets/pathos.png" onerror="this.src='../../assets/empty-image.png'">
+              <h5 class="podcast_programme_title">- Pathos -</h5>
+            </div>
+            <div>
+              <h3 class="writer">- Raihane Mounira Bensfia -</h3>
+              <h3 class="role">- Valedictorian ~ Institute of Translation in Algiers -</h3>
+            </div>
+            <div class="title">
+              <p title="Raihane shares her story, her journey to becoming the top student.">Raihane shares her story, her journey to becoming the top student.</p>
+            </div>
+            <!--<div class="categories"></div>-->
+            <p class="podcast_rating">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </p>
+            <div class="podcast_card_actions">
+              <a href="https://www.youtube.com/watch?v=gpTxbsgAZyE&amp;t=2522s" target="_blank" class="watch_link" title="Watch podcast">
+                <div class="watch_button"> watch Now</div>
+              </a>
+              <div class="favourite_icon">
+                <a href="#" title="Save podcast">
+                  <i class="bx bx-bookmark"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div><div class="featured_book_card">
+          <div class="featured_book_img">
+            <a href="https://www.youtube.com/watch?v=XOMe_RgbAy8" target="_blank">
+              <img src="../../assets/empty-image.png" alt="Merzouk shares his achievements, his leadership role in Algenius." onerror="this.src='../../assets/empty-image.png'">
+            </a>
+          </div>
+          <div class="featured_book_tag">
+            <div class="log-pod">
+              <img class="podcast_programme_logo" src="../../assets/pathos.png" alt="../../assets/pathos.png" onerror="this.src='../../assets/empty-image.png'">
+              <h5 class="podcast_programme_title">- Pathos -</h5>
+            </div>
+            <div>
+              <h3 class="writer">- Merzouk Djafar -</h3>
+              <h3 class="role">- Valedictorian ~ ENS Technologies Avancées ~ Algeria -</h3>
+            </div>
+            <div class="title">
+              <p title="Merzouk shares his achievements, his leadership role in Algenius.">Merzouk shares his achievements, his leadership role in Algenius.</p>
+            </div>
+            <!--<div class="categories"></div>-->
+            <p class="podcast_rating">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </p>
+            <div class="podcast_card_actions">
+              <a href="https://www.youtube.com/watch?v=XOMe_RgbAy8" target="_blank" class="watch_link" title="Watch podcast">
+                <div class="watch_button"> watch Now</div>
+              </a>
+              <div class="favourite_icon">
+                <a href="#" title="Save podcast">
+                  <i class="bx bx-bookmark"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div><div class="featured_book_card">
+          <div class="featured_book_img">
+            <a href="https://www.youtube.com/watch?v=uZwr9Fr1u90" target="_blank">
+              <img src="../../assets/empty-image.png" alt="Rofaida opens up about the challenges she faced, the sacrifices made along the way." onerror="this.src='../../assets/empty-image.png'">
+            </a>
+          </div>
+          <div class="featured_book_tag">
+            <div class="log-pod">
+              <img class="podcast_programme_logo" src="../../assets/pathos.png" alt="../../assets/pathos.png" onerror="this.src='../../assets/empty-image.png'">
+              <h5 class="podcast_programme_title">- Pathos -</h5>
+            </div>
+            <div>
+              <h3 class="writer">- Rofaida Mheni -</h3>
+              <h3 class="role">- Valedictorian ~ Journalism -</h3>
+            </div>
+            <div class="title">
+              <p title="Rofaida opens up about the challenges she faced, the sacrifices made along the way.">Rofaida opens up about the challenges she faced, the sacrifices made along the way.</p>
+            </div>
+            <!--<div class="categories"></div>-->
+            <p class="podcast_rating">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </p>
+            <div class="podcast_card_actions">
+              <a href="https://www.youtube.com/watch?v=uZwr9Fr1u90" target="_blank" class="watch_link" title="Watch podcast">
+                <div class="watch_button"> watch Now</div>
+              </a>
+              <div class="favourite_icon">
+                <a href="#" title="Save podcast">
+                  <i class="bx bx-bookmark"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div><div class="featured_book_card">
+          <div class="featured_book_img">
+            <a href="https://www.youtube.com/watch?v=uMCm1vXA41Q&amp;t=1s" target="_blank">
+              <img src="../../assets/empty-image.png" alt="Sirtoual shares her story, her journey to becoming the top student." onerror="this.src='../../assets/empty-image.png'">
+            </a>
+          </div>
+          <div class="featured_book_tag">
+            <div class="log-pod">
+              <img class="podcast_programme_logo" src="../../assets/pathos.png" alt="../../assets/pathos.png" onerror="this.src='../../assets/empty-image.png'">
+              <h5 class="podcast_programme_title">- Pathos -</h5>
+            </div>
+            <div>
+              <h3 class="writer">- Sirtoual Maram -</h3>
+              <h3 class="role">- Valedictorian ~ Higher National School of Political Science -</h3>
+            </div>
+            <div class="title">
+              <p title="Sirtoual shares her story, her journey to becoming the top student.">Sirtoual shares her story, her journey to becoming the top student.</p>
+            </div>
+            <!--<div class="categories"></div>-->
+            <p class="podcast_rating">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </p>
+            <div class="podcast_card_actions">
+              <a href="https://www.youtube.com/watch?v=uMCm1vXA41Q&amp;t=1s" target="_blank" class="watch_link" title="Watch podcast">
+                <div class="watch_button"> watch Now</div>
+              </a>
+              <div class="favourite_icon">
+                <a href="#" title="Save podcast">
+                  <i class="bx bx-bookmark"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div><div class="featured_book_card">
+          <div class="featured_book_img">
+            <a href="https://www.youtube.com/watch?v=XArKBPizgvw&amp;t=69s" target="_blank">
+              <img src="../../assets/empty-image.png" alt="Amine shares his unique approach to studying, providing valuable advice for students and professionals alike." onerror="this.src='../../assets/empty-image.png'">
+            </a>
+          </div>
+          <div class="featured_book_tag">
+            <div class="log-pod">
+              <img class="podcast_programme_logo" src="../../assets/pathos.png" alt="../../assets/pathos.png" onerror="this.src='../../assets/empty-image.png'">
+              <h5 class="podcast_programme_title">- Pathos -</h5>
+            </div>
+            <div>
+              <h3 class="writer">- Bennacer Amine Rami -</h3>
+              <h3 class="role">- Valedictorian ~ ENP Alger -</h3>
+            </div>
+            <div class="title">
+              <p title="Amine shares his unique approach to studying, providing valuable advice for students and professionals alike.">Amine shares his unique approach to studying, providing valuable advice for students and professionals alike.</p>
+            </div>
+            <!--<div class="categories"></div>-->
+            <p class="podcast_rating">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </p>
+            <div class="podcast_card_actions">
+              <a href="https://www.youtube.com/watch?v=XArKBPizgvw&amp;t=69s" target="_blank" class="watch_link" title="Watch podcast">
+                <div class="watch_button"> watch Now</div>
+              </a>
+              <div class="favourite_icon">
+                <a href="#" title="Save podcast">
+                  <i class="bx bx-bookmark"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div><div class="featured_book_card">
+          <div class="featured_book_img">
+            <a href="https://www.youtube.com/watch?v=O4BuYhGS8-4" target="_blank">
+              <img src="../../assets/popular (2).jpg" alt="Chemseddine has consistently stood out as a top achiever in the field." onerror="this.src='../../assets/empty-image.png'">
+            </a>
+          </div>
+          <div class="featured_book_tag">
+            <div class="log-pod">
+              <img class="podcast_programme_logo" src="../../assets/pathos.png" alt="../../assets/pathos.png" onerror="this.src='../../assets/empty-image.png'">
+              <h5 class="podcast_programme_title">- Pathos -</h5>
+            </div>
+            <div>
+              <h3 class="writer">- Chemseddine Makdor -</h3>
+              <h3 class="role">- Valedictorian ~ Archaeology, Shlef, Algeria -</h3>
+            </div>
+            <div class="title">
+              <p title="Chemseddine has consistently stood out as a top achiever in the field.">Chemseddine has consistently stood out as a top achiever in the field.</p>
+            </div>
+            <!--<div class="categories"></div>-->
+            <p class="podcast_rating">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </p>
+            <div class="podcast_card_actions">
+              <a href="https://www.youtube.com/watch?v=O4BuYhGS8-4" target="_blank" class="watch_link" title="Watch podcast">
+                <div class="watch_button"> watch Now</div>
+              </a>
+              <div class="favourite_icon">
+                <a href="#" title="Save podcast">
+                  <i class="bx bx-bookmark"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div></div>
       </div>
 
     </div>
+
   </div>
+</div>
+
 </body>
 </html>
-

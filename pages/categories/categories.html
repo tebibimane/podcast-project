@@ -1,116 +1,1014 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="categories.css">
-    <link rel="stylesheet" href="../../css/topbar.css" />
-    <link rel="stylesheet" href="../../css/navbar.css" />
-    <link rel="stylesheet" href="../../css/header.css" />
-    <link rel="stylesheet" href="../../css/sidebar.css" />
-    <link rel="stylesheet" href="../../css/card.css" />
-    <link rel="stylesheet" href="../../css/common.css" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="../../js/common.js" defer ></script>
-    <script src="categories.js" defer ></script>
-    <title>Categories</title>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="categories.css">
+  <link rel="stylesheet" href="../../css/topbar.css">
+  <link rel="stylesheet" href="../../css/navbar.css">
+  <link rel="stylesheet" href="../../css/header.css">
+  <link rel="stylesheet" href="../../css/sidebar.css">
+  <link rel="stylesheet" href="../../css/card.css">
+  <link rel="stylesheet" href="../../css/common.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <script src="../../js/common.js" defer=""></script>
+  <title>Categories</title>
 </head>
 <body>
-    <div class="home">
-      <div class="nav">
-        <div class="logo">
-          <img src="../../assets/logopodc-removebg-preview.png" alt="../assets3/logopodc-removebg-preview.png"/>
-        </div>
-        <div class="list">
-          <div class="search-box">
-            <input label="Search..." autocomplete="off" type="text" name="" id="search-input" placeholder="search ..." />
-            <i class="bx bx-search-alt-2"></i>
-            <div class="search_suggestion">
-              <ul class="search_suggestion_list">
-                <li class="search_suggestion_item">item 1</li>
-                <li class="search_suggestion_item">item 2</li>
-                <li class="search_suggestion_item">item 3</li>
-              </ul>
-            </div>
-          </div>
+<div class="home">
+  <div class="nav">
+    <div class="logo">
+      <img src="../../assets/logopodc-removebg-preview.png" alt="../assets3/logopodc-removebg-preview.png">
+    </div>
+    <div class="list">
+      <div class="search-box">
+        <input label="Search..." autocomplete="off" type="text" name="" id="search-input" placeholder="search ...">
+        <i class="bx bx-search-alt-2"></i>
+        <div class="search_suggestion">
+          <ul class="search_suggestion_list">
+            <li class="search_suggestion_item">item 1</li>
+            <li class="search_suggestion_item">item 2</li>
+            <li class="search_suggestion_item">item 3</li>
+          </ul>
         </div>
       </div>
     </div>
-    <div class="main">
-      <aside class="sidebar">
-        <!--sidebar header-->
-        <div class="sidebar_container">
-          <header class="sidebar-header">
-            <div class="sidebar-toggle">
-              <i class="bx bx-chevron-right-circle"></i>
-            </div>
-          </header>
-          <nav class="sidebar-nav">
-            <!--primary top nav-->
-            <ul class="nav-list primary-nav">
-              <!--home-->
-              <li class="nav-item">
-                <a href="../home/home.html" class="nav-link">
-                  <i class="bx bx-home"></i>
-                  <span class="nav-label">Home</span>
-                </a>
-              </li>
-              <!--categories-->
-              <li class="nav-item">
-                <a href="./categories.html" class="nav-link active">
-                  <i class="bx bx-category"></i>
-                  <span class="nav-label">Categories</span>
-                </a>
-              </li>
-              <!--services-->
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="bx bxs-calendar-alt"></i>
-                  <span class="nav-label">Services</span>
-                </a>
-              </li>
-              <!--user-->
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="bx bx-user"></i>
-                  <span class="nav-label">User</span>
-                </a>
-              </li>
-              <!--saved-->
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="bx bx-bookmark"></i>
-                  <span class="nav-label">Saved</span>
-                </a>
-              </li>
-            </ul>
-          </nav>
+  </div>
+</div>
+<div class="main">
+  <aside class="sidebar collapse">
+    <!--sidebar header-->
+    <div class="sidebar_container">
+      <header class="sidebar-header collapse">
+        <div class="sidebar-toggle">
+          <i class="bx bx-chevron-right-circle"></i>
         </div>
-      </aside>
-      <div class="center">
-        <div class="container">
-          <div class="categories_list">
-            <ul>
-              <li class="nav-link  active"><a href="./categories.html">All</a></li>
-              <li class="nav-link"><a href="../health/health.html">health</a></li>
-              <li class="nav-link services">
-                <a href="../education/education.html">Education
-                  <span class="material-icons dropdown-icon"></span>
-                </a>
-              </li>
-              <li class="nav-link"><a href="#">Sport</a></li>
-              <li class="nav-link"><a href="#">Life</a></li>
-              <li class="nav-link"><a href="#">Religion&culture</a></li>
-              <li class="nav-link"><a href="#">Business</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="sections_container"></div>
+      </header>
+      <nav class="sidebar-nav">
+        <!--primary top nav-->
+        <ul class="nav-list primary-nav">
+          <!--home-->
+          <li class="nav-item">
+            <a href="../home/home.html" class="nav-link">
+              <i class="bx bx-home"></i>
+              <span class="nav-label">Home</span>
+            </a>
+          </li>
+          <!--categories-->
+          <li class="nav-item">
+            <a href="./categories.html" class="nav-link active">
+              <i class="bx bx-category"></i>
+              <span class="nav-label">Categories</span>
+            </a>
+          </li>
+          <!--services-->
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="bx bxs-calendar-alt"></i>
+              <span class="nav-label">Services</span>
+            </a>
+          </li>
+          <!--user-->
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="bx bx-user"></i>
+              <span class="nav-label">User</span>
+            </a>
+          </li>
+          <!--saved-->
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="bx bx-bookmark"></i>
+              <span class="nav-label">Saved</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+  <div class="center collapse">
+    <div class="container">
+      <div class="categories_list">
+        <ul>
+          <li class="nav-link  active"><a href="./categories.html">All</a></li>
+          <li class="nav-link"><a href="../health/health.html">health</a></li>
+          <li class="nav-link services">
+            <a href="../education/education.html">Education
+              <span class="material-icons dropdown-icon"></span>
+            </a>
+          </li>
+          <li class="nav-link"><a href="#">Sport</a></li>
+          <li class="nav-link"><a href="#">Life</a></li>
+          <li class="nav-link"><a href="#">Religion&amp;culture</a></li>
+          <li class="nav-link"><a href="#">Business</a></li>
+        </ul>
       </div>
     </div>
+    <div class="sections_container"><div class="section section_0">
+      <div class="section_title">
+        <p>health</p>
+        <div>
+          <a href="../health/health.html" class="see_more_btn">
+            <p>See all</p>
+            <i class="bx bx-right-arrow-circle"></i></a>
+        </div>
+      </div>
+      <div class="podcasts_container section0_podcasts">
+        <div class="featured_book_card">
+          <div class="featured_book_img">
+            <a href="https://www.youtube.com/watch?v=uoSXJW__l3U&amp;list=PLnORcKsa7KTG0ckpx9rsGsy64DlXl9WwV&amp;index=10" target="_blank">
+              <img src="../../assets/empty-image.png" alt="Novembre bleu, scoop sur les maladies masculines." onerror="this.src='../../assets/empty-image.png'">
+            </a>
+          </div>
+          <div class="featured_book_tag">
+            <div class="log-pod">
+              <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="../assets/logo labo.png" onerror="this.src='../../assets/empty-image.png'">
+              <h5 class="podcast_programme_title">- PH-TALK -</h5>
+            </div>
 
-</body>
-</html>
+            <h3 class="writer">- Yettouch Maria Rania -</h3>
+
+            <div class="title">
+              <p title="Novembre bleu, scoop sur les maladies masculines.">Novembre bleu, scoop sur les maladies masculines.</p>
+            </div>
+            <!--            <div class="categories"></div>-->
+            <p class="podcast_rating">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </p>
+            <div class="podcast_card_actions">
+              <a href="https://www.youtube.com/watch?v=uoSXJW__l3U&amp;list=PLnORcKsa7KTG0ckpx9rsGsy64DlXl9WwV&amp;index=10" target="_blank" class="watch_link" title="Watch podcast">
+                <div class="watch_button"> watch Now</div>
+              </a>
+
+            </div>
+          </div>
+        </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="https://www.youtube.com/watch?v=ZlciYDjf3Ic&amp;list=PLt3Srbt3FGd3eo90CgfjzkCMD98Ri_-AW&amp;index=28" target="_blank">
+            <img src="../../assets/empty-image.png" alt="اكتشف أسرار فقدان الوزن الصحي والتغذية المثالية مع اخصائية التغذية العلاجية" onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="../assets/madjliss-logo.jpg" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- El Madjliss -</h5>
+          </div>
+
+          <h3 class="writer">- Mehna Rawan -</h3>
+
+          <div class="title">
+            <p title="اكتشف أسرار فقدان الوزن الصحي والتغذية المثالية مع اخصائية التغذية العلاجية">اكتشف أسرار فقدان الوزن الصحي والتغذية المثالية مع اخصائية التغذية العلاجية</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="https://www.youtube.com/watch?v=ZlciYDjf3Ic&amp;list=PLt3Srbt3FGd3eo90CgfjzkCMD98Ri_-AW&amp;index=28" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="https://www.youtube.com/watch?v=HJy9uWn8uWE&amp;list=PLs75uZeQLVSFTiOmFMoBlal1B2EowpCIR&amp;index=2" target="_blank">
+            <img src="../../assets/empty-image.png" alt="Les secrets de la médecine chinoise pour être soi-même" onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/dialogue-logo.jpg" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- Dialogues -</h5>
+          </div>
+
+          <h3 class="writer">- Nadia Volf -</h3>
+
+          <div class="title">
+            <p title="Les secrets de la médecine chinoise pour être soi-même">Les secrets de la médecine chinoise pour être soi-même</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="https://www.youtube.com/watch?v=HJy9uWn8uWE&amp;list=PLs75uZeQLVSFTiOmFMoBlal1B2EowpCIR&amp;index=2" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="https://www.youtube.com/watch?v=SEm9jcQWSD8&amp;list=PLnORcKsa7KTG0ckpx9rsGsy64DlXl9WwV&amp;index=1" target="_blank">
+            <img src="../../assets/empty-image.png" alt="Qu'est-ce qu'une intoxication alimentaire?" onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/logo labo.png" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- PH-Talk -</h5>
+          </div>
+
+          <h3 class="writer">- Denbri Amira -</h3>
+
+          <div class="title">
+            <p title="Qu'est-ce qu'une intoxication alimentaire?">Qu'est-ce qu'une intoxication alimentaire?</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="https://www.youtube.com/watch?v=SEm9jcQWSD8&amp;list=PLnORcKsa7KTG0ckpx9rsGsy64DlXl9WwV&amp;index=1" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="https://www.youtube.com/watch?v=YS3r-_1z7bw" target="_blank">
+            <img src="../../assets/empty-image.png" alt="كمية معلومات رهيبة حول التغذية وجسم الإنسان  مع عالم التغذية" onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/bilad-logo.jpg" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- Allamtni el hayat -</h5>
+          </div>
+
+          <h3 class="writer">- Hadj Ahmed kssir -</h3>
+
+          <div class="title">
+            <p title="كمية معلومات رهيبة حول التغذية وجسم الإنسان  مع عالم التغذية">كمية معلومات رهيبة حول التغذية وجسم الإنسان  مع عالم التغذية</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="https://www.youtube.com/watch?v=YS3r-_1z7bw" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div></div></div><div class="section section_1">
+      <div class="section_title">
+        <p>education</p>
+        <div>
+          <a href="../education/education.html" class="see_more_btn">
+            <p>See all</p>
+            <i class="bx bx-right-arrow-circle"></i></a>
+        </div>
+      </div>
+      <div class="podcasts_container section1_podcasts">
+        <div class="featured_book_card">
+          <div class="featured_book_img">
+            <a href="https://www.youtube.com/watch?v=rvMoX1KOwhY&amp;t=2s" target="_blank">
+              <img src="../../assets/empty-image.png" alt="Selma Chellali ~ Major de promo ENP Alger" onerror="this.src='../../assets/empty-image.png'">
+            </a>
+          </div>
+          <div class="featured_book_tag">
+            <div class="log-pod">
+              <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/pathos.png" onerror="this.src='../../assets/empty-image.png'">
+              <h5 class="podcast_programme_title">- PATHOS -</h5>
+            </div>
+
+            <h3 class="writer">- Noor Stars -</h3>
+
+            <div class="title">
+              <p title="Selma Chellali ~ Major de promo ENP Alger">Selma Chellali ~ Major de promo ENP Alger</p>
+            </div>
+            <!--            <div class="categories"></div>-->
+            <p class="podcast_rating">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </p>
+            <div class="podcast_card_actions">
+              <a href="https://www.youtube.com/watch?v=rvMoX1KOwhY&amp;t=2s" target="_blank" class="watch_link" title="Watch podcast">
+                <div class="watch_button"> watch Now</div>
+              </a>
+
+            </div>
+          </div>
+        </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="./moussa.html" target="_blank">
+            <img src="../../assets/empty-image.png" alt="Biographie du Professeur Moussa Boubekeur, directeur du Centre Universitaire d’Illizi" onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="../assets/logo fac.jpeg" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- Innovatech -</h5>
+          </div>
+
+          <h3 class="writer">- Boubaker moussa -</h3>
+
+          <div class="title">
+            <p title="Biographie du Professeur Moussa Boubekeur, directeur du Centre Universitaire d’Illizi">Biographie du Professeur Moussa Boubekeur, directeur du Centre Universitaire d’Illizi</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="./moussa.html" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="./mesikh.html" target="_blank">
+            <img src="../../assets/empty-image.png" alt="Dr.Messaïkh Chouaib,présente son parcours académique, sa vision du domaine de l’informatique à Illizi." onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/logo fac.jpeg" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- Innovatech -</h5>
+          </div>
+
+          <h3 class="writer">- Mesikh Chouaib -</h3>
+
+          <div class="title">
+            <p title="Dr.Messaïkh Chouaib,présente son parcours académique, sa vision du domaine de l’informatique à Illizi.">Dr.Messaïkh Chouaib,présente son parcours académique, sa vision du domaine de l’informatique à Illizi.</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="./mesikh.html" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="https://www.youtube.com/watch?v=XArKBPizgvw" target="_blank">
+            <img src="../../assets/empty-image.png" alt="~ Bennacer Amine Rami ~ Major de promo ENP Alger" onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/pathos.png" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- PATHOS -</h5>
+          </div>
+
+          <h3 class="writer">- Noor Stars -</h3>
+
+          <div class="title">
+            <p title="~ Bennacer Amine Rami ~ Major de promo ENP Alger">~ Bennacer Amine Rami ~ Major de promo ENP Alger</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="https://www.youtube.com/watch?v=XArKBPizgvw" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="https://www.youtube.com/watch?v=GA2v4QJLAGA&amp;t=11s" target="_blank">
+            <img src="../../assets/empty-image.png" alt="Dr. BenGerdi Amine, son parcours académique et professionnel." onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/logo fac.jpeg" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- Innovatech -</h5>
+          </div>
+
+          <h3 class="writer">- Bengerd Amine -</h3>
+
+          <div class="title">
+            <p title="Dr. BenGerdi Amine, son parcours académique et professionnel.">Dr. BenGerdi Amine, son parcours académique et professionnel.</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="https://www.youtube.com/watch?v=GA2v4QJLAGA&amp;t=11s" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div></div></div><div class="section section_2">
+      <div class="section_title">
+        <p>sport</p>
+        <div>
+          <a href="../sport/sport.html" class="see_more_btn">
+            <p>See all</p>
+            <i class="bx bx-right-arrow-circle"></i></a>
+        </div>
+      </div>
+      <div class="podcasts_container section2_podcasts">
+        <div class="featured_book_card">
+          <div class="featured_book_img">
+            <a href="https://www.youtube.com/watch?v=rvMoX1KOwhY&amp;t=2s" target="_blank">
+              <img src="../../assets/empty-image.png" alt="Selma Chellali ~ Major de promo ENP Alger" onerror="this.src='../../assets/empty-image.png'">
+            </a>
+          </div>
+          <div class="featured_book_tag">
+            <div class="log-pod">
+              <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="../assets/pathos.png" onerror="this.src='../../assets/empty-image.png'">
+              <h5 class="podcast_programme_title">- PATHOS -</h5>
+            </div>
+
+            <h3 class="writer">- Noor Stars -</h3>
+
+            <div class="title">
+              <p title="Selma Chellali ~ Major de promo ENP Alger">Selma Chellali ~ Major de promo ENP Alger</p>
+            </div>
+            <!--            <div class="categories"></div>-->
+            <p class="podcast_rating">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </p>
+            <div class="podcast_card_actions">
+              <a href="https://www.youtube.com/watch?v=rvMoX1KOwhY&amp;t=2s" target="_blank" class="watch_link" title="Watch podcast">
+                <div class="watch_button"> watch Now</div>
+              </a>
+
+            </div>
+          </div>
+        </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="https://www.youtube.com/watch?v=O1IDKJrVdSU" target="_blank">
+            <img src="../../assets/empty-image.png" alt="أيوب تيبازا ~ مرتبة الأولى لأربعة سنوات بالمدرسة الوطنية العليا للأشغال العمومية" onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="../assets/pathos.png" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- PATHOS -</h5>
+          </div>
+
+          <h3 class="writer">- Noor Stars -</h3>
+
+          <div class="title">
+            <p title="أيوب تيبازا ~ مرتبة الأولى لأربعة سنوات بالمدرسة الوطنية العليا للأشغال العمومية">أيوب تيبازا ~ مرتبة الأولى لأربعة سنوات بالمدرسة الوطنية العليا للأشغال العمومية</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="https://www.youtube.com/watch?v=O1IDKJrVdSU" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="https://www.youtube.com/watch?v=-aE0IHUD4Vw&amp;t=571s" target="_blank">
+            <img src="../../assets/empty-image.png" alt="~ CHEGROUCHE Abire ~ Valedictorian ~ École Nationale Polytechnique (ENP)" onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/pathos.png" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- PATHOS -</h5>
+          </div>
+
+          <h3 class="writer">- Noor Stars -</h3>
+
+          <div class="title">
+            <p title="~ CHEGROUCHE Abire ~ Valedictorian ~ École Nationale Polytechnique (ENP)">~ CHEGROUCHE Abire ~ Valedictorian ~ École Nationale Polytechnique (ENP)</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="https://www.youtube.com/watch?v=-aE0IHUD4Vw&amp;t=571s" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="https://www.youtube.com/watch?v=XArKBPizgvw" target="_blank">
+            <img src="../../assets/empty-image.png" alt="~ Bennacer Amine Rami ~ Major de promo ENP Alger" onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/pathos.png" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- PATHOS -</h5>
+          </div>
+
+          <h3 class="writer">- Noor Stars -</h3>
+
+          <div class="title">
+            <p title="~ Bennacer Amine Rami ~ Major de promo ENP Alger">~ Bennacer Amine Rami ~ Major de promo ENP Alger</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="https://www.youtube.com/watch?v=XArKBPizgvw" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="https://www.youtube.com/watch?v=GA2v4QJLAGA&amp;t=11s" target="_blank">
+            <img src="../../assets/empty-image.png" alt="~ Narimane Shadi ~ Msila ~ Valedictorian ~ ENSM ~ Algeria." onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/pathos.png" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- PATHOS -</h5>
+          </div>
+
+          <h3 class="writer">- Noor Stars -</h3>
+
+          <div class="title">
+            <p title="~ Narimane Shadi ~ Msila ~ Valedictorian ~ ENSM ~ Algeria.">~ Narimane Shadi ~ Msila ~ Valedictorian ~ ENSM ~ Algeria.</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="https://www.youtube.com/watch?v=GA2v4QJLAGA&amp;t=11s" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div></div></div><div class="section section_3">
+      <div class="section_title">
+        <p>life</p>
+        <div>
+          <a href="../life/life.html" class="see_more_btn">
+            <p>See all</p>
+            <i class="bx bx-right-arrow-circle"></i></a>
+        </div>
+      </div>
+      <div class="podcasts_container section3_podcasts">
+        <div class="featured_book_card">
+          <div class="featured_book_img">
+            <a href="https://www.youtube.com/watch?v=HN16yco7GsQ&amp;list=PLwN6wgufFRG1-MNQKtDKS41A4jF-kCkxa&amp;index=7" target="_blank">
+              <img src="../../assets/empty-image.png" alt="Noor&amp;M entre blessures et force" onerror="this.src='../../assets/empty-image.png'">
+            </a>
+          </div>
+          <div class="featured_book_tag">
+            <div class="log-pod">
+              <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/Gossra-logo.png" onerror="this.src='../../assets/empty-image.png'">
+              <h5 class="podcast_programme_title">- Gosra mlqalb -</h5>
+            </div>
+
+            <h3 class="writer">- Noor&amp;M -</h3>
+
+            <div class="title">
+              <p title="Noor&amp;M entre blessures et force">Noor&amp;M entre blessures et force</p>
+            </div>
+            <!--            <div class="categories"></div>-->
+            <p class="podcast_rating">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </p>
+            <div class="podcast_card_actions">
+              <a href="https://www.youtube.com/watch?v=HN16yco7GsQ&amp;list=PLwN6wgufFRG1-MNQKtDKS41A4jF-kCkxa&amp;index=7" target="_blank" class="watch_link" title="Watch podcast">
+                <div class="watch_button"> watch Now</div>
+              </a>
+
+            </div>
+          </div>
+        </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="https://www.youtube.com/watch?v=l27COp4BFUE&amp;t=1s" target="_blank">
+            <img src="../../assets/empty-image.png" alt="confie sur son enfance,  les défis de la maternité seule." onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/abtalks-logo.png" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- Ab Talks -</h5>
+          </div>
+
+          <h3 class="writer">- Zeina Reda -</h3>
+
+          <div class="title">
+            <p title="confie sur son enfance,  les défis de la maternité seule.">confie sur son enfance,  les défis de la maternité seule.</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="https://www.youtube.com/watch?v=l27COp4BFUE&amp;t=1s" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="https://www.youtube.com/watch?v=pJ0auP7dbcY&amp;t=54s" target="_blank">
+            <img src="../../assets/empty-image.png" alt="كيف أنجح في العلاقات" onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/finjan.png" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- Finjan -</h5>
+          </div>
+
+          <h3 class="writer">- Yasser Hazimi -</h3>
+
+          <div class="title">
+            <p title="كيف أنجح في العلاقات">كيف أنجح في العلاقات</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="https://www.youtube.com/watch?v=pJ0auP7dbcY&amp;t=54s" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="https://www.youtube.com/watch?v=vRCagZokmvQ" target="_blank">
+            <img src="../../assets/empty-image.png" alt="Kharman blends Arabic and Western music to bridge cultures." onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/hikmat wahbi.png" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- W-studio -</h5>
+          </div>
+
+          <h3 class="writer">- Noel Kharman -</h3>
+
+          <div class="title">
+            <p title="Kharman blends Arabic and Western music to bridge cultures.">Kharman blends Arabic and Western music to bridge cultures.</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="https://www.youtube.com/watch?v=vRCagZokmvQ" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="https://www.youtube.com/watch?v=GIFasEMWC8A&amp;t=67s" target="_blank">
+            <img src="../../assets/empty-image.png" alt="شخصيات سامة (كيف نتعامل معها؟)" onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/wathba.png" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- Wathba -</h5>
+          </div>
+
+          <h3 class="writer">- د.الهنوف -</h3>
+
+          <div class="title">
+            <p title="شخصيات سامة (كيف نتعامل معها؟)">شخصيات سامة (كيف نتعامل معها؟)</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="https://www.youtube.com/watch?v=GIFasEMWC8A&amp;t=67s" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div></div></div><div class="section section_4">
+      <div class="section_title">
+        <p>religionCulture</p>
+        <div>
+          <a href="../religionCulture/religionCulture.html" class="see_more_btn">
+            <p>See all</p>
+            <i class="bx bx-right-arrow-circle"></i></a>
+        </div>
+      </div>
+      <div class="podcasts_container section4_podcasts">
+        <div class="featured_book_card">
+          <div class="featured_book_img">
+            <a href="https://www.youtube.com/watch?v=rvMoX1KOwhY&amp;t=2s" target="_blank">
+              <img src="../../assets/empty-image.png" alt="Selma Chellali ~ Major de promo ENP Alger" onerror="this.src='../../assets/empty-image.png'">
+            </a>
+          </div>
+          <div class="featured_book_tag">
+            <div class="log-pod">
+              <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="../assets/pathos.png" onerror="this.src='../../assets/empty-image.png'">
+              <h5 class="podcast_programme_title">- PATHOS -</h5>
+            </div>
+
+            <h3 class="writer">- Noor Stars -</h3>
+
+            <div class="title">
+              <p title="Selma Chellali ~ Major de promo ENP Alger">Selma Chellali ~ Major de promo ENP Alger</p>
+            </div>
+            <!--            <div class="categories"></div>-->
+            <p class="podcast_rating">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </p>
+            <div class="podcast_card_actions">
+              <a href="https://www.youtube.com/watch?v=rvMoX1KOwhY&amp;t=2s" target="_blank" class="watch_link" title="Watch podcast">
+                <div class="watch_button"> watch Now</div>
+              </a>
+
+            </div>
+          </div>
+        </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="https://www.youtube.com/watch?v=O1IDKJrVdSU" target="_blank">
+            <img src="../../assets/empty-image.png" alt="أيوب تيبازا ~ مرتبة الأولى لأربعة سنوات بالمدرسة الوطنية العليا للأشغال العمومية" onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/pathos.png" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- PATHOS -</h5>
+          </div>
+
+          <h3 class="writer">- Noor Stars -</h3>
+
+          <div class="title">
+            <p title="أيوب تيبازا ~ مرتبة الأولى لأربعة سنوات بالمدرسة الوطنية العليا للأشغال العمومية">أيوب تيبازا ~ مرتبة الأولى لأربعة سنوات بالمدرسة الوطنية العليا للأشغال العمومية</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="https://www.youtube.com/watch?v=O1IDKJrVdSU" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="https://www.youtube.com/watch?v=-aE0IHUD4Vw&amp;t=571s" target="_blank">
+            <img src="../../assets/empty-image.png" alt="~ CHEGROUCHE Abire ~ Valedictorian ~ École Nationale Polytechnique (ENP)" onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/pathos.png" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- PATHOS -</h5>
+          </div>
+
+          <h3 class="writer">- Noor Stars -</h3>
+
+          <div class="title">
+            <p title="~ CHEGROUCHE Abire ~ Valedictorian ~ École Nationale Polytechnique (ENP)">~ CHEGROUCHE Abire ~ Valedictorian ~ École Nationale Polytechnique (ENP)</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="https://www.youtube.com/watch?v=-aE0IHUD4Vw&amp;t=571s" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="https://www.youtube.com/watch?v=XArKBPizgvw" target="_blank">
+            <img src="../../assets/empty-image.png" alt="~ Bennacer Amine Rami ~ Major de promo ENP Alger" onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/pathos.png" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- PATHOS -</h5>
+          </div>
+
+          <h3 class="writer">- Noor Stars -</h3>
+
+          <div class="title">
+            <p title="~ Bennacer Amine Rami ~ Major de promo ENP Alger">~ Bennacer Amine Rami ~ Major de promo ENP Alger</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="https://www.youtube.com/watch?v=XArKBPizgvw" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="https://www.youtube.com/watch?v=GA2v4QJLAGA&amp;t=11s" target="_blank">
+            <img src="../../assets/empty-image.png" alt="~ Narimane Shadi ~ Msila ~ Valedictorian ~ ENSM ~ Algeria." onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/pathos.png" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- PATHOS -</h5>
+          </div>
+
+          <h3 class="writer">- Noor Stars -</h3>
+
+          <div class="title">
+            <p title="~ Narimane Shadi ~ Msila ~ Valedictorian ~ ENSM ~ Algeria.">~ Narimane Shadi ~ Msila ~ Valedictorian ~ ENSM ~ Algeria.</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="https://www.youtube.com/watch?v=GA2v4QJLAGA&amp;t=11s" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div></div></div><div class="section section_5">
+      <div class="section_title">
+        <p>business</p>
+        <div>
+          <a href="../business/business.html" class="see_more_btn">
+            <p>See all</p>
+            <i class="bx bx-right-arrow-circle"></i></a>
+        </div>
+      </div>
+      <div class="podcasts_container section5_podcasts">
+        <div class="featured_book_card">
+          <div class="featured_book_img">
+            <a href="https://www.youtube.com/watch?v=1kR1V4wcN6A&amp;list=PLxb4UuOqlRSylTahyEDk0byn-HSuACIvR&amp;index=25" target="_blank">
+              <img src="../../assets/empty-image.png" alt=".الذكاء الإصطناعي في التجارة الإلكترونية في الجزائر" onerror="this.src='../../assets/empty-image.png'">
+            </a>
+          </div>
+          <div class="featured_book_tag">
+            <div class="log-pod">
+              <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/maystro-logo.jpg" onerror="this.src='../../assets/empty-image.png'">
+              <h5 class="podcast_programme_title">- Maysstro -</h5>
+            </div>
+
+            <h3 class="writer">- Ali el moqrani -</h3>
+
+            <div class="title">
+              <p title=".الذكاء الإصطناعي في التجارة الإلكترونية في الجزائر">.الذكاء الإصطناعي في التجارة الإلكترونية في الجزائر</p>
+            </div>
+            <!--            <div class="categories"></div>-->
+            <p class="podcast_rating">
+              <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+            </p>
+            <div class="podcast_card_actions">
+              <a href="https://www.youtube.com/watch?v=1kR1V4wcN6A&amp;list=PLxb4UuOqlRSylTahyEDk0byn-HSuACIvR&amp;index=25" target="_blank" class="watch_link" title="Watch podcast">
+                <div class="watch_button"> watch Now</div>
+              </a>
+
+            </div>
+          </div>
+        </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="https://www.youtube.com/watch?v=8pzPZfoxN6Q&amp;t=1455s" target="_blank">
+            <img src="../../assets/empty-image.png" alt="الثقافة المالية" onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/Brainerx.png" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- BrainerX -</h5>
+          </div>
+
+          <h3 class="writer">- Mezian Dahou -</h3>
+
+          <div class="title">
+            <p title="الثقافة المالية">الثقافة المالية</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="https://www.youtube.com/watch?v=8pzPZfoxN6Q&amp;t=1455s" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="https://www.youtube.com/watch?v=gOILeLIEjw0&amp;list=PLxb4UuOqlRSylTahyEDk0byn-HSuACIvR&amp;index=26" target="_blank">
+            <img src="../../assets/empty-image.png" alt=".أسرار سوق العقارات وخفياه في الجزائر" onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/maystro-logo.jpg" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- Maystro -</h5>
+          </div>
+
+          <h3 class="writer">- Mehdi Ouled Babouhoune -</h3>
+
+          <div class="title">
+            <p title=".أسرار سوق العقارات وخفياه في الجزائر">.أسرار سوق العقارات وخفياه في الجزائر</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="https://www.youtube.com/watch?v=gOILeLIEjw0&amp;list=PLxb4UuOqlRSylTahyEDk0byn-HSuACIvR&amp;index=26" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="https://www.youtube.com/watch?v=1T68O4Jzfv4" target="_blank">
+            <img src="../../assets/empty-image.png" alt="حبست القراية من أجل العمل في قطر" onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/fluently.png" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- Fluently -</h5>
+          </div>
+
+          <h3 class="writer">- Idris Smati -</h3>
+
+          <div class="title">
+            <p title="حبست القراية من أجل العمل في قطر">حبست القراية من أجل العمل في قطر</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="https://www.youtube.com/watch?v=1T68O4Jzfv4" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div><div class="featured_book_card">
+        <div class="featured_book_img">
+          <a href="https://www.youtube.com/watch?v=UmWU83svG_M&amp;t=1s" target="_blank">
+            <img src="../../assets/empty-image.png" alt=".فتح مطاعم في الجزائر" onerror="this.src='../../assets/empty-image.png'">
+          </a>
+        </div>
+        <div class="featured_book_tag">
+          <div class="log-pod">
+            <img class="podcast_programme_logo" src="../../assets/empty-image.png" alt="./assets/Brainerx.png" onerror="this.src='../../assets/empty-image.png'">
+            <h5 class="podcast_programme_title">- BrainerX -</h5>
+          </div>
+
+          <h3 class="writer">- Amine la cantine -</h3>
+
+          <div class="title">
+            <p title=".فتح مطاعم في الجزائر">.فتح مطاعم في الجزائر</p>
+          </div>
+          <!--            <div class="categories"></div>-->
+          <p class="podcast_rating">
+            <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+          </p>
+          <div class="podcast_card_actions">
+            <a href="https://www.youtube.com/watch?v=UmWU83svG_M&amp;t=1s" target="_blank" class="watch_link" title="Watch podcast">
+              <div class="watch_button"> watch Now</div>
+            </a>
+
+          </div>
+        </div>
+      </div></div></div></div>
+  </div>
+</div>
 
 
+
+
+
+</body></html>
