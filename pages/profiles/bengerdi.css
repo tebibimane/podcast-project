@@ -400,23 +400,23 @@ margin-top: -1%;
     }
 
 }
-.informations{
+.information{
   height: 60vh;
 }
-.informations h1{
+.information h1{
  color: #ddd;
  margin-left: 14%;
  font-size: 40px;
 
 }
-.informations .logo img{
+.information .logo img{
   margin-left: 15%;
 
   width: 4%;
   height: 8%;
   border-radius: 90%;
 }
-.informations .tags p{
+.information .tags p{
   margin-left: 20%;
   margin-top: -5.5%;
   color: rgb(199, 199, 194);
@@ -425,12 +425,12 @@ margin-top: -1%;
   box-shadow: 1px 2px 10px rgba(199, 199, 194, 0.245);
 
 }
-.informations .tags p span{
+.information .tags p span{
  color: #c20909;
  border: none;
  font-size: 23px;
 }
-.informations .tags p:hover{
+.information .tags p:hover{
 
   box-shadow: 1px 2px 10px rgba(199, 199, 194, 0.559);
   border-radius: 20px;
